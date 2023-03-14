@@ -1,16 +1,16 @@
 body{
-    background-color: #020079;
+    background-color: white;
 }
 /*o título*/
 h1{
     text-align: center;
-    color: white;
+    color: black;
     font-family: serif;
 }
 /*os quadrados*/
 .quadrados{
-    color: white;
-    background-color: white;
+    color: #020079;
+    background-color: #020079;
     width: 100%;
     height: 150px;
     margin-bottom: 30px;
@@ -21,7 +21,7 @@ h1{
 .nomedolivro{
     font-family: serif;
     size: 40px;
-    color: black;
+    color: white;
     text-decoration: none;
     list-style: none;
 }
