@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+
+#div_principal {
+    display: flex;
+}
+
+#article_main {
+    width: 70%;
+    margin-left: 10px;
+}
+
+.imagens{
+    border-radius: 10px;
+}
+.perfil_post {
+    display: flex;
+    align-items: center;
+}
+.perfil_post h3 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+#article_aside {
+    width: 30%;
+}
