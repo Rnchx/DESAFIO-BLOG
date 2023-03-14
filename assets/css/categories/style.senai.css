@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(9, 4, 4);
+    background-color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@ body{
     text-decoration: none;
     color: white;
     width: 33%;
+    margin-bottom: 2.5px;
 }
 
 .felipe {
@@ -28,6 +29,6 @@ body{
     box-shadow: 5px 5px white;
     text-align: center;
 }
-.categoria1..hover{
+.categoria1:hover{
      background-color: rgb(218, 218, 16);
 }
