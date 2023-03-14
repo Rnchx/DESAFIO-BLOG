@@ -27,7 +27,8 @@ body{
     border-radius: 5px;
     box-shadow: 5px 5px white;
     text-align: center;
+    margin-bottom: 2.5px;
 }
-.categoria1..hover{
+.categoria1:hover{
      background-color: rgb(218, 218, 16);
 }
