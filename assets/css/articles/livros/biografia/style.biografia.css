@@ -1,11 +1,14 @@
+/*cor do fundo*/
 body{
     background-color: #020079;
 }
+/*o título*/
 h1{
     text-align: center;
     color: white;
     font-family: serif;
 }
+/*os quadrados*/
 .quadrados{
     color: white;
     background-color: white;
@@ -15,6 +18,7 @@ h1{
     margin-bottom: 30px;
     border-radius: 20px;
 }
+/*os nomes dos livros e autores*/
 .nomedolivro{
     text-align: center;
     font-family: serif;
@@ -22,6 +26,7 @@ h1{
     color: black;
     text-decoration: none;
 }
+/*imagens*/
 .imagem{
     border-radius: 20px;
 }
