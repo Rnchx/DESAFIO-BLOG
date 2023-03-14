@@ -1,13 +1,14 @@
 body{
-    background-image: url(https://i.pinimg.com/564x/32/9e/96/329e960ac1d23806a9786e580a984892.jpg);
+    background-color: #020079;
     margin: 0%;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
 }
 #h1{
     text-align: center;
     border-left: solid 8px;
-    border-color: red;
+    border-color: white;
     background-color: black;
     color: whitesmoke;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
@@ -38,7 +39,7 @@ form{
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     text-align: center;
-    border: solid 1.5px red;
+    border: solid 1.5px white;
 }
 #submit{
     margin-top: 30px;
@@ -51,12 +52,12 @@ form{
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     text-align: center;
-    border: solid 1px red;
+    border: solid 1px white;
     margin-bottom: 40px;
     margin-top: 50px;
 }
 #submit:hover{
-    background-color: rgb(244, 140, 102);
+    background-color: rgb(70, 70, 240);
     font-family: serif;
 
 }
@@ -69,7 +70,7 @@ form{
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     text-align: center;
-    border: solid 1px red;
+    border: solid 1px white;
 }
 input {
     padding: 5px;
