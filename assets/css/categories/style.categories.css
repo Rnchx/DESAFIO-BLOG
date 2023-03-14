@@ -1,0 +1,25 @@
+body{
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.article1{
+    background-color: whitesmoke;
+}
+.section12{
+    background-color: rgb(#020079);
+    width: 90px;
+    height: 90px;
+    margin-right: 10px;
+}
+.section22{
+    background-color: rgb(#020079);
+    width: 90px;
+    height: 90px;
+}
+#div_12{
+    display: flex;
+    justify-content: center;
+}
+#div_22{
+    display: flex;
+}
