@@ -1,0 +1,86 @@
+body{
+    background-image: url(https://i.pinimg.com/564x/32/9e/96/329e960ac1d23806a9786e580a984892.jpg);
+    margin: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#h1{
+    text-align: center;
+    border-left: solid 8px;
+    border-color: red;
+    background-color: black;
+    color: whitesmoke;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-family: verdana;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px;
+    font-family: Verdana;
+}
+.divsekiei{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 3px;
+    background-color: black;
+    padding: 10px;
+    color: whitesmoke;
+    font-family: Verdana;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    text-align: center;
+    border: solid 1.5px red;
+}
+#submit{
+    margin-top: 30px;
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 10;
+    font-family: serif;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    text-align: center;
+    border: solid 1px red;
+    margin-bottom: 40px;
+    margin-top: 50px;
+}
+#submit:hover{
+    background-color: rgb(244, 140, 102);
+    font-family: serif;
+
+}
+.divform{
+    padding: 20px;
+    font-family: Verdana;
+    color: whitesmoke;
+    background-color: black;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    text-align: center;
+    border: solid 1px red;
+}
+input {
+    padding: 5px;
+    font-family: serif;
+}
+#mensagem {
+    margin-bottom: 20px;
+}
+iframe {
+    width: 100%;
+}
+footer {
+    background-color: black;
+}
