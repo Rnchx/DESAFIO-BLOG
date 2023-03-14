@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(28, 28, 124);
+    background-color: rgb(255, 255, 255);
 }
 
 h1{
@@ -78,5 +78,5 @@ form{
 
 }
 #submit:hover{
-    background-color: rgb(57, 57, 165);
+    background-color: rgb(44, 44, 103);
 }
