@@ -15,11 +15,26 @@ body{
     background-color: rgb(#020079);
     width: 90px;
     height: 90px;
+    margin-right: 10px;
 }
 #div_12{
     display: flex;
-    justify-content: center;
 }
-#div_22{
-    display: flex;
+.musica{
+
+}
+.beleza{
+
+}
+.jogos{
+
+}
+.filmeseries{
+
+}
+.livros{
+
+}
+.vestibular{
+    
 }
