@@ -1,0 +1,28 @@
+/*cor de fundo */
+body{
+    background-color: rgb(02, 00, 79);
+}
+/*título da página*/
+h1{
+    text-align: center;
+    color: white;
+    size: 100px;
+    font-family: serif;
+    border-radius: 20px;
+    border-color: white;
+}
+/*alinhando ao centro*/
+div{
+    text-align: center;
+}
+/*css dos botões*/
+.botoes{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+/* dando espaço entre os botões*/
+.espaco{
+    margin-bottom: 30px;
+}
