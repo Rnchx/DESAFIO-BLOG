@@ -5,7 +5,7 @@ body{
 h1{
     text-align: center;
     border: solid 3px;
-    border-color: black;
+    border-color: rgb(255, 245, 245);
     background-color: rgb(210, 208, 239);
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
