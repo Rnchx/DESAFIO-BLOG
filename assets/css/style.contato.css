@@ -1,7 +1,39 @@
 h1{
     text-align: center;
+    border-top: solid 3px;
     margin-left: 450px;
     margin-right: 450px;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+#Nome{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border: 3px;
+    padding: 10px;
+}
+#Email{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border: 3px;
+    padding: 10px;
+}
+#Mensagem{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border: 3px;
+    padding: 30px;
+}
+iframe{
+  margin-top: 50px;
 }
