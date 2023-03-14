@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(67, 67, 152);
+}
+
+h1{
+    text-align: center;
+    color: white;
+    size: 100px;
+    font-family: serif;
+    border-radius: 20px;
+    border-color: white;
+}
+
+div{
+    text-align: center;
+}
+
+.botoes{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.espaco{
+    margin-bottom: 30px;
+}
