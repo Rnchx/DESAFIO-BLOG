@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    margin: 0px;
+    font-family: sans-serif;
+}
+header{
+
+    color: white;
+    padding: 20px 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+nav li:hover{
+    background-color:darkblue;
+    padding: 5px;
+    border-radius: 10px;
+}
+#logo{
+    position: relative;
+}
+nav{
+    position: relative;
+}
