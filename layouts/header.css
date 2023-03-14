@@ -1,7 +1,7 @@
 body{
-    background-color: black;
+    background-color: #020079;
     margin: 0px;
-    font-family: sans-serif;
+    font-family: sans-serif;    
 }
 header{
 
@@ -27,6 +27,7 @@ nav ul {
 }
 nav li {
     margin: 0 10px;
+    padding: 5px;
 }
 nav a {
     color:white;
@@ -36,7 +37,6 @@ nav a {
 }
 nav li:hover{
     background-color:darkblue;
-    padding: 5px;
     border-radius: 10px;
 }
 #logo{
