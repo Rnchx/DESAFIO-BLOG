@@ -1,0 +1,6 @@
+#section_1 {
+    display: flex;
+}
+#section_1 h3 {
+    margin-right: 10px;
+}
