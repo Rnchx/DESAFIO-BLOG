@@ -1,40 +1,42 @@
 /*cor de fundo*/
 body{
+    background-color: white;
+    margin: 0%;
+    margin: 0%;
+}
+/*o título*/
+h1{
+    text-align: center;
+    color: black;
+    font-family: serif;
+}
+/*os quadrados*/
+.quadrados{
+    color: #020079;
     background-color: #020079;
-}
-/*o título*/
-h1{
-    text-align: center;
-    color: white;
-    font-family: serif;
-}
-/*os quadrados*/
-.quadrados{
-    color: white;
-    background-color: white;
     width: 100%;
     height: 150px;
     margin-bottom: 30px;
     border-radius: 20px;
     display: flex;
+    
 }
-background-color: #020079;
-}
-/*o título*/
-h1{
-    text-align: center;
-    color: white;
+/*os nomes dos livros e autores*/
+.nomedolivro{
     font-family: serif;
-}
-/*os quadrados*/
-.quadrados{
+    size: 40px;
     color: white;
-    background-color: white;
-    width: 100%;
-    height: 150px;
-    margin-bottom: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+/*imagens*/
+.imagem{
     border-radius: 20px;
-    display: flex;
+    text-align: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
 /*tirar o risco das palavras nos quadrados*/
 a{
