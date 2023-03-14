@@ -8,22 +8,26 @@ body {
 a {
     text-decoration: none;
     color: white;
+    margin: 10px 0;
 }
 li {
     list-style-type: none;
 }
-#section1 {
+.section_card {
     background-color: #020079;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-#section2 {
-    background-color: #020079;
-}
-#section3 {
-    background-color: #020079;
-}
-#section4 {
-    background-color: #020079 ;
-}
-#section5 {
-    background-color: #020079;
-}
+ .first {
+    display: flex;
+    margin-top: 75px;
+ }
+ .second {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
