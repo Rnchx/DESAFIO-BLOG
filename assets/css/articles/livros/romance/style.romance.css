@@ -36,3 +36,7 @@ h1{
     border-radius: 20px;
     display: flex;
 }
+/*tirar o risco das palavras nos quadrados*/
+a{
+    text-decoration: none;
+}
