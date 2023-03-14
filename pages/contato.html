@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../assets/css/style.contato.css">
-    <link rel="icon" type="image/x-icon" href="../assets/images/icon">
     <title>Document</title>
 </head>
-<body> 
-  <iframe src="../layouts/header.html"  frameborder="0" scrolling="0" width="100%"></iframe>
+<body>
+    <iframe src="../layouts/header.html"frameborder="0" scrolling="0" width="100%"></iframe>
     <h1>Contato</h1>
-
-           <label class="contato1" >Nome:</label> <input id="Nome" type="text" required placeholder="digite seu nome">
-           <label class="contato1">E-mail:</label> <input id="Email" type="email" required placeholder="digite seu email">
-           <label class="contato1">Mensagem:</label> <input id="Mensagem" type="text" required placeholder="deixe uma mensagem">
-           <input id="submit" type="submit">
-           </form>
-    <iframe src="../layouts/footer.html"  frameborder="0" scrolling="no" width="100%"></iframe>
+    <form action="../pages/sucess.html">
+        <label class="contato2">Nome:</label> <input id="nome" type="text" required placeholder="digite seu nome"> </div>
+        <label class="contato2">E-mail:</label> <input id="email" type="email" required placeholder="digite seu e-mail"> </div>
+        <label class="contato2">Mensagem:</label> <input id="mensagem" type="text" required placeholder="deixe uma mensagem" required minlength="10"> </div>
+        <input id="submit" type="submit">
+    </form>
+    <iframe src="../layouts/footer.html"frameborder="0" scrolling="no"></iframe>
 </body>
 </html>
