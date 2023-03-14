@@ -1,11 +1,12 @@
 /*cor de fundo */
 body{
-    background-color: #020079;
+    background-color: white;
+    margin: 0%;
 }
 /*título da página*/
 h1{
     text-align: center;
-    color: white;
+    color: #020079;
     size: 100px;
     font-family: serif;
     border-radius: 20px;
@@ -19,8 +20,9 @@ div{
 .botoes{
     height: 60px;
     width: 200px;
-    background-color: white;
+    background-color: #020079;
     border-radius: 20px;
+    color: white;
 }
 /* dando espaço entre os botões*/
 .espaco{
