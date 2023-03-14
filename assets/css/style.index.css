@@ -1,7 +1,9 @@
 body {
     margin: 0px;
 }
-
+#banner{
+    margin-top: -5px;
+}
 #div_principal {
     display: flex;
 }
