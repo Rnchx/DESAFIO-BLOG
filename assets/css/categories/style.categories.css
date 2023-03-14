@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(9, 4, 4);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: ;
+}
+#article1{
+    display: flex;
+    justify-content: space-between;
+}
+#article2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.categoria1 {
+    text-decoration: none;
+    color: white;
+    width: 33%;
+}
+
+.felipe {
+    background-color: #020079;
+    border: 2px solid #08074e;
+    border-radius: 5px;
+    box-shadow: 5px 5px white;
+    text-align: center;
+}
