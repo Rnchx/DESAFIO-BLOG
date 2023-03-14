@@ -1,40 +1,26 @@
 body{
-    background-color: azure;
+    background-color: rgb(9, 4, 4);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.article1{
-    background-color: whitesmoke;
-}
-.section12{
-    background-color: rgb(#020079);
-    width: 90px;
-    height: 90px;
-    margin-right: 10px;
-}
-.section22{
-    background-color: rgb(#020079);
-    width: 90px;
-    height: 90px;
-    margin-right: 10px;
-}
-#div_12{
+#article1{
     display: flex;
+    justify-content: space-between;
 }
-.musica{
-    margin-right: 50px;
+#article2{
+    display: flex;
+    justify-content: space-between;
 }
-.beleza{
-    margin-right: 50px;
-}
-.jogos{
 
+.categoria1 {
+    text-decoration: none;
+    color: white;
+    width: 33%;
 }
-.filmeseries{
-    margin-right: 50px;
-}
-.livros{
-    margin-right: 50px;
-}
-.vestibular{
 
+.felipe {
+    background-color: #020079;
+    border: 2px solid #08074e;
+    border-radius: 5px;
+    box-shadow: 5px 5px white;
+    text-align: center;
 }
