@@ -1,6 +1,7 @@
 /*cor de fundo*/
 body{
     background-color: white;
+    margin: 0%;
 }
 /*o título*/
 h1{
@@ -17,6 +18,7 @@ h1{
     margin-bottom: 30px;
     border-radius: 20px;
     display: flex;
+    
 }
 /*os nomes dos livros e autores*/
 .nomedolivro{
