@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-#vestibular_h1 {
+.h1s {
     text-align: center;
     background-color: #020079;
     margin-left: 500px;
@@ -12,6 +12,7 @@ body {
     color: #ffff;
     border: solid 1.5px black;
     border-radius: 10px;
+    margin-bottom: 90px;
 }
 .linhas{
     color: grey;
@@ -50,8 +51,14 @@ body {
 }
 #texto_materia_principal{
     font-size: 20px;
-    margin-right: 20px;
+    margin-right: 50px;
     text-align: justify;
+}
+#imagem_e_p_Carina {
+    display: flex;
+}
+#link_G1 {
+    margin-right: 50px;
 }
 #article_main {
     width: 60%;
@@ -102,6 +109,36 @@ body {
     margin-bottom: 0;
     padding-top: 5px;
     text-align: justify;
+}
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    border-color: black;
+}
+#article1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5px;
+}
+#article2{
+    display: flex;
+    justify-content: center;
+}
+
+.categoria1 {
+    text-decoration: none;
+    color: white;
+    width: 33%;
+}
+
+.felipe {
+    background-color: #020079;
+    border-radius: 5px;
+    box-shadow: 5px 5px white;
+    text-align: center;
+    margin-bottom: 2.5px;
 }
 
 
