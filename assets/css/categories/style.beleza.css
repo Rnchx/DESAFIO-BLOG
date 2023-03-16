@@ -6,7 +6,7 @@ body{
 }
 .h1s {
     text-align: center;
-    background-color:#5D5D5D;
+    background-color:#6d6c6c;
     margin-left: 500px;
     margin-right: 500px;
     color: #ffff;
@@ -140,6 +140,17 @@ body{
     text-align: center;
     margin-bottom: 2.5px;
 }
+#h1s{
+    text-align: center;
+    background-color:#8f8888;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: #ffff;
+    border: solid 1.5px black;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+
 a{
     text-decoration: none;
     color:black;
@@ -147,13 +158,14 @@ a{
 }
 li{
     list-style-type: none;
+
 }
 .beleza_card{
     background-color: #777777;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 23%;
     margin-left: 10px;
     margin-right: 10px;
     
