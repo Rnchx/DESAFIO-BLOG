@@ -1,3 +1,8 @@
+body{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+}
 div{
     display: flex;
     width: 100%;
@@ -8,6 +13,7 @@ div{
     margin-left: 5px;
     margin-right: 5px;
     text-align: center;
+    border-radius: 20px;
 }
 .nomedolivro{
     text-decoration: none;
@@ -18,10 +24,12 @@ div{
 }
 .imagem{
     margin-top: 5px;
+    border-radius: 20px;
 }
 .meio{
     text-align: center;
     margin-left: 60px;
+    text-decoration: none;
 }
 #dracula{
     margin-left: 70px;
