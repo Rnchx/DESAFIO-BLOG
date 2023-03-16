@@ -1,8 +1,13 @@
+@font-face {
+    font-family: manu;
+    src: url('https://fonts.googleapis.com/css2?family= Areia movediça & display=swap');
+}
+
 body {
     background-color: white;
     text-align: center;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: manu;
     margin: 0;
     padding: 0;
     border-color: black;
@@ -13,9 +18,11 @@ a {
     color: white;
     margin: 10px 0;
 }
+
 li {
     list-style-type: none;
 }
+
 #drama_card {
     background-image: url("https://i.pinimg.com/564x/2e/f9/dd/2ef9dd957ae636bf9ac8b0f3c17a8726.jpg");
     background-size: cover;
@@ -26,13 +33,14 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    font-family: 'Quicksand', sans-serif;
+    width: 180px;
 }
 
 #drama_card:hover {
@@ -44,16 +52,17 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
     transform: scale(1.1);
-    }
     
+}
+
 
 #fantasia_card {
     background-image: url("https://i.pinimg.com/564x/31/25/f6/3125f68b7f9f913b09da89787f4eb26e.jpg");
@@ -64,13 +73,16 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    width: 180px;
 }
+
 #fantasia_card:hover {
     background-image: url("https://i.pinimg.com/564x/31/25/f6/3125f68b7f9f913b09da89787f4eb26e.jpg");
     border-radius: 8px;
@@ -79,15 +91,16 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
     transform: scale(1.1);
 }
+
 #nacionais_card {
     background-image: url("https://i.pinimg.com/564x/18/8a/d1/188ad199793fd8a77c2a3d4076e2d73e.jpg");
     background-size: cover;
@@ -97,13 +110,16 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    width: 180px;
 }
+
 #nacionais_card:hover {
     background-image: url("https://i.pinimg.com/564x/18/8a/d1/188ad199793fd8a77c2a3d4076e2d73e.jpg");
     border-radius: 8px;
@@ -112,15 +128,16 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
     transform: scale(1.1);
 }
+
 #suspense_card {
     background-image: url("https://i.pinimg.com/564x/0d/02/51/0d02512145400179ae3aab592eab485b.jpg");
     background-size: cover;
@@ -130,12 +147,14 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    width: 180px;
 }
 
 #suspense_card:hover {
@@ -146,15 +165,16 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
     transform: scale(1.1);
 }
+
 #terror_card {
     background-image: url("https://i.pinimg.com/564x/d4/d5/da/d4d5daadb4cb7b8532b69979cae10933.jpg");
     background-size: cover;
@@ -164,12 +184,14 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Quicksand', sans-serif;
+    width: 180px;
 }
 
 #terror_card:hover {
@@ -180,21 +202,23 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
-     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
     transform: scale(1.1);
 }
- .first {
+
+.first {
     display: flex;
     margin-top: 75px;
- }
- .second {
+}
+
+.second {
     display: flex;
     justify-content: center;
     margin-top: 10px;
- }
+}
