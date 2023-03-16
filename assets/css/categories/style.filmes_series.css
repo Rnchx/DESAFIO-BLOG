@@ -60,7 +60,7 @@ li {
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
-    transform: scale(1.1);
+    transform: scale(1.0);
     
 }
 
@@ -99,7 +99,7 @@ li {
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 #nacionais_card {
@@ -137,7 +137,7 @@ li {
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 #suspense_card {
@@ -174,7 +174,7 @@ li {
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
-    transform: scale(1.1);
+    transform: scale(1.0);
 }
 
 #terror_card {
@@ -202,8 +202,6 @@ li {
     display: flex;
     flex-direction: column;
     width: 33%;
-    margin-left: 10px;
-    margin-right: 10px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -211,7 +209,8 @@ li {
     padding-top: 20px;
     padding-bottom: 20px;
     transition: 2s;
-    transform: scale(1.1);
+    transform: scale(1, 1);
+    transform-origin: left;
 }
 
 .first {
