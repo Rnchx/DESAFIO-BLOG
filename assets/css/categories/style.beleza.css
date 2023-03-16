@@ -6,7 +6,7 @@ body{
 }
 .h1s {
     text-align: center;
-    background-color:#5D5D5D;
+    background-color:#6d6c6c;
     margin-left: 500px;
     margin-right: 500px;
     color: #ffff;
@@ -142,7 +142,15 @@ body{
 }
 #h1s{
     text-align: center;
+    background-color:#8f8888;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: #ffff;
+    border: solid 1.5px black;
+    border-radius: 10px;
+    margin-bottom: 90px;
 }
+
 a{
     text-decoration: none;
     color:black;
