@@ -1,0 +1,142 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    justify-content: center;
+    align-items: center;
+}
+.h1s {
+    text-align: center;
+    background-color: #020079;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: #ffff;
+    border: solid 1.5px black;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+.linhas{
+    color: grey;
+    margin-bottom: 0;
+}
+#title{
+    margin-left: 30px;
+    font-size: 50px;
+}
+.letra_cinza {
+    color: grey;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.letra_cinza2 {
+    color: grey;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+#banner {
+    margin-top: -5px;
+}
+
+#div_principal {
+    display: flex;
+    justify-content: center;
+}
+
+#titulo_principal {
+    font-size: 35px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+#texto_materia_principal{
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: justify;
+}
+#imagem_e_p_Carina {
+    display: flex;
+}
+#link_G1 {
+    margin-right: 50px;
+}
+#article_main {
+    width: 60%;
+    margin-left: 10px;
+}
+
+.imagens {
+    border-radius: 10px;
+}
+
+.perfil_post {
+    display: flex;
+    align-items: center;
+}
+
+.perfil_post h3 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#article_aside {
+    width: 34%;
+    margin-right: 14px;
+}
+
+.div_subnoticia {
+    display: flex;
+}
+
+.site_terceiro {
+    text-decoration: none;
+    color: black;
+}
+
+.titulo_subnoticia {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.grupo_subnoticia {
+    display: inline;
+    padding-left: 5px;
+}
+
+.texto_subnoticia {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    text-align: justify;
+}
+body{
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    border-color: black;
+}
+#article1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5px;
+}
+#article2{
+    display: flex;
+    justify-content: center;
+}
+
+.categoria1 {
+    text-decoration: none;
+    color: white;
+    width: 33%;
+}
+
+.felipe {
+    background-color: #020079;
+    border-radius: 5px;
+    box-shadow: 5px 5px white;
+    text-align: center;
+    margin-bottom: 2.5px;
+}
