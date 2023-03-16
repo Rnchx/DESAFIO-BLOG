@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: white;
     text-align: center;
     color: white;
     
@@ -21,6 +21,11 @@ li {
     width: 33%;
     margin-left: 10px;
     margin-right: 10px;
+     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    
+    
 }
  .first {
     display: flex;
