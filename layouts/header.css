@@ -1,47 +1,62 @@
-body{
-    background-color: #020079;
-    margin: 0px;
-    font-family: sans-serif;    
+body {
+    background-color: #5D5D5D;
 }
-header{
-
-    color: white;
-    padding: 20px 0;
-    height: 100%;
-    width: 100%;
-    position: fixed;
-}
-.container{
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
+div {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    position: relative;
 }
-nav ul {
-    list-style: none;
-    margin: 0;
+nav {
+    margin-left: 500px;
+}
+
+:root {
+    --cor-fundo: #5D5D5D;
+    --cor-hover: #FF8200;
+    --cor-primaria: #ffff;
+}
+
+.dp-menu ul {
+    list-style-type: none;
     padding: 0;
-    display: flex;
 }
-nav li {
-    margin: 0 10px;
-    padding: 5px;
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
 }
-nav a {
-    color:white;
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
     text-decoration: none;
-    text-transform: uppercase;
+    display: inline-block;
     padding: 10px;
+    transition: background .3s;
 }
-nav li:hover{
-    background-color:darkblue;
-    border-radius: 10px;
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
 }
-#logo{
-    position: relative;
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
 }
-nav{
-    position: relative;
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
 }
