@@ -1,52 +1,68 @@
 body{
-    background-color: #020079;
+    background-color: white;
     margin: 0%;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: orange;
+    background-image: url("https://i.pinimg.com/564x/db/11/c0/db11c012c73ce1b8eebdaebe9f686a95.jpg");
 
 }
 #h1{
     text-align: center;
     border-left: solid 8px;
-    border-color: white;
-    background-color: black;
-    color: whitesmoke;
+    background-color: white;
+    color: gray;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px orange;
+    box-shadow: 16px 14px 31px 1px orange;
     margin-left: 450px;
     margin-right: 450px;
     border-radius: 10px;
     margin-bottom: 50px;
     font-family: verdana;
+    border-radius: 30px;
+    padding-top: 50px;
 }
 form{
     display: flex;
     flex-direction: column;
-    padding-left: 500px;
-    padding-right: 500px;
     font-family: Verdana;
-    height: 100vh;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    border: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    text-align: center;
+
+
 }
 .divsekiei{
     margin-top: 30px;
     margin-bottom: 30px;
     border: 3px;
-    background-color: black;
+    background-color: orange;
     padding: 10px;
-    color: whitesmoke;
+    color: gray;
     font-family: Verdana;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     text-align: center;
     border: solid 1.5px white;
+    border-radius: 30px;
+    height: 10px;
 }
 #submit{
     margin-top: 30px;
-    background-color: black;
-    color: whitesmoke;
+    background-color: orange;
+    color: gray;
     padding-top: 10;
     font-family: serif;
     margin-bottom: 15px;
@@ -57,25 +73,29 @@ form{
     border: solid 1px white;
     margin-bottom: 40px;
     margin-top: 50px;
+    border-radius: 30px;
 }
 #submit:hover{
-    background-color: rgb(70, 70, 240);
+    background-color: rgb(231, 190, 116);
     font-family: serif;
+    border-radius: 30px;
 
 }
 .divform{
-    padding: 20px;
+    padding: 10px;
     font-family: Verdana;
-    color: whitesmoke;
-    background-color: black;
+    color: gray;
+    background-color: orange;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     text-align: center;
     border: solid 1px white;
+    border-radius: 30px;
+    height: 10px;
 }
 input {
-    padding: 5px;
+    padding: 10px;
     font-family: serif;
 }
 #mensagem {
@@ -86,4 +106,7 @@ iframe {
 }
 footer {
     background-color: black;
+}
+#form2 {
+    height: 100vh;
 }
