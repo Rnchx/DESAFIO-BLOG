@@ -1,9 +1,9 @@
 body{
     background-color: #ffff;
-    font-family: Verdana;
     margin: 0;
     padding: 0;
     color: black;
+    font-family:'Playfair Display', serif;
 }
 .h1s {
     text-align: center;
@@ -94,10 +94,13 @@ body{
 #article_aside {
     width: 34%;
     margin-right: 14px;
+    border-left:solid 2px #FF8200;
+    padding-left: 7px;
 }
 
 .div_subnoticia {
     display: flex;
+    color: rgb(75, 75, 75);
 }
 
 .site_terceiro {
@@ -121,6 +124,7 @@ body{
     margin-bottom: 0;
     padding-top: 5px;
     text-align: justify;
+    color: rgb(75, 75, 75);
 }
 #article1{
     display: flex;
@@ -149,5 +153,5 @@ body{
 #texto_categorias_3 {
     height: 20px;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 

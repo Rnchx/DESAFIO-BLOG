@@ -1,5 +1,6 @@
 body {
     background-color: #5D5D5D;
+    font-family: 'Playfair Display', serif;
 }
 div {
     display: flex;
@@ -40,6 +41,7 @@ nav {
 
 .dp-menu ul li a:hover {
     background-color: var(--cor-hover);
+    border-radius: 5px;
 }
 
 /*sub menu*/
@@ -60,3 +62,4 @@ nav {
 .dp-menu ul ul li a {
     display: block;
 }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
