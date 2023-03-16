@@ -6,7 +6,7 @@ body{
 }
 .h1s {
     text-align: center;
-    background-color: #020079;
+    background-color:#6d6c6c;
     margin-left: 500px;
     margin-right: 500px;
     color: #ffff;
@@ -129,14 +129,57 @@ body{
 
 .categoria1 {
     text-decoration: none;
-    color: white;
+    color:white;
     width: 33%;
 }
 
 .felipe {
-    background-color: #020079;
+    background-color:;
     border-radius: 5px;
     box-shadow: 5px 5px white;
     text-align: center;
     margin-bottom: 2.5px;
 }
+#h1s{
+    text-align: center;
+    background-color:#8f8888;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: #ffff;
+    border: solid 1.5px black;
+    border-radius: 10px;
+    margin-bottom: 90px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+    margin: 10px 0;
+}
+li{
+    list-style-type: none;
+
+}
+.beleza_card{
+    background-color: #777777;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.first{
+    display: flex;
+    margin-top: 75px;
+    text-align: center;
+}
+.second {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+ }
+ #belezaboca{
+    text-align: center;
+ }
