@@ -18,6 +18,7 @@ li {
 }
 #drama_card {
     background-image: url("https://i.pinimg.com/564x/2e/f9/dd/2ef9dd957ae636bf9ac8b0f3c17a8726.jpg");
+    background-size: cover;
     opacity: 0.1px;
     border-radius: 8px;
     display: flex;
@@ -56,7 +57,7 @@ li {
 
 #fantasia_card {
     background-image: url("https://i.pinimg.com/564x/31/25/f6/3125f68b7f9f913b09da89787f4eb26e.jpg");
-    
+    background-size: cover;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -72,7 +73,6 @@ li {
 }
 #fantasia_card:hover {
     background-image: url("https://i.pinimg.com/564x/31/25/f6/3125f68b7f9f913b09da89787f4eb26e.jpg");
-    
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -90,6 +90,7 @@ li {
 }
 #nacionais_card {
     background-image: url("https://i.pinimg.com/564x/18/8a/d1/188ad199793fd8a77c2a3d4076e2d73e.jpg");
+    background-size: cover;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -122,6 +123,7 @@ li {
 }
 #suspense_card {
     background-image: url("https://i.pinimg.com/564x/0d/02/51/0d02512145400179ae3aab592eab485b.jpg");
+    background-size: cover;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -155,6 +157,7 @@ li {
 }
 #terror_card {
     background-image: url("https://i.pinimg.com/564x/d4/d5/da/d4d5daadb4cb7b8532b69979cae10933.jpg");
+    background-size: cover;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
