@@ -4,6 +4,7 @@ body{
     padding: 0;
     color: black;
     font-family:'Playfair Display', serif;
+    height: 100%;
 }
 .h1s {
     text-align: center;

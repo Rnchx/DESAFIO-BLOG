@@ -1,19 +1,16 @@
-html body {
-    height: 100%;
-    width: 100%;
-}
 *{
     margin: 0;
     padding: 0;
 }
-body {
+header {
     background-color: #5D5D5D;
     font-family: 'Playfair Display', serif;
+    width: 100%;
 }
 div {
     display: flex;
     align-items: center;
-    position: relative;
+    height: 100%;
 }
 nav {
     margin-left: 500px;
@@ -22,7 +19,7 @@ nav {
 :root {
     --cor-fundo: #5D5D5D;
     --cor-hover: #FF8200;
-    --cor-primaria: #ffff;
+    --cor-primaria: #f0f0f0;
 }
 
 .dp-menu ul {
@@ -50,15 +47,20 @@ nav {
     transition: background .3s;
     border-radius: 5px;
     margin-right: 100px;
+    text-align: center;
+    width: 130px ;
+    border-radius: 5px;
 }
 
 .dp-menu ul li a:hover {
     background-color: var(--cor-hover);
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #202020;
     margin-right: 100px;
-
+    transition: margin-top 1s;
+    text-align: center;
+    width: 130px ;
 }
 
 /*sub menu*/
