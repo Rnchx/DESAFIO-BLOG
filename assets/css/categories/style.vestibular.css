@@ -4,7 +4,9 @@ body{
     padding: 0;
     color: black;
     font-family:'Playfair Display', serif;
-    height: 100%;
+}
+#header {
+    margin-bottom: -360px;
 }
 .h1s {
     text-align: center;
@@ -113,6 +115,7 @@ body{
     margin-top: 0;
     margin-bottom: 0;
     font-size: 20px;
+    color: black;
 }
 
 .grupo_subnoticia {
