@@ -1,3 +1,11 @@
+html body {
+    height: 100%;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background-color: #5D5D5D;
     font-family: 'Playfair Display', serif;
@@ -29,6 +37,9 @@ nav {
 .dp-menu ul li {
     display: inline;
     position: relative;
+    float:left;
+    width: 200px;
+    line-height: 40px;
 }
 
 .dp-menu ul li a {
@@ -37,11 +48,17 @@ nav {
     display: inline-block;
     padding: 10px;
     transition: background .3s;
+    border-radius: 5px;
+    margin-right: 100px;
 }
 
 .dp-menu ul li a:hover {
     background-color: var(--cor-hover);
     border-radius: 5px;
+    margin-top: 10px;
+    color: #202020;
+    margin-right: 100px;
+
 }
 
 /*sub menu*/
