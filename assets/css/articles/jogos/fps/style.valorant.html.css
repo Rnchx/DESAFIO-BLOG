@@ -16,8 +16,24 @@ body{
 .subtitulo{
     font-size: 30px;
 }
+.div_funcoes{
+    padding-left: 20px;
+}
 .texto{
     padding-left: 10px;
     font-size: 20px;
     text-align: justify;
+}
+.linhas{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.agentes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#hr_controladores{
+    margin-right: 66px;
+    margin-left: 66px;
 }
