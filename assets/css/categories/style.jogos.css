@@ -164,7 +164,7 @@ li {
     display: flex;
     flex-direction: column;
     width: 25%;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-right: 20px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -312,8 +312,8 @@ li {
 .first {
     display: flex;
     margin-top: 75px;
-    margin-left: 80px;
     text-align: center;
+    justify-content: center;
 }
 
 .second {
