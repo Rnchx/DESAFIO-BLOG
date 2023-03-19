@@ -55,10 +55,10 @@ nav {
 .dp-menu ul li a:hover {
     background-color: var(--cor-hover);
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #202020;
     margin-right: 100px;
-    transition: margin-top 1s;
+    transition: margin-top 0.5s;
     text-align: center;
     width: 130px ;
 }
