@@ -1,97 +1,98 @@
 body{
     background-color: white;
     margin: 0%;
-    background-repeat: no-repeat;
+   background-color: aliceblue;
     background-size: cover;
-    color: orange;
-    background-image: url("https://i.pinimg.com/564x/db/11/c0/db11c012c73ce1b8eebdaebe9f686a95.jpg");
+    color: black;
+
 
 }
 #h1{
-    text-align: center;
     border-left: solid 8px;
     background-color: white;
     color: white;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     -moz-box-shadow: 16px 14px 31px 1px orange;
     box-shadow: 16px 14px 31px 1px orange;
-    margin-left: 450px;
     margin-right: 450px;
     border-radius: 10px;
     margin-bottom: 50px;
     font-family: verdana;
-    border-radius: 30px;
     padding-top: 50px;
+    
 }
 form{
     display: flex;
     flex-direction: column;
     font-family: Verdana;
-    height: 500px;
+    height: 300px;
     background-color: rgb(255, 255, 255);
-    border-radius: 50px;
+    border-radius: 10px;
     width: 30%;
     margin: auto;
     border: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top: 20px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     text-align: center;
-    margin-top: 30px;
+    margin-top: 180px;
+    transition: 2s;
+    transform: scale(1.0);
+    
 
 
 }
-.divsekiei{
+.divrednews{
     margin-bottom: 30px;
     border: 3px;
-    background-color: orange;
+    background-color: white;
     padding: 10px;
     color: white;
     font-family: Verdana;
     
     text-align: center;
-    border: solid 1.5px #5D5D5D;
-    border-radius: 30px;
+    border: solid 1.5px #FF0000;
+    border-radius: 20px;
     height: 10px;
 }
 #submit{
     margin-top: 30px;
-    background-color: orange;
-    color: white;
+    background-color: white;
+    color: black;
     padding-top: 10;
     font-family: serif;
     margin-bottom: 15px;
     text-align: center;
-    border: solid 1.5px #5D5D5D;
+    border: solid 1.5px #FF0000;
     margin-bottom: 40px;
-    margin-top: 50px;
-    border-radius: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 #submit:hover{
-    background-color: rgb(231, 190, 116);
+    background-color: #FF0000;
     font-family: serif;
-    border-radius: 30px;
+    border-radius: 10px;
 
 }
-.divform{
+.divrednews{
     padding: 10px;
     font-family: Verdana;
     color: white;
     background-color: orange;
     text-align: center;
-    border: solid 1.5px #5D5D5D;
-    border-radius: 30px;
-    height: 10px;
+    border: solid 1.5px #FF0000;
+    border-radius: 10px;
+    height: 5px;
 }
 input {
     padding: 8px;
     font-family: serif;
 }
 #mensagem {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 iframe {
     width: 100%;
@@ -101,4 +102,12 @@ footer {
 }
 #form2 {
     height: 100vh;
+    display: flex;
+}
+#feedback {
+    margin-top: 220px;
+    font-family: verdana;
+    font-size: small;
+    color:    #444444;
+    margin-left: 35px;
 }
