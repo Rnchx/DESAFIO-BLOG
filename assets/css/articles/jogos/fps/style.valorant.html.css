@@ -1,6 +1,12 @@
 body{
     margin: 0;
 }
+#header{
+    margin-bottom: -15px;
+}
+#header:hover{
+    height: 470px;
+}
 #title{
     margin: 30px;
     font-size: 50px;
@@ -28,12 +34,28 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
+#imagem_valorant{
+    margin: 0px;
+}
 .agentes{
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-right: 35px;
+    margin-left: 35px;
 }
-#hr_controladores{
-    margin-right: 66px;
-    margin-left: 66px;
+.hr_controladores{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#agentes_exclusive{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 90px;
+    margin-left: 5px;
+}
+#div_agentes{
+    margin-right:  55px;;
+    margin-left: 20px;
 }
