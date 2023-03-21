@@ -11,7 +11,7 @@ h1{
     color: black;
 }
 .quadrado{
-    background-color: #FF8200;
+    background-color: #FF0000;
     border-radius: 20px;
     display: flex;
 }
