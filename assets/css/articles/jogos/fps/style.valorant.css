@@ -4,9 +4,6 @@ body{
 #header{
     margin-bottom: -15px;
 }
-#header:hover{
-    height: 470px;
-}
 #title{
     margin: 30px;
     font-size: 50px;
