@@ -1,7 +1,6 @@
 body{
-    background-color: white;
     margin: 0%;
-   background-color: aliceblue;
+   background-color: #444444;
     background-size: cover;
     color: black;
 
@@ -30,7 +29,6 @@ form{
     border-radius: 10px;
     width: 30%;
     margin: auto;
-    border: 10px;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
@@ -44,19 +42,6 @@ form{
     
 
 
-}
-.divrednews{
-    margin-bottom: 30px;
-    border: 3px;
-    background-color: white;
-    padding: 10px;
-    color: white;
-    font-family: Verdana;
-    
-    text-align: center;
-    border: solid 1.5px #FF0000;
-    border-radius: 20px;
-    height: 10px;
 }
 #submit{
     margin-top: 30px;
@@ -74,25 +59,17 @@ form{
 #submit:hover{
     background-color: #FF0000;
     font-family: serif;
-    border-radius: 10px;
 
-}
-.divrednews{
-    padding: 10px;
-    font-family: Verdana;
-    color: white;
-    background-color: orange;
-    text-align: center;
-    border: solid 1.5px #FF0000;
-    border-radius: 10px;
-    height: 5px;
 }
 input {
     padding: 8px;
-    font-family: serif;
 }
 #mensagem {
     margin-bottom: 10px;
+}
+.inputs {
+    border: solid 1.5px #FF0000;
+    margin-bottom: 20px;
 }
 iframe {
     width: 100%;
@@ -108,6 +85,6 @@ footer {
     margin-top: 220px;
     font-family: verdana;
     font-size: small;
-    color:    #444444;
+    color:    whitesmoke;
     margin-left: 35px;
 }
