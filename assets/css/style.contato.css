@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-   background-color: #444444;
+   background-color:#202020;
     background-size: cover;
     color: black;
 
@@ -59,7 +59,6 @@ form{
 #submit:hover{
     background-color: #FF0000;
     font-family: serif;
-
 }
 input {
     padding: 8px;
@@ -74,9 +73,6 @@ input {
 iframe {
     width: 100%;
 }
-footer {
-    background-color: black;
-}
 #form2 {
     height: 100vh;
     display: flex;
@@ -87,4 +83,11 @@ footer {
     font-size: small;
     color:    whitesmoke;
     margin-left: 35px;
+}
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
 }
