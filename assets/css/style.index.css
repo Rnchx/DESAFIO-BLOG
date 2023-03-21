@@ -2,11 +2,6 @@ body {
     margin: 0px;
 }
 
-#header:hover {
-    height: 700px;
-    margin-bottom: -320px;
-}
-
 .linhas {
     color: grey;
     margin-bottom: 0;
