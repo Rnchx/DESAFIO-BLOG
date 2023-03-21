@@ -1,0 +1,33 @@
+body{
+    background-color:#444444
+}
+div{
+    text-align: center;
+    margin-top: 150px;
+}
+#texto{
+    color:#FF0000;
+    font-size: larger;
+    margin-top: 5px;
+    text-align: center;
+    }
+
+#botão{
+    text-align: center;
+    background-color: rgb(243, 251, 251);
+    border: solid 1.5px #FF0000;
+    margin-top: 30px;
+    padding-top: 5px;
+    margin-bottom: 15px ;
+    border-radius: 5px;
+}
+#centro{
+    text-align: center;
+}
+#header{
+    width: 100%;
+}
+#footer{
+    margin-bottom: 0%;
+    width: 100%;
+}
