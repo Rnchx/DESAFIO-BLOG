@@ -13,16 +13,17 @@ body{
     color: #ffff;
     margin-bottom: 30px;
     color: black;
-    text-decoration: underline #FF8200;
+    font-size: 50px;
 }
 #h2_1 {
     margin-bottom: 30px;
     color: #ffff;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 850px;
     color: black;
-    border-left:solid 2px #FF8200;
+    border-left:solid 2px #FF0000;
     padding-left: 5px;
+    font-size: 40px;
 }
 
 .linhas{
@@ -95,7 +96,7 @@ body{
 #article_aside {
     width: 34%;
     margin-right: 14px;
-    border-left:solid 2px #FF8200;
+    border-left:solid 2px #FF0000;
     padding-left: 7px;
 }
 
@@ -157,3 +158,219 @@ body{
 }
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+#article_comentarios {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.letra_cinza3 {
+    color: grey;
+    font-size: 37.5px;
+    margin-bottom: 15px;
+}
+
+.quadrado_comentarios {
+    border: 2.25px solid grey;
+    border-radius: 7.5px;
+    padding-right: 1050px;
+    padding-bottom: 225px;
+    padding-top: 10.5px;
+    padding-left: 10.5px;
+    margin: 7.5px;
+    margin-bottom: 22.5px;
+}
+
+
+@font-face {
+    font-family: manu;
+    src: url('https://fonts.googleapis.com/css2?family= Areia movediça & display=swap');
+}
+
+.a_categorias {
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+#fps_card {
+    background-image: url(https://neteducacao.com.br/wp-content/uploads/2022/01/ENEM-2023.jpg);
+    background-size: cover;
+    opacity: 0.15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    width: 270px;
+    height: 500px;
+}
+
+#fps_card:hover {
+    background-image: url(https://neteducacao.com.br/wp-content/uploads/2022/01/ENEM-2023.jpg);
+    opacity: 0.15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 2.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 2s;
+    transform: scale(1.1);
+
+}
+
+
+#online_card {
+    background-image: url(https://s3.static.brasilescola.uol.com.br/vestibular/2020/09/rotina-estudos.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    width: 270px;
+}
+
+#online_card:hover {
+    background-image: url(https://s3.static.brasilescola.uol.com.br/vestibular/2020/09/rotina-estudos.jpg);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+#modo_historia_card {
+    background-image: url(https://alleasy.com.br/wp-content/uploads/2018/06/blog_lgpd.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    width: 270px;
+
+}
+
+#modo_historia_card:hover {
+    background-image: url(https://alleasy.com.br/wp-content/uploads/2018/06/blog_lgpd.jpg);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+#moba_card {
+    background-image: url(https://st3.depositphotos.com/2024219/18914/i/600/depositphotos_189142964-stock-photo-handsome-man-with-glasses-thinking.jpg);
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Quicksand', sans-serif;
+    width: 270px;
+}
+
+#moba_card:hover {
+    background-image: url(https://st3.depositphotos.com/2024219/18914/i/600/depositphotos_189142964-stock-photo-handsome-man-with-glasses-thinking.jpg);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 2s;
+    transform: scale(1.1);
+}
+
+.first {
+    display: flex;
+    margin-top: 112.5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.jogos{
+    color:black;
+}
+#title_categorias {
+    text-align: center;
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
