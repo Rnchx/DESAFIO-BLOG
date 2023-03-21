@@ -1,21 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../assets/css/style.contato.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/style.feedback.css">
+    <link rel="icon" type="imagem/x-icon" href="../assets/images/logo.png">
+    <title>Feedback</title>
 </head>
+
 <body>
-    <iframe src="../layouts/header.html"frameborder="0" scrolling="0" width="100%"></iframe>
+    <iframe src="../layouts/header.html" frameborder="0" scrolling="0"></iframe>
     <div id="form2">
-    <h1>Contato</h1>
-    <form action="../pages/sucess.html">
-        <label class="contato2">Nome:</label> <input id="nome" type="text" required placeholder="digite seu nome"> </div>
-        <label class="contato2">E-mail:</label> <input id="email" type="email" required placeholder="digite seu e-mail"> </div>
-        <label class="contato2">Mensagem:</label> <input id="mensagem" type="text" required placeholder="deixe uma mensagem" required minlength="10"> </div>
-        <input id="submit" type="submit">
-    </form>
-</div>
-    <iframe src="../layouts/footer.html"frameborder="0" scrolling="no"></iframe>
+        <div id="feedback">
+        <h1>Feedback
+            <p>Deixa aqui a sua opinião sobre o nosso site</p>
+        </h1>
+        </div>
+        <form action="../pages/succes.html">
+            <label>Nome:</label>
+            <input class="divsekiei" type="text" required placeholder="digite seu nome">
+            <label>E-mail:</label>
+            <input class="divsekiei" type="email" required placeholder="digite seu e-mail">
+            <label id="mensagem">Mensagem:</label>
+            <input class="divform" type="message" required placeholder="manda uma Mensagem" required minlength="10">
+            <input id="submit" type="submit">
+        </form>
+    </div>
+    <footer>
+        <iframe src="../layouts/footer.html" frameborder="0" scrolling="0"></iframe>
+    </footer>
 </body>
+
 </html>

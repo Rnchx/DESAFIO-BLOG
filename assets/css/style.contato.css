@@ -1,82 +1,113 @@
 body{
-    background-color: rgb(251, 251, 251);
-}
+    background-color: white;
+    margin: 0%;
+   background-color: aliceblue;
+    background-size: cover;
+    color: black;
 
-h1{
-    text-align: center;
-    border: solid 3px;
-    border-color: rgb(255, 245, 245);
-    background-color: rgb(210, 208, 239);
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(218, 222, 255, 0.8).8);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    margin-left: 450px;
+
+}
+#h1{
+    border-left: solid 8px;
+    background-color: white;
+    color: white;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px orange;
+    box-shadow: 16px 14px 31px 1px orange;
     margin-right: 450px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 50px;
-    margin-top: 20px;
-    padding-bottom: 5px;
+    font-family: verdana;
+    padding-top: 50px;
+    
 }
 form{
     display: flex;
     flex-direction: column;
-    padding-left: 500px;
-    padding-right: 500px;
-}
-#nome{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex-direction: column;
-    border: 3px;
-    padding: 10px;
-    background-color: rgb(1, 1, 1);
-    color: rgb(236, 236, 236);
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    border: solid 1.5px;
+    font-family: Verdana;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    border: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    text-align: center;
+    margin-top: 180px;
+    transition: 2s;
+    transform: scale(1.0);
     
+
+
 }
-#email{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex-direction: column;
+.divrednews{
+    margin-bottom: 30px;
     border: 3px;
+    background-color: white;
     padding: 10px;
-    background-color: rgb(1, 1, 1);
-    color: rgb(236, 236, 236);
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    border: solid 1.5px;
+    color: white;
+    font-family: Verdana;
     
-}
-#mensagem{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    flex-direction: column;
-    border: 3px;
-    padding: 30px;
-    background-color: rgb(1, 1, 1);
-    color: rgb(236, 236, 236);
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    border: solid 1.5px;
+    text-align: center;
+    border: solid 1.5px #FF0000;
+    border-radius: 20px;
+    height: 10px;
 }
 #submit{
     margin-top: 30px;
-    margin-bottom: 10px;
-    padding: 10px;
+    background-color: white;
+    color: black;
+    padding-top: 10;
+    font-family: serif;
+    margin-bottom: 15px;
     text-align: center;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.8);
-    border: solid 1.5px;;
-    background-color: black;
-    color: aliceblue;
-
+    border: solid 1.5px #FF0000;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 #submit:hover{
-    background-color: rgb(44, 44, 103);
+    background-color: #FF0000;
+    font-family: serif;
+    border-radius: 10px;
+
+}
+.divrednews{
+    padding: 10px;
+    font-family: Verdana;
+    color: white;
+    background-color: orange;
+    text-align: center;
+    border: solid 1.5px #FF0000;
+    border-radius: 10px;
+    height: 5px;
+}
+input {
+    padding: 8px;
+    font-family: serif;
+}
+#mensagem {
+    margin-bottom: 10px;
+}
+iframe {
+    width: 100%;
+}
+footer {
+    background-color: black;
+}
+#form2 {
+    height: 100vh;
+    display: flex;
+}
+#feedback {
+    margin-top: 220px;
+    font-family: verdana;
+    font-size: small;
+    color:    #444444;
+    margin-left: 35px;
 }
