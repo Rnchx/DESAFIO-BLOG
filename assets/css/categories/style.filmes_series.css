@@ -31,7 +31,7 @@ li {
     display: flex;
     flex-direction: column;
     width: 33%;
-    margin-left: 100px;
+    margin-left: 20px;
     margin-right: 20px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -50,7 +50,7 @@ li {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 20%;
     margin-left: 10px;
     margin-right: 10px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -89,7 +89,7 @@ li {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 20%;
     margin-left: 10px;
     margin-right: 10px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -127,7 +127,7 @@ li {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 20%;
     margin-left: 10px;
     margin-right: 10px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -164,7 +164,7 @@ li {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 20%;
     margin-left: 10px;
     margin-right: 10px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -201,7 +201,7 @@ li {
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    width: 33%;
+    width: 20%;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -216,6 +216,7 @@ li {
 .first {
     display: flex;
     margin-top: 75px;
+    justify-content: center;
 }
 
 .second {
