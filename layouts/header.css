@@ -3,7 +3,7 @@
     padding: 0;
 }
 header {
-    background-color: #5D5D5D;
+    background-color: #444444;
     font-family: 'Playfair Display', serif;
     width: 100%;
 }
@@ -17,8 +17,8 @@ nav {
 }
 
 :root {
-    --cor-fundo: #5D5D5D;
-    --cor-hover: #FF8200;
+    --cor-fundo: #444444;
+    --cor-hover: #FF0000;
     --cor-primaria: #f0f0f0;
 }
 
@@ -56,13 +56,12 @@ nav {
     background-color: var(--cor-hover);
     border-radius: 5px;
     margin-top: 20px;
-    color: #202020;
+    color: var(--cor-primaria);
     margin-right: 100px;
     transition: margin-top 0.5s;
     text-align: center;
-    width: 130px ;
+    width: 130px;
 }
-
 /*sub menu*/
 .dp-menu ul ul {
     display: none;

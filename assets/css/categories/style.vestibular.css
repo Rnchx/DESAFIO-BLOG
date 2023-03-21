@@ -5,8 +5,9 @@ body{
     color: black;
     font-family:'Playfair Display', serif;
 }
-#header {
-    margin-bottom: -360px;
+#header:hover {
+    height: 470px;
+    margin-bottom: -320px;
 }
 .h1s {
     text-align: center;
