@@ -1,32 +1,221 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
+    <title>RNW</title>
     <link rel="stylesheet" href="../../assets/css/categories/style.livros.css">
-    <link rel="icon" type="imagem/x-icon" href="../../assets/images/">
-    <title>categorias dos livros</title>
+    <link rel="icon" type="image/x-icon" href="../../assets/images/icon.png">
 </head>
+
 <body>
-    <iframe src="../../layouts/header.html" frameborder="no" scrolling="no" width="100%" height="125px"></iframe>
-    <!--coloquei os botões para as gêneros dos livros-->
-    <h1>Gêneros literários</h1>
-    <div class="espaco">
-        <a href="../../pages/articles/livros/biografia/biografia.html"><button class="botoes">Biografias</button></a>
-    </div>
-    <div class="espaco">
-        <a href="../articles/livros/ficcao_cientifica/ficcao.html"><button class="botoes">Ficção</button></a>
-    </div>
-    <div class="espaco">
-        <a href="../articles/livros/historia_em_quadrinhos/hqs.html"><button class="botoes">HQs</button></a>
-    </div>
-    <div class="espaco">
-        <a href="../articles/livros/poesia/poesia.html"><button class="botoes">Poesias</button></a>
-    </div>
-    <div class="espaco">
-        <a href="../articles/livros/romance/romance.html"><button class="botoes">Romances</button></a>
-    </div>
-    <div class="espaco">
-        <a href="../articles/livros/terror/terror.html"><button class="botoes">Terror</button></a>
-    </div>
+    <iframe id="header" src="../../layouts/header.html" frameborder="0" scrolling="no" width="100%"></iframe>
+        <h1 id="title">DESTAQUES DE HOJE</h1>
+        <div id="div_principal">
+            <!--article da noticia principal-->
+            <article id="article_main">
+                <section>
+                    <p class="letra_cinza2">Postado por:</p>
+                    <div class="perfil_post">
+                        <img src="../../assets/images/rafa.jfif" alt="foto do Rafa" width="54px" height="54px">
+                        <h3>Rafael Lino</h3>
+                        <p class="letra_cinza">- há 3 horas</p>
+                        <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
+                        <p class="letra_cinza">2000 likes</p>
+                    </div>
+                    <a class="site_terceiro" href="https://veja.abril.com.br/coluna/radar-economico/de-olho-em-falencia-leitura-busca-espaco-para-megaloja-em-sao-paulo/">
+                        <h2 id="titulo_principal">Leitura está á beira da falência!!</h2>
+                        <img class="imagens" src="../../assets/images/leitura.webp"
+                            alt="Livraria leitura" width="1080px" height="600px">
+                        <p id="texto_materia_principal">Com a falência dando uma visitada, a livraria Leitura prucura  novos espaços para o estabelecimento. Diz ela, que está pensando em abrir uma mega até o final do ano!</p>
+                    </a>
+                </section>
+            </article>
+            <!--article da noticia principal-->
+            <!--article das subnoticias-->
+            <article id="article_aside">
+                <section>
+                    <p class="letra_cinza2">Postado por:</p>
+                    <div class="perfil_post">
+                        <img src="../../assets/images/heloisa.png" alt="foto da Heloisa" width="54px" height="54px">
+                        <h3>Heloisa Lyes</h3>
+                        <p class="letra_cinza">- há 4 horas</p>
+                        <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
+                        <p class="letra_cinza">1500 likes</p>
+                    </div>
+                    <div class="div_subnoticia">
+                        <a class="site_terceiro"
+                            href="https://veja.abril.com.br/cultura/feridas-abertas-livro-explora-brutalidade-do-preconceito-contra-asiaticos/">
+                            <img class="imagens" src="../../assets/images/asiatico.jpg"
+                                alt="pessoa asiática" width="192px" height="192px">
+                            <div class="grupo_subnoticia">
+                                <h2 class="titulo_subnoticia">Preconceito contra asiáticos?</h2>
+                                <p class="texto_subnoticia"> Livro aborda o assunto muito pouco falado, o preconceito contra os asiáticos...
+                                </p>
+                        </a>
+                    </div>
+                </section>
+                <hr class="linhas">
+                <section>
+                    <p class="letra_cinza2">Postado por:</p>
+                    <div class="perfil_post">
+                        <img src="../../assets/images/raissa.png" alt="foto da raissa" width="54px" height="54px">
+                        <h3>Raissa Godoy</h3>
+                        <p class="letra_cinza">- há 11 horas</p>
+                        <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
+                        <p class="letra_cinza">135 likes</p>
+                    </div>
+                    <div class="div_subnoticia">
+                        <a class="site_terceiro"
+                            href="https://veja.abril.com.br/cultura/para-alem-do-principe-harry-5-otimas-autobiografias-de-celebridades/">
+                            <img class="imagens" src="../../assets/images/autobiografias.webp" alt="Base da Virginia Fonseca"
+                                width="192px" height="192px">
+                            <div class="grupo_subnoticia">
+                                <h2 class="titulo_subnoticia">Melhores autobiografias!</h2>
+                                <p class="texto_subnoticia">Já leu uma das melhores autobiografias? Veja aqui se você tem bom gosto patra literatura!
+                                </p>
+                        </a>
+                    </div>
+                </section>
+                <hr class="linhas">
+                <section>
+                    <p class="letra_cinza2">Postado por:</p>
+                    <div class="perfil_post">
+                        <img src="../../assets/images/analivia.jfif" alt="foto da Ana" width="54px" height="54px">
+                        <h3>Ana Lívia Martins</h3>
+                        <p class="letra_cinza">- há 14 horas</p>
+                        <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
+                        <p class="letra_cinza">712 likes</p>
+                    </div>
+                    <div class="div_subnoticia">
+                        <a class="site_terceiro"
+                            href="https://veja.abril.com.br/cultura/a-antologia-imperdivel-que-derruba-um-velho-tabu-da-literatura-nacional/">
+                            <img class="imagens" src="../../assets/images/terror.jpg" alt="Coldplay no Brasil" width="192px"
+                                height="192px">
+                            <div class="grupo_subnoticia">
+                                <h2 class="titulo_subnoticia">Tabu na literatura!</h2>
+                                <p class="texto_subnoticia">Veja aqui a antologia que quebrou o tabu existente na literatura!
+                                </p>
+                        </a>
+                    </div>
+                </section>
+            </article>
+            <!--article das subnoticias-->
+        </div>
+        <hr class="linha_article">
+        <!--comentarios das noticias-->
+        <article id="article_comentarios">
+            <section>
+                <form>
+                    <h3 class="letra_cinza3">Comentários:</h3>
+                    <label for="text">
+                        <input type="text" name="Comentários" class="quadrado_comentarios"
+                            placeholder="Escreva seu comentário">
+                    </label>
+                </form>
+            </section>
+            <section id="anuncio">
+                <a href="https://www.instagram.com/senaivalinhos/">
+                    <img src="../../assets/images/anuncio.png" alt="anuncio do senai" width="384px" height="384px">
+                </a>
+            </section>
+        </article>
+        <!--comentarios das noticias-->
+    <hr class="linha_article">
+    <!--categorias de jogos-->
+    <h1 id="title">Categorias</h1>
+    <article class="first">
+        <section id="fps_card">
+            <h1 class="jogos">Romances</h1>
+            <p class="jogos">Principais Livros</p>
+            <hr width="50px">
+            <a class="a_categorias" href="../articles/livros/romance/amoregelato.html">
+                <p class="jogos">Amor e Gelato</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/romance/eueessemeucoracao.html">
+                <p class="jogos">Eu e esse meu coração</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/romance/overaoquemudouminhavida.html">
+                <p class="jogos">O verão que mudou minha vida</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/romance/todoessetempo.html">
+                <p class="jogos">Todo esse tempo</p>
+            </a>
+
+        </section>
+        <section id="online_card">
+            <h1 class="first">Biografias</h1>
+            <p class="first">Principais Livros</p>
+            <hr width="50px">
+            <a class="a_categorias" href="../articles/livros/biografia/cinderelachinesa.html">
+                <p class="jogos">Cinderela Chinesa</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/biografia/diariodeannefrank.html">
+                <p class="jogos">Diário de Anne Frank</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/biografia/minhahistoria.html">
+                <p class="jogos">Minha História</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/biografia/ritalee.html">
+                <p class="jogos">Rita Lee</p>
+            </a>
+
+        </section>
+        <section id="modo_historia_card">
+            <h1>Ficção Ciêntífica</h1>
+            <p>Principais livros</p>
+            <hr width="50px">
+            <a class="a_categorias" href="../articles/livros/ficcao_cientifica/abibliotecadameianoite.html">
+                <p class="jogos">A Biblioteca da Meia-Noite</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/ficcao_cientifica/agarotadolago.html">
+                <p class="jogos">A Garota do Lago</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/ficcao_cientifica/jogosvorazes.html">
+                <p class="jogos">Jogos Vorazes</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/ficcao_cientifica/mazerunner.html">
+                <p class="jogos">Maze Runner</p>
+            </a>
+
+        </section>
+        <section id="moba_card">
+            <h1>Histórias em Quadrinhos</h1>
+            <p>Principais livros </p>
+            <hr width="50px">
+            <a class="a_categorias" href="../articles/livros/historia_em_quadrinhos/chainsawman.html">
+                <p class="jogos">Chainsaw Men</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/historia_em_quadrinhos/jujutsukaisen.html">
+                <p class="jogos">Jujutsu Kaisen</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/historia_em_quadrinhos/maus.html">
+                <p class="jogos">Maus</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/historia_em_quadrinhos/persepolis.html">
+                <p class="jogos">Persépolis</p>
+            </a>
+        </section>
+        <section id="poesias">
+            <h1>Poesias</h1>
+            <p>Principais Livros </p>
+            <hr width="50px">
+            <a class="a_categorias" href="../articles/livros/poesia/abruxanaovaiprafogueiranesselivro.html">
+                <p class="jogos">A Bruxa não vai para a Fogueira neste livro</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/poesia/aprincesasalvaasimesmanesselivro.html">
+                <p class="jogos">A Princesa salva a si mesma neste livro</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/poesia/olivrodosressignificados.html">
+                <p class="jogos">O Livro dos ressignificados</p>
+            </a>
+            <a class="a_categorias" href="../articles/livros/poesia/paratodasaspessoasintensas.html">
+                <p class="jogos">Para todas as Pessoas Intensas</p>
+            </a>
+        </section>
+    </article>
+    <!--categorias de jogos-->
+    <iframe src="../../layouts/footer.html" frameborder="0" scrolling="no" width="100%"></iframe>
 </body>
+
 </html>
