@@ -5,10 +5,7 @@ body{
     color: black;
     font-family:'Playfair Display', serif;
 }
-#header:hover {
-    height: 470px;
-    margin-bottom: -320px;
-}
+
 .h1s {
     text-align: center;
     margin-left: 500px;
