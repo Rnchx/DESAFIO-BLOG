@@ -26,7 +26,11 @@ body {
     color: black;
     text-align: left;
 }
-
+#title3 {
+    margin-left: 45px;
+    font-size: 75px;
+    color: black;
+}
 .letra_cinza {
     color: grey;
     font-size: 22.5px;
