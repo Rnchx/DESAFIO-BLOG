@@ -18,7 +18,13 @@ body {
 #title {
     margin-left: 45px;
     font-size: 75px;
+    color: grey;
+}
+#title2 {
+    margin-left: 45px;
+    font-size: 75px;
     color: black;
+    text-align: left;
 }
 
 .letra_cinza {
