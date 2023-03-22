@@ -1,8 +1,76 @@
+body {
+    margin: 0%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: black;
+}
+
 footer{
     background-color: #444444;
     text-align: center;
-    margin-top: 38%;
-    margin-bottom: -5px;
-    margin-left: -5px;
-    margin-right: -5px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .snake_rnw{
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../assets/images/Snake\ RNW\ SEMFUNDO.png);
+    background-size: 1000px 100px;
+}
+
+footer .snake_rnw#snake_rnw1{
+    z-index: 1000;
+    opacity: 1;
+    bottom: 0;
+    animation: snake_rnw 4s linear infinite;
+}
+
+footer .snake_rnw#snake_rnw2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: snake_rnw_ 4s linear infinite;
+}
+
+footer .snake_rnw#snake_rnw3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: snake_rnw 3s linear infinite;
+}
+footer .snake_rnw#snake_rnw4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: snake_rnw_ 3s linear infinite;
+}
+
+@keyframes snake_rnw{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes snake_rnw_{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
 }
