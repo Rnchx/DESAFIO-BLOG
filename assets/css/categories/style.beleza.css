@@ -188,6 +188,7 @@ li{
 
 }
 .unha_card{
+    background-image: url(https://i.pinimg.com/564x/c0/9c/5c/c09c5c558fade60865640c72e2679b2a.jpg);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -205,6 +206,7 @@ li{
     
 }
 .maquiagem_card{
+    background-image: url(https://i.pinimg.com/564x/ed/76/46/ed76465f121348d2f577a59a9c273ebe.jpg);
 border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -222,6 +224,7 @@ border-radius: 8px;
 }
 
 .cabelo_card{
+    background-image: url(https://i.pinimg.com/564x/59/a3/f2/59a3f2306d3766627ab3ea5aa7c05f2d.jpg);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -238,6 +241,7 @@ border-radius: 8px;
     transform: scale(1.1);
 }
 .roupa_card{
+    background-image: url(https://i.pinimg.com/564x/eb/f3/a7/ebf3a7df4b6508cec97c3ea045f49d51.jpg);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
