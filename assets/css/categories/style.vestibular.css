@@ -6,6 +6,9 @@ body{
     font-family:'Playfair Display', serif;
 }
 
+#header {
+    margin-bottom: -15px;
+}
 .h1s {
     text-align: center;
     margin-left: 500px;
@@ -21,7 +24,6 @@ body{
     margin-left: 50px;
     margin-right: 850px;
     color: black;
-    border-left:solid 2px #FF0000;
     padding-left: 5px;
     font-size: 40px;
 }
@@ -277,7 +279,7 @@ li {
 }
 
 #modo_historia_card {
-    background-image: url(https://alleasy.com.br/wp-content/uploads/2018/06/blog_lgpd.jpg);
+    background-image: url(https://www.segs.com.br/media/k2/items/cache/a82f78e3e8313725051c870517dbe4dc_XL.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -297,7 +299,7 @@ li {
 }
 
 #modo_historia_card:hover {
-    background-image: url(https://alleasy.com.br/wp-content/uploads/2018/06/blog_lgpd.jpg);
+    background-image: url(https://www.segs.com.br/media/k2/items/cache/a82f78e3e8313725051c870517dbe4dc_XL.jpg);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
