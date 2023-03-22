@@ -11,7 +11,7 @@ h1{
     color: black;
 }
 .quadrado{
-    background-color: #FF8200;
+    background-color: #202020;
     border-radius: 20px;
     display: flex;
 }
@@ -22,9 +22,9 @@ h1{
     color: white;
 }
 img{
-    border-radius: 40px;
-    margin-top: 5px;
-    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 5px;
     margin-right: 5px;
 }

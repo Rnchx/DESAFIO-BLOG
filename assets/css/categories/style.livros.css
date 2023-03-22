@@ -1,12 +1,12 @@
 body {
     margin: 0px;
 }
-
-#header:hover {
-    height: 700px;
-    margin-bottom: -320px;
+#header{
+    margin-bottom: -15px;
 }
-
+.arredondar{
+    border-radius: 100%;
+}
 .linhas {
     color: grey;
     margin-bottom: 0;
@@ -16,7 +16,11 @@ body {
     margin-left: 45px;
     font-size: 75px;
 }
-
+#livros{
+    color: gray;
+    text-align: center;
+    font-size: 75px;
+}
 .letra_cinza {
     color: grey;
     font-size: 22.5px;
@@ -73,7 +77,9 @@ body {
 
 #article_aside {
     width: 34%;
-    margin-right: 21px;
+    margin-right: 14px;
+    border-left:solid 2px #FF0000;
+    padding-left: 7px;
 }
 
 .div_subnoticia {
@@ -379,4 +385,8 @@ li {
     padding-bottom: 30px;
     transition: 2s;
     transform: scale(1.1);
+}
+#categorias{
+    text-align: center;
+    font-size: 75px;
 }
