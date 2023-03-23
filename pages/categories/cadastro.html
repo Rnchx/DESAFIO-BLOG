@@ -11,26 +11,32 @@
 <body>
     <iframe src="../../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="125px"></iframe>
     <div id="login">
-        <form class="card">
+        <form class="card" action="../sucess.html">
             <div class="card-header">
                 <h2 id="title">Cadastre-se</h2>
             </div>
             <div class="card-content">
                 <div class="card-content-area">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" id="usuario" autocomplete="off" minlength="8" required>
+                </div>
+            </div>
+            <div class="card-content">
+                <div class="card-content-area">
                     <label for="E-mail">E-mail</label>
-                    <input type="text" id="usuario" autocomplete="off">
+                    <input type="text" id="usuario" autocomplete="off" required>
                 </div>
                 <div class="card-content-area">
                     <label for="password">Senha</label>
-                    <input type="password" class="password" autocomplete="off">
+                    <input type="password" class="password" autocomplete="off" required>
                 </div>
                 <div class="card-content-area">
                     <label for="password">Confirme sua senha</label>
-                    <input type="password" class="password" autocomplete="off">
+                    <input type="password" class="password" autocomplete="off" required>
                 </div>
             </div>
             <div class="card-footer">
-                <button class="submit">Login</button>
+                <button class="submit">Criar conta</button>
             </div>
         </form>
     </div>

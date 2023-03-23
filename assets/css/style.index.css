@@ -69,6 +69,8 @@ body {
 #article_aside {
     width: 34%;
     margin-right: 21px;
+    border-left:solid 2px #FF0000;
+    padding-left: 7px;
 }
 
 .div_subnoticia {
@@ -96,6 +98,7 @@ body {
     margin-bottom: 0;
     padding-top: 7.5px;
     text-align: justify;
+    font-size: 20px;
 }
 
 #article_comentarios {
