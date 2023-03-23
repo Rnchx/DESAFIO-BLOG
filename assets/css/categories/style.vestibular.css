@@ -15,8 +15,8 @@ body{
     margin-right: 500px;
     color: #ffff;
     margin-bottom: 30px;
-    color: black;
-    font-size: 50px;
+    color: gray;
+    font-size: 75px;
 }
 #h2_1 {
     margin-bottom: 30px;
@@ -25,7 +25,7 @@ body{
     margin-right: 850px;
     color: black;
     padding-left: 5px;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .linhas{
@@ -34,18 +34,18 @@ body{
 }
 #title{
     margin-left: 30px;
-    font-size: 50px;
+    font-size: 75px;
 }
 .letra_cinza {
     color: grey;
-    font-size: 15px;
+    font-size: 22.5px;
     margin-right: 5px;
     margin-left: 5px;
 }
 
 .letra_cinza2 {
     color: grey;
-    font-size: 15px;
+    font-size: 22.5px;
     margin-bottom: 0;
 }
 
@@ -59,12 +59,12 @@ body{
 }
 
 #titulo_principal {
-    font-size: 35px;
+    font-size: 52.5px;
     margin-bottom: 5px;
     margin-top: 0;
 }
 #texto_materia_principal{
-    font-size: 20px;
+    font-size: 30px;
     margin-right: 50px;
     text-align: justify;
     margin-top: 40px;
@@ -115,7 +115,7 @@ body{
 .titulo_subnoticia {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 20px;
+    font-size: 30px;
     color: black;
 }
 
@@ -158,7 +158,6 @@ body{
 #texto_categorias_3 {
     height: 20px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 #article_comentarios {
     display: flex;
@@ -169,7 +168,7 @@ body{
 
 .letra_cinza3 {
     color: grey;
-    font-size: 37.5px;
+    font-size: 56.25px;
     margin-bottom: 15px;
 }
 
@@ -375,4 +374,17 @@ li {
 a {
     text-decoration: none;
     color: black;
+}
+
+#anuncio {
+    margin-top: 15px;
+}
+
+.h1_categorias {
+    font-size: 23px;
+}
+
+.descricao_redacao {
+        margin-left: 20px;
+        font-size: 20px;
 }
