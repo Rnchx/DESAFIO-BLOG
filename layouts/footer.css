@@ -1,76 +1,119 @@
 body {
-    margin: 0%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    display: grid;
+    grid-template-rows: 1fr 10rem auto;
+    grid-template-areas: "main" "." "footer";
+    overflow-x: hidden;
+    background-color: white;
     min-height: 100vh;
-    background: black;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0%;
 }
 
-footer{
-    background-color: #444444;
-    text-align: center;
-    width: 100%;
-    height: 100px;
+footer {
+    margin-top: 100px;
+}
+
+.footer {
+    z-index: 1;
+    --footer-background: #ff0000;
+    display: grid;
     position: relative;
-    min-height: 100px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    grid-area: footer;
+    min-height: 12rem;
 }
 
-footer .snake_rnw{
+.bubbles {
     position: absolute;
-    top: -100px;
+    top: 0;
     left: 0;
-    width: 100%;
-    height: 100px;
-    background: url(../assets/images/Snake\ RNW\ SEMFUNDO.png);
-    background-size: 1000px 100px;
+    right: 0;
+    height: 1rem;
+    background: var(--footer-background);
+    filter: url("#blob");
 }
 
-footer .snake_rnw#snake_rnw1{
-    z-index: 1000;
-    opacity: 1;
-    bottom: 0;
-    animation: snake_rnw 4s linear infinite;
+.bubble {
+    position: absolute;
+    left: var(--position, 50%);
+    background: var(--footer-background);
+    border-radius: 100%;
+    animation: bubble-size var(--time, 4s) ease-in infinite var(--delay, 0s),
+        bubble-move var(--time, 4s) ease-in infinite var(--delay, 0s);
+    transform: translate(-50%, 100%);
 }
 
-footer .snake_rnw#snake_rnw2{
-    z-index: 999;
-    opacity: 0.5;
-    bottom: 10px;
-    animation: snake_rnw_ 4s linear infinite;
+
+.content {
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 4rem;
+    padding: 2rem;
+    background: var(--footer-background);
+    width: 5000px;
+    margin-top: 5px;
 }
 
-footer .snake_rnw#snake_rnw3{
-    z-index: 1000;
-    opacity: 0.2;
-    bottom: 15px;
-    animation: snake_rnw 3s linear infinite;
-}
-footer .snake_rnw#snake_rnw4{
-    z-index: 999;
-    opacity: 0.7;
-    bottom: 20px;
-    animation: snake_rnw_ 3s linear infinite;
+a,
+p {
+    color: #F5F7FA;
+    text-decoration: none;
 }
 
-@keyframes snake_rnw{
-    0%{
-        background-position-x: 1000px;
+b {
+    color: white;
+}
+
+p {
+    margin: 0;
+    font-size: .75rem;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div {
+    margin: 0.25rem 0;
+}
+
+* {
+    margin-right: .5rem;
+}
+
+
+.image {
+    align-self: center;
+    width: 4rem;
+    height: 4rem;
+    margin: 0.25rem 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(&quot;https://s3-us-west-2.amazonaws.com/s.cdpn.io/199011/happy.svg&quot);
+}
+
+@keyframes bubble-size {
+
+    0%,
+    75% {
+        width: var(--size, 4rem);
+        height: var(--size, 4rem);
     }
-    100%{
-        background-position-x: 0px;
+
+    100% {
+        width: 0rem;
+        height: 0rem;
     }
 }
-@keyframes snake_rnw_{
-    0%{
-        background-position-x: 0px;
+
+@keyframes bubble-move {
+    0% {
+        bottom: -4rem;
     }
-    100%{
-        background-position-x: 1000px;
+
+    100% {
+        bottom: var(--distance, 10rem);
     }
 }
