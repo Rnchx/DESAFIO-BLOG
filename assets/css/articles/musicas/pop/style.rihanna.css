@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-size: 20px;
 }
 #header{
     margin-bottom: -45px;
@@ -58,8 +59,14 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
-#tweet1{
+main{
     display: flex;
-    flex-direction: row;
-    margin-left: 30px;
+}
+.tweets{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    border-left: solid #ff0000 1.5px;
+    padding-left: 5px;
+    text-align: center;
 }
