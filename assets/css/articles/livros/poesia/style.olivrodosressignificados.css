@@ -6,16 +6,13 @@ body{
     justify-content: center;
     align-items: center;
 }
-#header:hover {
-    height: 700px;
-    margin-bottom: -320px;
-}
+
 h1{
     text-align: center;
     color: black;
 }
 .quadrado{
-    background-color: #FF0000;
+    background-color: #202020;
     border-radius: 20px;
     display: flex;
 }
@@ -26,9 +23,9 @@ h1{
     color: white;
 }
 img{
-    border-radius: 40px;
-    margin-top: 5px;
-    margin-left: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 5px;
     margin-right: 5px;
 }
@@ -110,8 +107,8 @@ img{
 #article_aside {
     width: 34%;
     margin-right: 14px;
+    border-left:solid 2px #FF0000;
 }
-
 .div_subnoticia {
     display: flex;
 }
