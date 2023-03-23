@@ -221,7 +221,7 @@ li{
     height: 500px;
 }
 .unha_card:hover{  
-     opacity: 0.15px;
+opacity: 0.15px;
 border-radius: 12px;
 display: flex;
 flex-direction: column;
@@ -356,6 +356,7 @@ align-items: center;
     display: flex;
     margin-top: 75px;
     text-align: center;
+    justify-content: center;
 }
 .second {
     display: flex;
