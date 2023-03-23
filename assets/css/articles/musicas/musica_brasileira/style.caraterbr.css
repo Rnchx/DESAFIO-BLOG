@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+#header{
+    margin-bottom: -45px;
+}
+#title{
+    margin: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+#imagem_valorant{
+    text-align: center;
+}
+.section{
+    margin-left:45px;
+    margin-right: 45px;
+}
+.subtitulo{
+    font-size: 40px;
+}
+.div_funcoes{
+    padding-left: 30px;
+}
+.texto{
+    padding-left: 15px;
+    font-size: 30px;
+    text-align: justify;
+}
+#imagem_meio{
+    text-align: center;
+}
+#article_comentarios {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.letra_cinza3 {
+    color: grey;
+    font-size: 37.5px;
+    margin-bottom: 15px;
+}
+
+.quadrado_comentarios {
+    border: 2.25px solid grey;
+    border-radius: 7.5px;
+    padding-right: 1050px;
+    padding-bottom: 225px;
+    padding-top: 10.5px;
+    padding-left: 10.5px;
+    margin: 7.5px;
+    margin-bottom: 22.5px;
+}
+
+.linha_article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
