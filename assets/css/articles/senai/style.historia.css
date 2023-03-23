@@ -8,6 +8,9 @@ body{
     margin: 30px;
     font-size: 50px;
     text-align: center;
+    color: black;
+      text-decoration: overline #FF0000 2px;
+        font-size: 80px;
 }
 #imagem_valorant{
     text-align: center;
