@@ -237,17 +237,12 @@ body {
     justify-content: center;
 }
 
-.second {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
 .jogos{
     color:black;
 }
 #title_categorias {
     text-align: center;
-    font-size: 50px;
+    font-size: 75px;
     color: whitesmoke;
     text-decoration: overline #FF0000 2px;
 }
@@ -257,4 +252,8 @@ a {
 }
 #h1_jogos {
     color: whitesmoke;
+}
+
+h1 {
+    font-size: 35px;
 }
