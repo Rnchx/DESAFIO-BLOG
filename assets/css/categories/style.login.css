@@ -3,6 +3,9 @@ body {
     margin: 0;
     background-color: #202020;
 }
+#title{
+    font-size:30px;
+}
 
 #login {
     display: flex;
@@ -69,7 +72,11 @@ body {
     color: whitesmoke;
     text-decoration: none;
 }
-a:hover{
+.recuperar_senha:hover{
+    background-color: #ff0000;
+    border-radius: 5px;
+}
+.cadastro:hover{
     background-color: #ff0000;
     border-radius: 5px;
 }
