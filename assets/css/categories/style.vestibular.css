@@ -199,7 +199,7 @@ li {
 }
 
 #fps_card {
-    background-image: url(https://neteducacao.com.br/wp-content/uploads/2022/01/ENEM-2023.jpg);
+    background-image: url(https://play-lh.googleusercontent.com/UVVPpEnR8NIiRtarmsbuI171Lin3GtcQoCJOi7BFDv_WajaDreXJT7xB-HR3PxxTH8G7);
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -220,12 +220,12 @@ li {
 }
 
 #fps_card:hover {
-    background-image: url(https://neteducacao.com.br/wp-content/uploads/2022/01/ENEM-2023.jpg);
+    background-image: url(https://play-lh.googleusercontent.com/UVVPpEnR8NIiRtarmsbuI171Lin3GtcQoCJOi7BFDv_WajaDreXJT7xB-HR3PxxTH8G7);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 300px;
     margin-left: 15px;
     margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -234,6 +234,8 @@ li {
     margin-bottom: 2.5px;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     transition: 2s;
     transform: scale(1.1);
 
@@ -241,7 +243,7 @@ li {
 
 
 #online_card {
-    background-image: url(https://s3.static.brasilescola.uol.com.br/vestibular/2020/09/rotina-estudos.jpg);
+    background-image: url(https://img.freepik.com/vetores-gratis/pessoas-focadas-estudando-na-escola-on-line_74855-5834.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -260,11 +262,11 @@ li {
 }
 
 #online_card:hover {
-    background-image: url(https://s3.static.brasilescola.uol.com.br/vestibular/2020/09/rotina-estudos.jpg);
+    background-image: url(https://img.freepik.com/vetores-gratis/pessoas-focadas-estudando-na-escola-on-line_74855-5834.jpg);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 300px;
     margin-left: 15px;
     margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -273,12 +275,14 @@ li {
     margin-bottom: 3.75px;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     transition: 2s;
     transform: scale(1.1);
 }
 
 #modo_historia_card {
-    background-image: url(https://www.segs.com.br/media/k2/items/cache/a82f78e3e8313725051c870517dbe4dc_XL.jpg);
+    background-image: url(http://www.isocrm.com.br/wp-content/uploads/independent-thinking-steps.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -298,11 +302,11 @@ li {
 }
 
 #modo_historia_card:hover {
-    background-image: url(https://www.segs.com.br/media/k2/items/cache/a82f78e3e8313725051c870517dbe4dc_XL.jpg);
+    background-image: url(http://www.isocrm.com.br/wp-content/uploads/independent-thinking-steps.jpg);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 300px;
     margin-left: 15px;
     margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -311,12 +315,14 @@ li {
     margin-bottom: 3.75px;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     transition: 2s;
     transform: scale(1.1);
 }
 
 #moba_card {
-    background-image: url(https://st3.depositphotos.com/2024219/18914/i/600/depositphotos_189142964-stock-photo-handsome-man-with-glasses-thinking.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh8kqnGCc6sA-YSLmTLdAPUGUNqenQPVbWJXO88xLzeq-Bvgv4UvugJePFADlIbDE20t0&usqp=CAU);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -335,11 +341,11 @@ li {
 }
 
 #moba_card:hover {
-    background-image: url(https://st3.depositphotos.com/2024219/18914/i/600/depositphotos_189142964-stock-photo-handsome-man-with-glasses-thinking.jpg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh8kqnGCc6sA-YSLmTLdAPUGUNqenQPVbWJXO88xLzeq-Bvgv4UvugJePFADlIbDE20t0&usqp=CAU);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 300px;
     margin-left: 15px;
     margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -348,6 +354,8 @@ li {
     margin-bottom: 3.75px;
     padding-top: 30px;
     padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     transition: 2s;
     transform: scale(1.1);
 }
@@ -387,4 +395,10 @@ a {
 .descricao_redacao {
         margin-left: 20px;
         font-size: 20px;
+}
+
+#linhas_categorias {
+    background-color: black;
+    width: 200px;
+    border: solid black 1.5px;
 }
