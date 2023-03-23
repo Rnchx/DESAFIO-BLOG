@@ -1,48 +1,52 @@
-body {
-    margin: 0px;
-    background-color: white;
-    font-family: manu;
+body{
+    background-color: #ffff;
+    margin: 0;
     padding: 0;
-    border-color: black;
-    text-align: center;
-    color: white;
+    color: black;
+    font-family:'Playfair Display', serif;
 }
-#header{
+
+#header {
     margin-bottom: -15px;
 }
-.linhas {
+.h1s {
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    color: #ffff;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 50px;
+}
+#h2_1 {
+    margin-bottom: 30px;
+    color: #ffff;
+    margin-left: 50px;
+    margin-right: 850px;
+    color: black;
+    padding-left: 5px;
+    font-size: 40px;
+}
+
+.linhas{
     color: grey;
     margin-bottom: 0;
 }
-
-#title {
-    margin-left: 45px;
-    font-size: 75px;
-    color: grey;
-}
-#title2 {
-    margin-left: 45px;
-    font-size: 75px;
-    color: black;
-    text-align: left;
-}
-#title3 {
-    margin-left: 45px;
-    font-size: 75px;
-    color: black;
+#title{
+    margin-left: 30px;
+    font-size: 50px;
 }
 .letra_cinza {
     color: grey;
-    font-size: 22.5px;
-    margin-right: 7.5px;
-    margin-left: 7.5px;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .letra_cinza2 {
     color: grey;
-    font-size: 22.5px;
+    font-size: 15px;
     margin-bottom: 0;
-    text-align: left;
 }
 
 #banner {
@@ -52,33 +56,33 @@ body {
 #div_principal {
     display: flex;
     justify-content: center;
-    margin-bottom: 22.5px;
 }
 
 #titulo_principal {
-    font-size: 52.5px;
-    margin-bottom: 7.5px;
+    font-size: 35px;
+    margin-bottom: 5px;
     margin-top: 0;
-    text-align: left;
 }
-
-#texto_materia_principal {
-    font-size: 30px;
-    margin-right: 30px;
+#texto_materia_principal{
+    font-size: 20px;
+    margin-right: 50px;
     text-align: justify;
+    margin-top: 40px;
 }
-
+#imagem_e_p_Carina {
+    display: flex;
+    margin-top: 100px;
+}
+#link_G1 {
+    margin-right: 50px;
+}
 #article_main {
     width: 60%;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .imagens {
-    border-radius: 15px;
-}
-
-.perfil_nome {
-    color: black;
+    border-radius: 10px;
 }
 
 .perfil_post {
@@ -87,17 +91,20 @@ body {
 }
 
 .perfil_post h3 {
-    margin-right: 7.5px;
-    margin-left: 7.5px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 #article_aside {
     width: 34%;
-    margin-right: 21px;
+    margin-right: 14px;
+    border-left:solid 2px #FF0000;
+    padding-left: 7px;
 }
 
 .div_subnoticia {
     display: flex;
+    color: rgb(75, 75, 75);
 }
 
 .site_terceiro {
@@ -108,21 +115,50 @@ body {
 .titulo_subnoticia {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 30px;
-    text-align: left;
+    font-size: 20px;
+    color: black;
 }
 
 .grupo_subnoticia {
     display: inline;
-    padding-left: 7.5px;
+    padding-left: 5px;
 }
 
 .texto_subnoticia {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 7.5px;
+    padding-top: 5px;
     text-align: justify;
+    color: rgb(75, 75, 75);
 }
+#article1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5px;
+}
+#article2{
+    display: flex;
+    justify-content: center;
+}
+
+.categoria1 {
+    text-decoration: none;
+    color: black;
+    width: 33%;
+}
+
+.felipe {
+    background-color: #5D5D5D;
+    border-radius: 5px;
+    box-shadow: 5px white;
+    text-align: center;
+    margin-bottom: 2.5px;
+    color: whitesmoke;
+}
+#texto_categorias_3 {
+    height: 20px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 #article_comentarios {
     display: flex;
@@ -135,7 +171,6 @@ body {
     color: grey;
     font-size: 37.5px;
     margin-bottom: 15px;
-    text-align: left;
 }
 
 .quadrado_comentarios {
@@ -149,10 +184,6 @@ body {
     margin-bottom: 22.5px;
 }
 
-.linha_article {
-    margin-left: 30px;
-    margin-right: 30px;
-}
 
 @font-face {
     font-family: manu;
@@ -247,7 +278,7 @@ li {
 }
 
 #modo_historia_card {
-    background-image: url("https://i.pinimg.com/564x/0b/e6/96/0be69627c24c3f82c397173a52aca7a9.jpg");
+    background-image: url("https://i.pinimg.com/564x/81/5a/21/815a21725f8d326acb19a46cf5a4b5a9.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;

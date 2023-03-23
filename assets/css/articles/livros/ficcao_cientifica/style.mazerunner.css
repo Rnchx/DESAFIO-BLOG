@@ -105,8 +105,8 @@ img{
 #article_aside {
     width: 34%;
     margin-right: 14px;
+    border-left:solid 2px #FF0000;
 }
-
 .div_subnoticia {
     display: flex;
 }
