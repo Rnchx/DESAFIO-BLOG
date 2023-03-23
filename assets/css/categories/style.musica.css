@@ -6,6 +6,7 @@ body {
     border-color: black;
     text-align: center;
     color: white;
+    font-size: 20px;
 }
 #header{
     margin-bottom: -15px;
@@ -94,6 +95,7 @@ body {
 #article_aside {
     width: 34%;
     margin-right: 21px;
+    border-left: solid #ff0000 1.5px;
 }
 
 .div_subnoticia {
