@@ -60,10 +60,13 @@ body{
     margin-right: 20px;
 }
 
-.links_sites {
+a {
     text-decoration: none;
-}
+    color: black;
+}   
 
-.links_sites:hover {
-    background-color: #444444;
+a:hover {
+    background-color: #ff0000;
+    border-radius: 5px;
+
 }
