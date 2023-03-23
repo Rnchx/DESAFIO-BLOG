@@ -1,0 +1,70 @@
+/*bloco para aparecer no site e ficar alinhado*/
+body{
+    margin: 0;
+}
+#header{
+    margin-bottom: -45px;
+}
+#title{
+    margin: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+#imagem_filme{
+    text-align: center;
+}
+/* sections para a imagens e texto*/
+.section{
+    margin-left:45px;
+    margin-right: 45px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.subtitulo{
+    font-size: 40px;
+    margin-left: 80px;
+}
+.div_funcoes{
+    padding-left: 30px;
+}
+.texto{
+    padding-left: 15px;
+    font-size: 30px;
+    text-align: justify;
+}
+#imagem_meio{
+    text-align: center;
+}
+/* css para o bloco de comentarios*/
+#article_comentarios {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.letra_cinza3 {
+    color: grey;
+    font-size: 37.5px;
+    margin-bottom: 15px;
+}
+
+.quadrado_comentarios {
+    border: 2.25px solid grey;
+    border-radius: 7.5px;
+    padding-right: 1050px;
+    padding-bottom: 225px;
+    padding-top: 10.5px;
+    padding-left: 10.5px;
+    margin: 7.5px;
+    margin-bottom: 22.5px;
+}
+
+.linha_article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#atores {
+    display: flex;
+    padding-top: 8px;
+}

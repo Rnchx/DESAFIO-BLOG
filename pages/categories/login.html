@@ -11,22 +11,26 @@
 <body>
     <iframe src="../../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="125px"></iframe>
     <div id="login">
-        <form class="card">
+        <form class="card" action="../../index.html">
             <div class="card-header">
                 <h2 id="title">Login</h2>
             </div>
             <div class="card-content">
                 <div class="card-content-area">
                     <label for="usuario">Usuário</label>
-                    <input type="text" id="usuario" autocomplete="off">
+                    <input type="text" id="usuario" autocomplete="off" minlength="8" required>
+                </div>
+                <div class="card-content-area">
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" id="usuario" autocomplete="off" required>
                 </div>
                 <div class="card-content-area">
                     <label for="password">Senha</label>
-                    <input type="password" id="password" autocomplete="off">
+                    <input type="password" id="password" autocomplete="off" minlength="8" required>
                 </div>
             </div>
             <div class="card-footer">
-                <input type="text" value="Login" class="submit">Login</button>
+                <button class="submit">Login</button>
                 <a href="senha.html" class="recuperar_senha">Esqueceu a senha?</a>
                 <a href="cadastro.html" class="cadastro">Não tenho cadastro</a>
             </div>
