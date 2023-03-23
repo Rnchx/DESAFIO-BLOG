@@ -98,6 +98,8 @@ a {
 #article_aside {
     width: 34%;
     margin-right: 21px;
+    border-left:solid 2px #FF0000;
+    padding-left: 8px;
 }
 
 .div_subnoticia {
