@@ -5,8 +5,8 @@ body {
 
 #fotogrupo{
     width: 100%;
-    height: 900px;
-    margin-top: 0%;
+    height: auto;
+    margin-top: -10px;
 }
 #ladoalado{
     display: flex;
@@ -72,4 +72,8 @@ body {
   }
   iframe{
     width: 100%;
+  }
+
+  #footer {
+    margin-top: 100px;
   }

@@ -3,7 +3,6 @@ body {
     grid-template-rows: 1fr 10rem auto;
     grid-template-areas: "main" "." "footer";
     overflow-x: hidden;
-    background-color: white;
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
     margin: 0%;
