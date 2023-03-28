@@ -195,7 +195,7 @@ li{
 
 }
 .unha_card{
-    background-image: url(https://i.pinimg.com/564x/70/02/b5/7002b5dbc766a0c5d017432bec82a788.jpg);
+    background-image: url(https://i.pinimg.com/564x/12/3e/87/123e87cf36609ac1bd4ca6dabf60639d.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -214,6 +214,7 @@ li{
     height: 500px;
 }
 .unha_card:hover{  
+    background-image: url(https://i.pinimg.com/564x/7f/ba/c3/7fbac33c8a0fb5f34c128a659297b6c9.jpg);
 opacity: 0.15px;
 border-radius: 12px;
 display: flex;
@@ -311,7 +312,7 @@ align-items: center
     align-items: center;
 }
 .roupa_card{
-    background-image: url(https://i.pinimg.com/564x/ee/35/b8/ee35b859bb765a5374777c14586107db.jpg);
+    background-image: url(https://i.pinimg.com/564x/8a/99/85/8a998552d3157156c9fd6e8e7a794047.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -330,7 +331,7 @@ align-items: center
     height: 500px;
 }
 .roupa_card:hover{
-    background-image: url(https://i.pinimg.com/564x/1d/12/4b/1d124bb95c64ae0388f3c393e179f474.jpg);
+    background-image: url(https://i.pinimg.com/564x/e5/52/f6/e552f6334364de8bd34033aa97251099.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
