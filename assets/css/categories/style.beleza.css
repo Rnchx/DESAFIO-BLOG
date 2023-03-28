@@ -6,9 +6,6 @@ body{
 }
 .h1s {
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    color: #ffff;
     margin-bottom: 30px;
     color: gray;
     font-size: 50px;
@@ -152,10 +149,14 @@ body{
 }
 #article_comentarios {
     display: flex;
-    justify-content: space-between;
     margin-left: 30px;
     margin-right: 30px;
 }
+
+#anuncio {
+    margin-left: 600px;
+}
+
 .letra_cinza3 {
     color: grey;
     font-size: 25px;
@@ -385,4 +386,9 @@ align-items: center
 }
 .imagebeleza{
     margin-top: -10px;
+}
+
+#h1_categorias {
+    color: black;
+    text-align: center;
 }
