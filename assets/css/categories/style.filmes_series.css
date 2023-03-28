@@ -325,41 +325,6 @@ li {
     transition: 2s;
     transform: scale(1.1);
 }
-#terror_card {
-    background-image: url("https://i.pinimg.com/564x/d4/d5/da/d4d5daadb4cb7b8532b69979cae10933.jpg");
-    background-size: cover;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    margin-left: 20px;
-    margin-right: 20px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Quicksand', sans-serif;
-    width: 180px;
-}
-#terror_card:hover {
-    background-image: url("https://i.pinimg.com/564x/d4/d5/da/d4d5daadb4cb7b8532b69979cae10933.jpg");
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    width: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    transition: 2s;
-    transform: scale(1.1);
-}
 
 
 .first {
