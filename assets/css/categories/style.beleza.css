@@ -141,13 +141,6 @@ body{
     width: 33%;
 }
 
-.felipe {
-    background-color:;
-    border-radius: 5px;
-    box-shadow: 5px 5px white;
-    text-align: center;
-    margin-bottom: 2.5px;
-}
 #h1s{
     text-align: center;
     margin-left: 30px;
@@ -236,7 +229,7 @@ padding-top: 30px;
 padding-bottom: 30px;
 transition: 2s;
 transform: scale(1.1) ;
-align-items: center;
+align-items: center
 
 }
 
@@ -313,7 +306,7 @@ align-items: center;
     padding-bottom: 30px;
     transition: 2s;
     transform: scale(1.1);
-    align-items: center
+    align-items: center;
 }
 .roupa_card{
     background-image: url(https://i.pinimg.com/564x/eb/f3/a7/ebf3a7df4b6508cec97c3ea045f49d51.jpg);
@@ -365,4 +358,13 @@ align-items: center;
  }
  #belezaboca{
     text-align: center;
+ }
+
+ #footer {
+    margin-bottom: -20px;
+ }
+
+ .temas {
+    margin-top: 30px;
+    margin-bottom: 20px;
  }
