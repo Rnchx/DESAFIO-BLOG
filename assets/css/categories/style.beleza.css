@@ -378,3 +378,7 @@ align-items: center
     color: whitesmoke;
     font-size: 20px;
  }
+ 
+ #footer{
+    margin: -5px
+}
