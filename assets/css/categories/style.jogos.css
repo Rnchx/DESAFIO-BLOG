@@ -172,7 +172,7 @@ li {
 }
 
 #fps_card {
-    background-image: url("https://prod.assets.earlygamecdn.com/images/csgo_weapons_assault_rifles.jpg?x=0.5&y=0.5");
+    background-image: url("https://www.gamersdecide.com/sites/default/files/styles/news_images/public/csgo_banner.jpg");
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -213,7 +213,7 @@ li {
 
 
 #online_card {
-    background-image: url("https://img.freepik.com/vetores-gratis/jogo-pixel-sobre-a-mensagem_1051-1014.jpg");
+    background-image: url("https://store-images.s-microsoft.com/image/apps.13950.70702278257994163.eb8febd9-1124-4e74-9587-d5082fbfffb5.5422b74c-3e78-408f-8df6-9a88c288b704");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -232,7 +232,7 @@ li {
 }
 
 #online_card:hover {
-    background-image: url("https://img.freepik.com/vetores-gratis/jogo-pixel-sobre-a-mensagem_1051-1014.jpg");
+    background-image: url("https://gamearena.gg/wp-content/uploads/2023/03/fortnite-1024x576.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -270,7 +270,7 @@ li {
 }
 
 #modo_historia_card:hover {
-    background-image: url("https://i.imgur.com/LxLOCWa.png");
+    background-image: url("https://i.guim.co.uk/img/media/579318570c74cd4dbc08f82db78e8291f3977f9b/0_100_3305_1983/master/3305.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=760dafb2c10aaa4f8bfecce77583d3b6");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -288,7 +288,7 @@ li {
 }
 
 #moba_card {
-    background-image: url("https://s2.glbimg.com/FvVp6C8s9wmFWC2YwdO096XlUXM=/0x0:2400x1708/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/K/y/nj1EsBR0ANgvEBN9BWvA/summoners-rift-update-map.png");
+    background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/4/42/Season_1_Banner.jpg/revision/latest?cb=20100616151834");
     background-size: cover;
     border-radius: 12px;
     display: flex;
