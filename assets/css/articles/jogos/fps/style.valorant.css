@@ -128,5 +128,26 @@ body{
     transform: rotateY(180deg);
     border-radius:10px;
     text-align: center;
-
   }
+.title_agentes{
+    background-color: #FD4556;
+    margin-top: -5px;  
+    padding-top: 5px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nome_agente{
+    padding-left: 10px;
+}
+.foto_agente{
+    padding-right: 10px;
+}
+.texto_card{
+    text-align: left;
+    margin:15px;
+    font-size:19px
+}
