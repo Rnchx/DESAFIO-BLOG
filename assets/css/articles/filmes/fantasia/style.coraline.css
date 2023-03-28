@@ -65,3 +65,6 @@ body{
     display: flex;
     padding-top: 8px;
 }
+#footer{
+    margin: -5px
+}
