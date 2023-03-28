@@ -166,13 +166,13 @@ body{
 
 .quadrado_comentarios {
     border: 1.5px solid grey;
-    border-radius: 5px;
+    border-radius: 7.5px;
     padding-right: 700px;
-    padding-bottom: 150px;
-    padding-top: 7px;
-    padding-left: 7px;
-    margin: 5px;
-    margin-bottom: 15px;
+    padding-bottom: 225px;
+    padding-top: 10.5px;
+    padding-left: 10.5px;
+    margin: 7.5px;
+    margin-bottom: 22.5px;
 }
 
 .linha_article {
