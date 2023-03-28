@@ -1,6 +1,7 @@
 body {
   margin: 0%;
   padding: 0%;
+  background-color: #202020;
 }
 
 #fotogrupo{
@@ -46,7 +47,7 @@ body {
   }
   
   .flip_card_front {
-    background-color: rgba(255, 255, 255, 0.432);
+    background-color: #202020;
     color: black;
   }
   
@@ -69,6 +70,8 @@ body {
   }
   #titulo{
     text-align: center;
+    font-size: 75px;
+    color: white;
   }
 
 p {
