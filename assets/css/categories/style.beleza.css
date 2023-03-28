@@ -234,7 +234,7 @@ align-items: center
 }
 
 .maquiagem_card{
-    background-image: url(https://i.pinimg.com/564x/ed/76/46/ed76465f121348d2f577a59a9c273ebe.jpg);
+    background-image: url(https://i.pinimg.com/564x/ad/04/50/ad04508224debf230da3382dc558f384.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -253,6 +253,7 @@ align-items: center
     height: 500px;
 }
 .maquiagem_card:hover{
+   background-image: url(https://i.pinimg.com/564x/e6/30/78/e630783bf0a4a8fe7a0a17ea921f52bd.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -272,7 +273,7 @@ align-items: center
 }
 
 .cabelo_card{
-    background-image: url(https://i.pinimg.com/564x/59/a3/f2/59a3f2306d3766627ab3ea5aa7c05f2d.jpg);
+    background-image: url(https://i.pinimg.com/564x/4d/38/37/4d3837aff1c9d7e29ddea6fc5aaf33f2.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -291,6 +292,7 @@ align-items: center
     height: 500px;
 }
 .cabelo_card:hover{
+    background-image: url(https://i.pinimg.com/564x/c0/eb/dd/c0ebdded603685494e642bfc4220b48c.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -309,7 +311,7 @@ align-items: center
     align-items: center;
 }
 .roupa_card{
-    background-image: url(https://i.pinimg.com/564x/eb/f3/a7/ebf3a7df4b6508cec97c3ea045f49d51.jpg);
+    background-image: url(https://i.pinimg.com/564x/ee/35/b8/ee35b859bb765a5374777c14586107db.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -328,6 +330,7 @@ align-items: center
     height: 500px;
 }
 .roupa_card:hover{
+    background-image: url(https://i.pinimg.com/564x/1d/12/4b/1d124bb95c64ae0388f3c393e179f474.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -367,4 +370,11 @@ align-items: center
  .temas {
     margin-top: 30px;
     margin-bottom: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+ }
+
+ .h1s_categorias {
+    color: whitesmoke;
+    font-size: 20px;
  }
