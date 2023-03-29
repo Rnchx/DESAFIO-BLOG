@@ -152,10 +152,6 @@ body{
     margin-right: 30px;
 }
 
-#anuncio {
-    margin-left: 600px;
-}
-
 .letra_cinza3 {
     color: grey;
     font-size: 25px;
@@ -391,4 +387,58 @@ align-items: center
     color: black;
     text-align: center;
     font-size: 75px;
+}
+
+.grupo_de_comentarios_de_pessoas {
+    display: flex;
+}
+
+.comentarios_pessoas {
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+    border: solid 2px gray;
+    width: 30%;
+    margin-top: 6px;
+    border-radius: 20px;
+}
+
+.espacamento {
+    margin-left: 10px;
+}
+
+.postado_por {
+    color: grey;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.ler_mais {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.nome_comentario {
+    color: black;
+    font-size: 20px;
+}
+
+.titulo_comentario {
+    color: black;
+    text-align: left;
+}
+
+.texto_comentario {
+    color: black;
+    text-align: left;
+}
+
+.perfil_post {
+    display: flex;
+    align-items: center;
+}
+
+#anuncio {
+    margin-left: 600px;
 }
