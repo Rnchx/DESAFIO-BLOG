@@ -405,3 +405,34 @@ a {
 #footer{
     margin: -5px
 }
+
+.grupo_de_comentarios_de_pessoas {
+    display: flex;
+}
+
+.comentarios_pessoas {
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+    border: solid 2px gray;
+    width: 30%;
+    margin-top: 6px;
+    border-radius: 20px;
+}
+
+.espacamento {
+    margin-left: 10px;
+}
+
+.postado_por {
+    color: grey;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.ler_mais {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
