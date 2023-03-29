@@ -6,11 +6,8 @@ body{
 }
 .h1s {
     text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    color: #ffff;
     margin-bottom: 30px;
-    color: black;
+    color: gray;
     font-size: 50px;
 }
 #h2_1 {
@@ -141,13 +138,6 @@ body{
     width: 33%;
 }
 
-.felipe {
-    background-color:;
-    border-radius: 5px;
-    box-shadow: 5px 5px white;
-    text-align: center;
-    margin-bottom: 2.5px;
-}
 #h1s{
     text-align: center;
     margin-left: 30px;
@@ -159,10 +149,14 @@ body{
 }
 #article_comentarios {
     display: flex;
-    justify-content: space-between;
     margin-left: 30px;
     margin-right: 30px;
 }
+
+#anuncio {
+    margin-left: 600px;
+}
+
 .letra_cinza3 {
     color: grey;
     font-size: 25px;
@@ -172,13 +166,13 @@ body{
 
 .quadrado_comentarios {
     border: 1.5px solid grey;
-    border-radius: 5px;
-    padding-right: 700px;
-    padding-bottom: 150px;
-    padding-top: 7px;
-    padding-left: 7px;
-    margin: 5px;
-    margin-bottom: 15px;
+    border-radius: 7.5px;
+    padding-right: 650px;
+    padding-bottom: 225px;
+    padding-top: 10.5px;
+    padding-left: 10.5px;
+    margin: 7.5px;
+    margin-bottom: 22.5px;
 }
 
 .linha_article {
@@ -202,7 +196,7 @@ li{
 
 }
 .unha_card{
-    background-image: url(https://i.pinimg.com/564x/70/02/b5/7002b5dbc766a0c5d017432bec82a788.jpg);
+    background-image: url(https://i.pinimg.com/564x/12/3e/87/123e87cf36609ac1bd4ca6dabf60639d.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -221,6 +215,7 @@ li{
     height: 500px;
 }
 .unha_card:hover{  
+    background-image: url(https://i.pinimg.com/564x/7f/ba/c3/7fbac33c8a0fb5f34c128a659297b6c9.jpg);
 opacity: 0.15px;
 border-radius: 12px;
 display: flex;
@@ -236,12 +231,12 @@ padding-top: 30px;
 padding-bottom: 30px;
 transition: 2s;
 transform: scale(1.1) ;
-align-items: center;
+align-items: center
 
 }
 
 .maquiagem_card{
-    background-image: url(https://i.pinimg.com/564x/ed/76/46/ed76465f121348d2f577a59a9c273ebe.jpg);
+    background-image: url(https://i.pinimg.com/564x/ad/04/50/ad04508224debf230da3382dc558f384.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -260,6 +255,7 @@ align-items: center;
     height: 500px;
 }
 .maquiagem_card:hover{
+   background-image: url(https://i.pinimg.com/564x/e6/30/78/e630783bf0a4a8fe7a0a17ea921f52bd.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -279,7 +275,7 @@ align-items: center;
 }
 
 .cabelo_card{
-    background-image: url(https://i.pinimg.com/564x/59/a3/f2/59a3f2306d3766627ab3ea5aa7c05f2d.jpg);
+    background-image: url(https://i.pinimg.com/564x/4d/38/37/4d3837aff1c9d7e29ddea6fc5aaf33f2.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -298,6 +294,7 @@ align-items: center;
     height: 500px;
 }
 .cabelo_card:hover{
+    background-image: url(https://i.pinimg.com/564x/c0/eb/dd/c0ebdded603685494e642bfc4220b48c.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -313,10 +310,10 @@ align-items: center;
     padding-bottom: 30px;
     transition: 2s;
     transform: scale(1.1);
-    align-items: center
+    align-items: center;
 }
 .roupa_card{
-    background-image: url(https://i.pinimg.com/564x/eb/f3/a7/ebf3a7df4b6508cec97c3ea045f49d51.jpg);
+    background-image: url(https://i.pinimg.com/564x/8a/99/85/8a998552d3157156c9fd6e8e7a794047.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -335,6 +332,7 @@ align-items: center;
     height: 500px;
 }
 .roupa_card:hover{
+    background-image: url(https://i.pinimg.com/564x/e5/52/f6/e552f6334364de8bd34033aa97251099.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -366,3 +364,31 @@ align-items: center;
  #belezaboca{
     text-align: center;
  }
+
+ #footer {
+    margin-bottom: -20px;
+ }
+
+ .temas {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+ }
+
+ .h1s_categorias {
+    color: whitesmoke;
+    font-size: 20px;
+ }
+ 
+ #footer {
+    margin: -5px
+}
+.imagebeleza{
+    margin-top: -10px;
+}
+
+#h1_categorias {
+    color: black;
+    text-align: center;
+}

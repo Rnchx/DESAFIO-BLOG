@@ -6,6 +6,7 @@ body {
     border-color: black;
     text-align: center;
     color: white;
+    font-size: 20px;
 }
 #header{
     margin-bottom: -15px;
@@ -14,11 +15,7 @@ body {
     color: grey;
     margin-bottom: 0;
 }
-a {
-    text-decoration: none;
-    color: white;
-    margin: 10px 0;
-    }
+
 #title {
     margin-left: 45px;
     font-size: 75px;
@@ -99,7 +96,7 @@ a {
     width: 34%;
     margin-right: 21px;
     border-left:solid 2px #FF0000;
-    padding-left: 8px;
+    padding-left: 7px;
 }
 
 .div_subnoticia {
@@ -174,193 +171,158 @@ li {
     list-style-type: none;
 }
 
-#drama_card {
+#fps_card {
     background-image: url("https://i.pinimg.com/564x/2e/f9/dd/2ef9dd957ae636bf9ac8b0f3c17a8726.jpg");
     background-size: cover;
-    opacity: 0.1px;
-    border-radius: 8px;
+    opacity: 0.15px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 33%;
-    margin-left: 100px;
-    margin-right: 20px;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
-    width: 180px;
-
+    width: 270px;
 }
 
-#drama_card:hover {
-    background-image: url("https://i.pinimg.com/564x/2e/f9/dd/2ef9dd957ae636bf9ac8b0f3c17a8726.jpg");
-    opacity: 0.1px;
-    border-radius: 8px;
+#fps_card:hover {
+    background-image: url("https://i.pinimg.com/736x/af/2f/38/af2f38c6fcc848545d6a1fc9ea123bd5.jpg");
+    opacity: 0.15px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     transition: 2s;
     transform: scale(1.1);
-    
+
 }
 
-#fantasia_card {
+
+#online_card {
     background-image: url("https://i.pinimg.com/564x/31/25/f6/3125f68b7f9f913b09da89787f4eb26e.jpg");
     background-size: cover;
-    border-radius: 8px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 33%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
-    width: 180px;
+    width: 270px;
 }
 
-#fantasia_card:hover {
-    background-image: url("https://i.pinimg.com/564x/31/25/f6/3125f68b7f9f913b09da89787f4eb26e.jpg");
-    border-radius: 8px;
+#online_card:hover {
+    background-image: url("https://images.static-bluray.com/reviews/27054_1.jpg");
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     transition: 2s;
     transform: scale(1.1);
 }
 
-#nacionais_card {
+#modo_historia_card {
     background-image: url("https://i.pinimg.com/564x/18/8a/d1/188ad199793fd8a77c2a3d4076e2d73e.jpg");
     background-size: cover;
-    border-radius: 8px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 33%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
-    width: 180px;
-    
+    width: 270px;
+
 }
 
-#nacionais_card:hover {
-    background-image: url("https://i.pinimg.com/564x/18/8a/d1/188ad199793fd8a77c2a3d4076e2d73e.jpg");
-    border-radius: 8px;
+#modo_historia_card:hover {
+    background-image: url("https://www.claquete.com/fotos/galeria_fotos/37513.jpg");
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     transition: 2s;
     transform: scale(1.1);
 }
 
-#suspense_card {
+#moba_card {
     background-image: url("https://i.pinimg.com/564x/0d/02/51/0d02512145400179ae3aab592eab485b.jpg");
     background-size: cover;
-    border-radius: 8px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 33%;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 25%;
+    margin-left: 30px;
+    margin-right: 30px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
     box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
-    width: 180px;
-}
-#suspense_card:hover {
-    background-image: url("https://i.pinimg.com/564x/0d/02/51/0d02512145400179ae3aab592eab485b.jpg");
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    width: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    transition: 2s;
-    transform: scale(1.1);
-}
-#terror_card {
-    background-image: url("https://i.pinimg.com/564x/d4/d5/da/d4d5daadb4cb7b8532b69979cae10933.jpg");
-    background-size: cover;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    margin-left: 20px;
-    margin-right: 20px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-family: 'Quicksand', sans-serif;
-    width: 180px;
-}
-#terror_card:hover {
-    background-image: url("https://i.pinimg.com/564x/d4/d5/da/d4d5daadb4cb7b8532b69979cae10933.jpg");
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    width: 15%;
-    margin-left: 10px;
-    margin-right: 10px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    transition: 2s;
-    transform: scale(1.1);
+    width: 270px;
 }
 
+#moba_card:hover {
+    background-image: url("https://m.media-amazon.com/images/I/81io9SYH5dL._AC_SL1500_.jpg");
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 3.75px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 2s;
+    transform: scale(1.1);
+}
 
 .first {
     display: flex;
@@ -376,4 +338,7 @@ li {
 }
 .jogos{
     color:white;
+}
+#footer{
+    margin: -5px
 }

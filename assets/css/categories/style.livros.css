@@ -202,7 +202,7 @@ li {
 }
 
 #fps_card:hover {
-    background-image:url(https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg);
+    background-image:url(https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2021/02/TATB3_Unit_10370_R-550x367.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -242,7 +242,7 @@ li {
 }
 
 #online_card:hover {
-    background-image: url("https://www.cafehistoria.com.br/wp-content/uploads/2019/02/por-que-escrevemos-biografias.jpg");
+    background-image: url("https://www.estadao.com.br/resizer/9xZB7Y2k58GbfDVNeIKkhZCGIHM=/320x448/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/SKZR5DSWRBIC3GOUS3JF4WPIPY.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -280,7 +280,7 @@ li {
 }
 
 #modo_historia_card:hover {
-    background-image: url("https://files.tecnoblog.net/wp-content/uploads/2021/05/filmes-ficcao-cientifica-Netflix-2.jpg");
+    background-image: url("https://t.ctcdn.com.br/mrQ7HoIaG_ZHjXTwf7gy7KcYcIc=/0x84:1501x929/512x288/smart/filters:format(webp)/i325774.jpeg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -317,7 +317,7 @@ li {
 }
 
 #moba_card:hover {
-    background-image: url("https://i.zst.com.br/images/hqs-confira-10-titulos-que-todo-geek-precisa-ler-photo820052986-44-1f-d.jpg");
+    background-image: url("https://static.vecteezy.com/system/resources/previews/007/900/606/original/pop-art-background-concept-free-vector.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -370,7 +370,7 @@ li {
 }
 
 #poesias:hover {
-    background-image: url("https://i.pinimg.com/originals/06/51/9a/06519a35f43e167e50bfbad0842624bb.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HuOhMQ1ckhxE9DwtUldGh6iPCBr0JUOVAQ&usqp=CAU");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -389,4 +389,7 @@ li {
 #categorias{
     text-align: center;
     font-size: 75px;
+}
+#footer{
+    margin: -5px
 }
