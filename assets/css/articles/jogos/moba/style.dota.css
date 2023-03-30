@@ -1,9 +1,7 @@
 body{
     margin: 0;
 }
-#header{
-    margin-bottom: -45px;
-}
+
 #title{
     margin: 30px;
     font-size: 50px;
@@ -11,6 +9,7 @@ body{
 }
 #imagem_valorant{
     text-align: center;
+    margin-top: -10px;
 }
 .section{
     margin-left:45px;
