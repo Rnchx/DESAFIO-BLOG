@@ -85,3 +85,108 @@ nav {
     display: block;
 }
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 100%) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-color: #444444;
+    }
+    header {
+        background-color: #444444;
+        font-family: 'Playfair Display', serif;
+        width: 100%;
+    }
+    div {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+    .dp-menu {
+        margin-left: 100px;
+    }
+
+    #para_arrumar {
+        text-decoration: none;
+        list-style-type: none;
+        color: whitesmoke;
+        font-size: 12px;
+    }
+    
+    :root {
+        --cor-fundo: #444444;
+        --cor-hover: #FF0000;
+        --cor-primaria: #f0f0f0;
+    }
+    
+    .dp-menu ul {
+        list-style-type: none;
+        padding: 0;
+        background-color: var(--cor-fundo);
+    }
+    
+    .dp-menu ul li {
+        display: inline;
+        position: relative;
+        float:left;
+        width: 100px;
+        line-height: 40px;
+    }
+    
+    .dp-menu ul li a {
+        color: var(--cor-primaria);
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px;
+        transition: background .3s;
+        border-radius: 5px;
+        margin-right: 100px;
+        text-align: center;
+        width: 130px ;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+    
+    .dp-menu ul li a:hover {
+        background-color: var(--cor-hover);
+        border-radius: 5px;
+        margin-top: 20px;
+        color: var(--cor-primaria);
+        margin-right: 100px;
+        transition: margin-top 0.5s;
+        text-align: center;
+        width: 130px;
+    }
+    /*sub menu*/
+    .dp-menu ul ul {
+        display: none;
+        left: 0;
+        position: absolute;
+    }
+    
+    .dp-menu ul li:hover ul {
+        display: block;
+    }
+    
+    .dp-menu ul ul {
+        width: 150px
+    }
+    
+    .dp-menu ul ul li a {
+        display: block;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+}

@@ -133,3 +133,145 @@ body {
 #footer {
     margin-bottom: -20px;
 }
+
+
+
+
+
+@media (max-width:600px) {
+    body {
+        margin: 0px;
+    }
+    
+    .linhas {
+        color: grey;
+        margin-bottom: 0;
+    }
+    
+    #title {
+        margin-left: 45px;
+        font-size: 75px;
+    }
+    
+    .letra_cinza {
+        color: grey;
+        font-size: 22.5px;
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    
+    .letra_cinza2 {
+        color: grey;
+        font-size: 22.5px;
+        margin-bottom: 0;
+    }
+    
+    #banner {
+        margin-top: -5px;
+    }
+    
+    #div_principal {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 22.5px;
+    }
+    
+    #titulo_principal {
+        font-size: 52.5px;
+        margin-bottom: 7.5px;
+        margin-top: 0;
+    }
+    
+    #texto_materia_principal {
+        font-size: 30px;
+        margin-right: 30px;
+        text-align: justify;
+    }
+    
+    #article_main {
+        width: 60%;
+        margin-left: 15px;
+    }
+    
+    .imagens {
+        border-radius: 15px;
+    }
+    
+    .perfil_post {
+        display: flex;
+        align-items: center;
+    }
+    
+    .perfil_post h3 {
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    
+    #article_aside {
+        width: 34%;
+        margin-right: 21px;
+        border-left:solid 2px #FF0000;
+        padding-left: 7px;
+    }
+    
+    .div_subnoticia {
+        display: flex;
+    }
+    
+    .site_terceiro {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .titulo_subnoticia {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 30px;
+    }
+    
+    .grupo_subnoticia {
+        display: inline;
+        padding-left: 7.5px;
+    }
+    
+    .texto_subnoticia {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 7.5px;
+        text-align: justify;
+        font-size: 20px;
+    }
+    
+    #article_comentarios {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    
+    .letra_cinza3 {
+        color: grey;
+        font-size: 37.5px;
+        margin-bottom: 15px;
+    }
+    
+    .quadrado_comentarios {
+        border: 2.25px solid grey;
+        border-radius: 7.5px;
+        padding-right: 1050px;
+        padding-bottom: 225px;
+        padding-top: 10.5px;
+        padding-left: 10.5px;
+        margin: 7.5px;
+        margin-bottom: 22.5px;
+    }
+    
+    .linha_article {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #footer {
+        margin-bottom: -20px;
+    }
+}
