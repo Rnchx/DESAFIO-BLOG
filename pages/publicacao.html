@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../assets/css/style.puclicacao.css">
+    <link rel="icon" type="imagem/x-icon" href="../assets/images/ICON.png">
+    <title>Red News</title>
+</head>
+
+<body>
+    <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="125px"></iframe>
+    <div id="form2">
+        <div id="feedback">
+        <h1>Faça a sua publicação:</h1>
+            <p>Preencha os campos para agendar suas publicações:</p>
+        </div>
+        <form action="sucess.html">
+            <label>Nome:</label>
+            <input class="inputs" type="text" required placeholder="digite seu nome">
+            <label>E-mail:</label>
+            <input class="inputs" type="email" required placeholder="digite seu e-mail">
+            <label>Categorias:</label>
+            <select name="Categorias" class="inputs">
+                <option>
+                    Beleza
+                </option>
+                <option>
+                    Jogos
+                </option>
+                <option>
+                    Música
+                </option>
+                <option>
+                    Livros
+                </option>
+                <option>
+                    Filmes
+                </option>
+                <option>
+                    Vestibular
+                </option>
+            </select>
+            <label>Data:</label>
+            <input class="inputs" type="date">
+            <label id="mensagem">Mensagem:</label>
+            <input class="inputs" type="message" required placeholder="manda uma Mensagem" required minlength="10">
+            <input id="submit" type="submit">
+        </form>
+    </div>
+    <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no" width="100%" height="400px"></iframe>
+</body>
+
+</html>
