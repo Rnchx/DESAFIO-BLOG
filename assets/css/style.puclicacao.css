@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-   background-color: #202020;
+    background-color: #202020;
     background-size: cover;
     color: black;
 
@@ -24,19 +24,20 @@ form{
     display: flex;
     flex-direction: column;
     font-family: Verdana;
+    font-size: 17px;
     height: 400px;
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    width: 30%;
+    border-radius: 7px;
+    width: 95%;
     margin: auto;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
+    padding-bottom: 40px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    text-align: center;
-    margin-top: 180px;
+    margin-top: 30px;
     transition: 2s;
     transform: scale(1.0);
     
@@ -75,19 +76,14 @@ iframe {
     width: 100%;
 }
 #form2 {
-    height: 100vh;
-    display: flex;
+    height: 65vh;
 }
 #feedback {
-    margin-top: 220px;
+    text-align: center;
     font-family: verdana;
     font-size: small;
     color:    whitesmoke;
     margin-left: 35px;
-}
-
-#footer {
-    margin-top: -200px;
 }
 
 h1 {
@@ -96,4 +92,133 @@ h1 {
 
 p {
     font-size: 20px;
+}
+#titulo{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: grey;
+    border: grey 1px solid;
+}
+#categoria{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: grey;
+    border: grey 1px solid;
+}
+#descricao{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: grey;
+    border: grey 1px solid;
+}
+#data{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    color: grey;
+    border: grey 1px solid;
+    margin-right: 1650px;
+}
+#autor{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: grey;
+    border: grey 1px solid;
+}
+.label{
+    margin-bottom: 5px;
+}
+#botao{
+    background-color: rgb(38, 184, 38);
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 1677px;
+    cursor:pointer;
+}
+#botao:hover{
+    background-color: whitesmoke;
+    color: rgb(38, 184, 38);
+    border: grey 1px solid;
+}
+#post{
+    display: flex;
+    flex-direction: column;
+}
+#h3_post{
+    margin: 0;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#data_post{
+    margin: 0;
+    margin-bottom: 5px;
+    color: grey;
+}
+#descricao_post{
+    margin: 0;
+    margin-bottom: 5px;
+    color: grey;
+}
+#autor_post{
+    margin: 0;
+    margin-bottom: 5px;
+    color: grey;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    margin-right: 0;
+    width: 95%;
+    font-family: Verdana;
+    font-size: 17px;
+    height: 110px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    width: 50%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
+    margin-top: 30px;
+    transition: 2s;
+    transform: scale(1.0);
+}
+#botoes{
+    width: 25%;
+    text-align: right;
+    margin-top: 40px;
+}
+#botoes2{
+    width: 25%;
+    text-align: right;
+    margin-top: 40px;
+}
+.botao{
+    background-color: red;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: white;
+    cursor:pointer;
+}
+.botao:hover{
+    background-color: whitesmoke;
+    color: red;
+    border: grey 1px solid;
 }
