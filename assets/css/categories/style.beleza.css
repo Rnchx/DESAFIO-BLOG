@@ -443,7 +443,7 @@ align-items: center
     margin-left: 600px;
 }
 
-@media (max-width: 900px){
+@media (max-width: 650px){
     #header{
         width: 200vh;
     }
@@ -637,7 +637,7 @@ align-items: center
         margin-left: 5vh;
         padding: 5vh;
         border: solid 2vw gray;
-        width: 100%;
+        width: 65vh;
         margin-top: 10vh;
         border-radius: 20vw;
         padding-left: 2vw;
@@ -651,7 +651,6 @@ align-items: center
         margin-left: 600px;
         margin-left: 90px;
     }
-}
 .postado_por {
     color: grey;
     font-size: 5.5vh;
@@ -688,5 +687,9 @@ align-items: center
     margin-right: 5vh;
     width: 60vh;
 }
-
-
+}
+.letra_cinza1{
+    font-size: 5.5vh;
+    margin-top: 4vw;
+    width: 65vh;
+}
