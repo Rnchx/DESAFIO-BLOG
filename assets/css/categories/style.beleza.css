@@ -443,7 +443,7 @@ align-items: center
     margin-left: 600px;
 }
 
-@media (max-width: 600vh){
+@media (max-width: 900px){
     #header{
         width: 200vh;
     }
@@ -652,9 +652,6 @@ align-items: center
         margin-left: 90px;
     }
 }
-
-
-
 .postado_por {
     color: grey;
     font-size: 5.5vh;
@@ -675,7 +672,6 @@ align-items: center
     margin-right: 5vh;
     width: 60vh;
 }
-
 .texto_comentario {
     color: black;
     text-align: left;
@@ -692,4 +688,5 @@ align-items: center
     margin-right: 5vh;
     width: 60vh;
 }
+
 
