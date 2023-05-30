@@ -1,7 +1,6 @@
 body {
     margin: 0px;
     background-color: white;
-    font-family: manu;
     padding: 0;
     border-color: black;
     text-align: center;
@@ -57,16 +56,17 @@ body {
 }
 
 #titulo_principal {
-    font-size: 52.5px;
-    margin-bottom: 7.5px;
-    margin-top: 0;
-    text-align: left;
+    font-size: 10vh;
+        margin-bottom: 7.5px;
+        margin-top: 0;
+        width: 200vh;
 }
 
 #texto_materia_principal {
-    font-size: 30px;
-    margin-right: 30px;
-    text-align: justify;
+        font-size: 30px;
+        margin-right: 3vh;
+        text-align: justify;
+        width: 180vh;
 }
 
 #article_main {
@@ -112,7 +112,6 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 30px;
-    text-align: left;
 }
 
 .grupo_subnoticia {
@@ -125,6 +124,7 @@ body {
     margin-bottom: 0;
     padding-top: 7.5px;
     text-align: justify;
+    font-size: 20px;
 }
 
 #article_comentarios {
@@ -391,4 +391,454 @@ li {
 .perfil_post {
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 650px){
+    body {
+        margin: 0px;
+        background-color: white;
+        font-family: manu;
+        padding: 0;
+        border-color: black;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        width: 600px;
+    }
+    #header{
+        margin-bottom: -15px;
+        width: 200vh;
+        height: 150px;
+    }
+    .linhas {
+        color: grey;
+        margin-bottom: 0;
+    }
+    
+    #title {
+        margin-left: 65vh;
+        font-size: 20vh;
+        color: grey;
+        text-align: center;
+        
+    }
+    #title2 {
+        margin-left: 5vh;
+        font-size: 10vh;
+        justify-content: center;
+        width: 200vh;
+    }
+    #title3 {
+        margin-left: 45px;
+        font-size: 10vh;
+        color: black;
+    }
+    .letra_cinza {
+        color: grey;
+        font-size: 6vh;
+        margin-right: 3vh;
+        margin-left: 3vh;
+        display: flex;
+    }
+    
+    .letra_cinza2 {
+        color: grey;
+        font-size: 10vh;
+        margin-bottom: 0;
+        text-align: left;
+        width: 200vh;
+    }
+    
+    #banner {
+        margin-top: -5px;
+        width: 1800px;
+        height: 150px;
+    }
+    
+    #div_principal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 22.5px;
+    }
+    
+    #titulo_principal {
+        font-size: 52.5px;
+        margin-bottom: 7.5px;
+        margin-top: 0;
+        text-align: left;
+    }
+    
+    #texto_materia_principal {
+        font-size: 8vh;
+        margin-right: 30px;
+        text-align: justify;
+    }
+    
+    #article_main {
+        width: 60%;
+        margin-left: 15px;
+    }
+
+    #imagem1{
+        width: 200vh;
+    }
+
+    #imagem2{
+        width: 420%;
+    }
+    
+    .imagens {
+        border-radius: 15px;
+        width: 75vh;
+         height: 70vh;
+    }
+    
+    .perfil_nome {
+        font-size: 7vh;
+        display: flex;
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    
+    .perfil_post {
+        display: flex;
+        align-items: center;
+        width: 200vh;
+    }
+    
+    .perfil_post h3 {
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    
+    #article_aside {
+        width: 34%;
+        margin-right: 21px;
+        border-left:solid 2px #FF0000;
+        padding-left: 7px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .div_subnoticia {
+        display: flex;
+    }
+    
+    .site_terceiro {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .titulo_subnoticia {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 7vh;
+    }
+    
+    .grupo_subnoticia {
+        display: inline;
+        padding-left: 7.5px;
+    }
+    
+    .texto_subnoticia {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 7.5px;
+        font-size: 7vh;
+        width: 100vh;
+    }
+    
+    #article_comentarios {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    
+    .letra_cinza3 {
+        color: grey;
+        font-size: 37.5px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    
+    .quadrado_comentarios {
+        border: 2.25px solid grey;
+        border-radius: 7.5px;
+        padding-right: 1050px;
+        padding-bottom: 225px;
+        padding-top: 10.5px;
+        padding-left: 10.5px;
+        margin: 7.5px;
+        margin-bottom: 22.5px;
+    }
+    
+    .linha_article {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    @font-face {
+        font-family: manu;
+        src: url('https://fonts.googleapis.com/css2?family= Areia movediça & display=swap');
+    }
+    
+    .a_categorias {
+        text-decoration: none;
+        margin: 15px 0;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+    
+    #fps_card {
+        background-image: url("https://www.gamersdecide.com/sites/default/files/styles/news_images/public/csgo_banner.jpg");
+        background-size: cover;
+        opacity: 0.15px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 8vh;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 180vh;
+    }
+    
+    #fps_card:hover {
+        background-image: url("https://prod.assets.earlygamecdn.com/images/csgo_weapons_assault_rifles.jpg?x=0.5&y=0.5");
+        opacity: 0.15px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 2.5px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
+    
+    }
+    
+    
+    #online_card {
+        background-image: url("https://store-images.s-microsoft.com/image/apps.13950.70702278257994163.eb8febd9-1124-4e74-9587-d5082fbfffb5.5422b74c-3e78-408f-8df6-9a88c288b704");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 180vh;
+    }
+    
+    #online_card:hover {
+        background-image: url("https://gamearena.gg/wp-content/uploads/2023/03/fortnite-1024x576.jpg");
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    
+    #modo_historia_card {
+        background-image: url("https://i.imgur.com/LxLOCWa.png");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 180vh;
+    
+    }
+    
+    #modo_historia_card:hover {
+        background-image: url("https://i.guim.co.uk/img/media/579318570c74cd4dbc08f82db78e8291f3977f9b/0_100_3305_1983/master/3305.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=760dafb2c10aaa4f8bfecce77583d3b6");
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    
+    #moba_card {
+        background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/4/42/Season_1_Banner.jpg/revision/latest?cb=20100616151834");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+    #moba_card:hover {
+        background-image: url("https://s2.glbimg.com/FvVp6C8s9wmFWC2YwdO096XlUXM=/0x0:2400x1708/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/K/y/nj1EsBR0ANgvEBN9BWvA/summoners-rift-update-map.png");
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
+    }
+    
+    .first {
+        display: inline;
+        margin-top: 112.5px;
+        text-align: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+    
+    .second {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .jogos{
+        color:white;
+        font-size: 7vh;
+    }
+
+    .title_jogos{
+        font-size: 7vh;
+    }
+
+    .principal_jogos{
+        font-size: 8vh;
+    }
+
+    #footer{
+        margin: -5px;
+        width: 200vh;
+    }
+    
+    .grupo_de_comentarios_de_pessoas {
+        display: inline;
+        width: 195vh;
+    }
+    
+    .comentarios_pessoas {
+        display: flex;
+        margin-left: 5vh;
+        padding: 5vh;
+        border: solid 2vw gray;
+        width: 180vh;
+        margin-top: 10vh;
+        border-radius: 20vw;
+        padding-left: 2vw;
+    }
+    
+    .espacamento {
+        margin-left: 5vh;
+    }
+    
+    .postado_por {
+        color: grey;
+        font-size: 9vh;
+        margin-top: 4vw;
+        text-align: center;
+    }
+    
+    .ler_mais {
+        color: blue;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 5vh; 
+    }
+    
+    .nome_comentario {
+        color: black;
+        font-size: 8vh;
+    }
+    
+    .titulo_comentario {
+        color: black;
+        text-align: left;
+        width: 180vh;
+        font-size: 7vh;
+    }
+    
+    .pessoa{
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .texto_comentario {
+        color: black;
+        text-align: left;
+        font-size: 7vh;
+        width: 180vh;
+    }
+    
+    .perfil_post {
+        display: flex;
+        align-items: center;
+    }
+
+          
 }
