@@ -693,7 +693,7 @@ align-items: center
     width: 100vh;
 }
 
-}
+
 .grupo_de_comentarios_de_pessoas {
     display: inline;
     width: 180vh;
@@ -874,4 +874,5 @@ align-items: center
 .first{
     display: inline;
     margin-top: 75px;
+}
 }
