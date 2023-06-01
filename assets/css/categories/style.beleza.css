@@ -543,15 +543,14 @@ align-items: center
     }
     .imagebeleza {
         border-radius: 15px;
-        width: 225vh;
-        height: 120vh;
+        width: 400%;
         display: flex;
         
     }
     .imagem1 {
         border-radius: 15px;
-        width: 210vh;
-         height: 95vh;
+        width: 620%;
+         height: 95%;
     }
 
     .pessoa{
@@ -569,7 +568,7 @@ align-items: center
     .perfil_post {
         display: flex;
         align-items: center;
-        width: 200vh;
+        width: 200%;
     }
     
     .perfil_post h3 {
@@ -600,6 +599,7 @@ align-items: center
         margin-top: 0;
         margin-bottom: 0;
         font-size: 7vh;
+        width: 400%;
     }
     
     .grupo_subnoticia {
@@ -612,7 +612,7 @@ align-items: center
         margin-bottom: 0;
         padding-top: 7.5px;
         font-size: 7vh;
-        width: 150vh;
+        width: 360%;
         
     }
     
@@ -687,7 +687,7 @@ align-items: center
     text-align: left;
     font-size: 8.5vh;
     margin-right: 5vh;
-    width: 180vh;
+    width: 190vh;
     margin-top: 0;
     margin-bottom: 0;
   
