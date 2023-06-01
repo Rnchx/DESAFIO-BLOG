@@ -121,6 +121,7 @@ p {
     margin-bottom: 15px;
     border-radius: 5px;
     padding-bottom: 25px;
+    padding-left: 2px;
     font-size: 15px;
     color: grey;
     border: grey 1px solid;
@@ -191,7 +192,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 17px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);

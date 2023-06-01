@@ -3,6 +3,7 @@ var categoria;
 var descricao;
 var data;
 var autor;
+var ordem = []
 var mensagem = []
 
 
@@ -14,63 +15,43 @@ function adicionar() {
     data = document.getElementById("data").value;
     autor = document.getElementById("autor").value;
 
-    let add = document.getElementById("post").innerHTML = `<div id="feedback">
-    <h1>Faça a sua publicação:</h1>
-    <p>Preencha os campos para agendar suas publicações:</p>
-    </div>
-    <form>
-    <label class="label">Título:</label>
-    <input type="text" required placeholder="digite o título da publicação" id="titulo">
-    <label class="label">Categorias:</label>
-    <select name="Categorias" id="categoria">
-        <option>
-            Beleza
-        </option>
-        <option>
-            Jogos
-        </option>
-        <option>
-            Música
-        </option>
-        <option>
-            Livros
-        </option>
-        <option>
-            Filmes
-        </option>
-        <option>
-            Vestibular
-        </option>
-    </select>
-    <label class="label">Descrição:</label>
-    <input type="text" required placeholder="digite a descrição do seu post" id="descricao">
-    <label class="label">Autor:</label>
-    <input type="text" required placeholder="digite o nome do autor" required minlength="10" id="autor">
-    <label class="label">Data:</label>
-    <input type="date" id="data">
-    <span onclick="adicionar()" id="botao">Enviar</span>
-    </form>
-    </div>
-    <div id="flex">
+
+    ordem.unshift(autor)
+    ordem.unshift(data)
+    ordem.unshift(descricao)
+    ordem.unshift(titulo)
+
+    mensagem.push(ordem)
+
+    console.log(ordem)
+    console.log(mensagem)
+
+    document.getElementById("titulo").value = "";
+    document.getElementById("categoria").value = "";
+    document.getElementById("descricao").value = "";
+    document.getElementById("data").value = "";
+    document.getElementById("autor").value = "";
+    atualizar()
+}
+
+function atualizar() {
+    for (let j = 0; j < mensagem.length; j++) {
+        mensagem[j]
+        document.getElementById("mensagem").innerHTML = `<div id="flex">
     <div id="post">
-    <!-- innerhtml -->
-    <h3 id="h3_post">${titulo}</h3>
-    <span id="data_post">Data de Publicação:${data}</span>
-    <span id="descricao_post">Descrição:${descricao}</span>
-    <span id="autor_post">Autor:${autor}</span>
+        <h3 id="h3_post">${ordem[0]}</h3>
+        <span id="data_post">Data de Publicação:${ordem[1]}</span>
+        <span id="descricao_post">Descrição:${ordem[2]}</span>
+        <span id="autor_post">Autor:${ordem[3]}</span>
     </div>
     <div id="botoes">
-    <span onclick="editar()" class="botao">Editar</span>
+        <span onclick="editar()" class="botao">Editar</span>
     </div>
     <div id="botoes2">
-    <span onclick="remover()" class="botao">Remover</span>
-    </div>`
+        <span onclick="remover()" class="botao">Remover</span>
+    </div>
+</div>`
 
-    mensagem.push(add)
-
-    document.getElementById("titulo").innerHTML = "";
-    document.getElementById("categoria").innerHTML = "";
-    document.getElementById("descricao").innerHTML = "";
-    document.getElementById("data").innerHTML = "";
-    document.getElementById("autor").innerHTML = "";
+    }
 }
+
