@@ -392,3 +392,317 @@ li {
     display: flex;
     align-items: center;
 }
+
+@media (max-width: 900px){
+    #header{
+        width: 200vh;
+    }
+
+    body {
+        margin: 0px;
+    }
+    .h1s {
+       margin-left: 5vh;
+        justify-content: center;
+        width: 200vh;
+        text-align: center;
+        margin-bottom: 30px;
+        color: gray;
+        font-size: 15vh;
+        margin-left: 195px;
+    }
+    .linhas {
+        color: grey;
+        margin-bottom: 0;
+    }
+    
+    #title {
+        margin-left: 5vh;
+        font-size: 10vh;
+        justify-content: center;
+        width: 100vh;
+    }
+    
+    .letra_cinza {
+        color: grey;
+        font-size: 6vh;
+        margin-right: 3vh;
+        margin-left: 3vh;
+        display: flex;
+    }
+    
+    .letra_cinza2 {
+        color: grey;
+        font-size: 8vh;
+        margin-bottom: 0;
+        width: 100vh;
+    }
+    
+    #banner {
+        margin-top: -5px;
+    }
+    
+    #div_principal {
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 22.5px;
+    }
+    
+    #titulo_principal {
+        font-size: 10vh;
+        margin-bottom: 7.5px;
+        margin-top: 0;
+        width: 100vh;
+    }
+    #texto1  {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 8.5px;
+        font-size: 6.8vh;
+        padding-left: 7px;
+        display: inline;
+        width: 100vh;
+        
+    }
+    
+    #texto_materia_principal {
+        font-size: 10vh;
+        margin-right: 7vh;
+        text-align: justify;
+        width: 100vh;
+    }
+   
+    #article_main {
+        width: 60%;
+        margin-left: 15px;
+    }
+    
+    .imagens {
+        border-radius: 15px;
+        width: 512px;
+        height: 512;
+    }
+    .imagebeleza {
+        border-radius: 15px;
+        width: 100vh;
+        height: 100vh;
+        display: flex;
+        
+    }
+    .imagem1 {
+        border-radius: 15px;
+        width: 100vh;
+         height: 85vh;
+    }
+
+    .pessoa{
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .nome{
+        font-size: 7vh;
+        display: flex;
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    
+    .perfil_post {
+        display: flex;
+        align-items: center;
+        width: 100vh;
+    }
+    
+    .perfil_post h3 {
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    
+    #article_aside {
+        width: 34%;
+        margin-right: 21px;
+        border-left:solid 2px #FF0000;
+        padding-left: 7px;
+
+    }
+    
+    .div_subnoticia {
+        width: 100vh;
+    }
+    
+    .site_terceiro {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .titulo_subnoticia {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 9.5vh;
+        margin-left: 20vw;
+    }
+    
+    .grupo_subnoticia {
+        display: inline;
+        padding-left: 7.5px;
+    }
+    
+    .texto_subnoticia {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 7.5px;
+        font-size: 8vh;
+        width: 100vh;
+        margin-left: 20vw;
+    }
+    
+    #article_comentarios {
+        display: inline;
+        justify-content: space-between;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    
+    .letra_cinza3 {
+        color: grey;
+        font-size: 10vh;
+        margin-bottom: 15px;
+    }
+    
+    .quadrado_comentarios {
+        border: 2.25px solid grey;
+        border-radius: 7.5px;
+        padding-right: 900px;
+        padding-bottom: 125px;
+        padding-top: 10.5px;
+        padding-left: 10.5px;
+        margin: 7.5px;
+        margin-bottom: 22.5px;
+        width: 170%;
+    }
+    
+    .linha_article {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .comentarios_pessoas {
+        display: flex;
+        margin-left: 5vh;
+        padding: 5vh;
+        border: solid 2vw gray;
+        width: 90%;
+        margin-top: 10vh;
+        border-radius: 20vw;
+        padding-left: 2vw;
+    }
+    
+    #footer {
+        margin-bottom: -20px;
+        width: 100vh;
+    }
+    #anuncio {
+        margin-left: 600px;
+        margin-left: 90px;
+    }
+    .postado_por {
+        color: grey;
+        font-size: 9vh;
+        margin-top: 4vw;
+        margin-left: 0px;
+    }
+    
+    .ler_mais {
+        color: blue;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 6.5vh;
+        margin-right: 7vh;
+        width: 60vh;
+    }
+    .titulo_comentario {
+        color: black;
+        font-size: 8vh;
+        margin-right: 5vh;
+        width: 100%;
+    }
+    
+    .texto_comentario {
+        color: black;
+        text-align: left;
+        font-size: 5.5vh;
+        margin-right: 5vh;
+        width: 100%;
+    }
+    .espacamento {
+        margin-left:1vh;
+    }
+    .nome_comentario {
+        color: black;
+        font-size: 4vh;
+        margin-right: 5vh;
+        width: 60vh;
+    }
+    .perfil_nome {
+        color: black;
+        font-size: 12vw;
+    }
+    #title2 {
+        margin-left: 140vw;
+        font-size: 75px;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    #title {
+        margin-left: 0;
+        text-align: center;
+        font-size: 75px;
+        color: grey;
+    }
+    #disco{
+        width: 100vw;
+    }
+    #bey{
+        width: 1200px;
+        height: 100vh;
+        
+    }
+    #ft_bri{
+        width: 600px;
+        height: 60vh;
+    }
+    #ft_st{
+        width: 600px;
+        height: 60vh;
+    }
+    #ft_br{
+        width: 600px;
+        height: 60vh;
+    }
+    .grupo_de_comentarios_de_pessoas {
+        display: inline;
+        width: 100%;
+    }
+    #senai_ad{
+        width: 1200px;
+        height: 1200px;
+        text-align: center;
+        margin-left: 17vh;
+    }
+    #pai_main1{
+        width: 100%;
+    }
+    #filho_main1{
+        width: 80%;
+    }
+    .filho_2{
+        width: 80%;
+    }
+    #pai_2{
+        width: 100%;
+    }
+}
+
+
+
