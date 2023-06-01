@@ -56,17 +56,15 @@ body {
 }
 
 #titulo_principal {
-    font-size: 10vh;
-        margin-bottom: 7.5px;
-        margin-top: 0;
-        width: 200vh;
+    font-size: 52.5px;
+    margin-bottom: 7.5px;
+    margin-top: 0;
 }
 
 #texto_materia_principal {
-        font-size: 30px;
-        margin-right: 3vh;
-        text-align: justify;
-        width: 180vh;
+    font-size: 30px;
+    margin-right: 30px;
+    text-align: justify;
 }
 
 #article_main {
