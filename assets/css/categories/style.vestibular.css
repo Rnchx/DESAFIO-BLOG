@@ -439,14 +439,6 @@ a {
 @media (max-width: 650px){
     body {
         margin: 0px;
-        background-color: white;
-        font-family: manu;
-        padding: 0;
-        border-color: black;
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        width: 600px;
     }
     #header{
         margin-bottom: -15px;
@@ -459,10 +451,10 @@ a {
     }
     
     #title {
-        margin-left: 65vh;
-        font-size: 20vh;
-        color: grey;
-        text-align: center;
+        margin-left: 5vh;
+        font-size: 10vh;
+        justify-content: center;
+        width: 200vh;
         
     }
     #title2 {
