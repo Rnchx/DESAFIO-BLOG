@@ -1,12 +1,15 @@
 body {
     margin: 0px;
 }
-#header{
+
+#header {
     margin-bottom: -15px;
 }
-.arredondar{
+
+.arredondar {
     border-radius: 100%;
 }
+
 .linhas {
     color: grey;
     margin-bottom: 0;
@@ -16,11 +19,13 @@ body {
     margin-left: 45px;
     font-size: 75px;
 }
-#livros{
+
+#livros {
     color: gray;
     text-align: center;
     font-size: 75px;
 }
+
 .letra_cinza {
     color: grey;
     font-size: 22.5px;
@@ -48,6 +53,7 @@ body {
     font-size: 52.5px;
     margin-bottom: 7.5px;
     margin-top: 0;
+    text-align: left;
 }
 
 #texto_materia_principal {
@@ -78,7 +84,7 @@ body {
 #article_aside {
     width: 34%;
     margin-right: 14px;
-    border-left:solid 2px #FF0000;
+    border-left: solid 2px #FF0000;
     padding-left: 7px;
 }
 
@@ -137,6 +143,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 #article_comentarios {
     display: flex;
     justify-content: space-between;
@@ -182,7 +189,7 @@ li {
 }
 
 #fps_card {
-    background-image:url(https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg);
+    background-image: url(https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg);
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -202,7 +209,7 @@ li {
 }
 
 #fps_card:hover {
-    background-image:url(https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2021/02/TATB3_Unit_10370_R-550x367.jpg);
+    background-image: url(https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2021/02/TATB3_Unit_10370_R-550x367.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -347,9 +354,11 @@ li {
     justify-content: center;
     margin-top: 15px;
 }
-.jogos{
-    color:white;
+
+.jogos {
+    color: white;
 }
+
 #poesias {
     background-image: url("https://i.pinimg.com/originals/06/51/9a/06519a35f43e167e50bfbad0842624bb.jpg");
     background-size: cover;
@@ -386,11 +395,13 @@ li {
     transition: 2s;
     transform: scale(1.1);
 }
-#categorias{
+
+#categorias {
     text-align: center;
     font-size: 75px;
 }
-#footer{
+
+#footer {
     margin: -5px
 }
 
@@ -444,7 +455,7 @@ li {
     align-items: center;
 }
 
-@media (max-width: 650px){
+@media (max-width: 650px) {
     body {
         margin: 0px;
         background-color: white;
@@ -456,16 +467,19 @@ li {
         font-size: 20px;
         width: 600px;
     }
-    #header{
+
+    #header {
         margin-bottom: -15px;
         width: 200vh;
         height: 150px;
     }
-    .arredondar{
+
+    .arredondar {
         border-radius: 100%;
         width: 15vh;
         height: 15vh;
     }
+
     .linhas {
         color: grey;
         margin-bottom: 0;
@@ -477,12 +491,14 @@ li {
         justify-content: center;
         width: 200vh;
     }
-    #livros{
+
+    #livros {
         margin-left: 65vh;
         font-size: 20vh;
         color: grey;
         text-align: center;
     }
+
     .letra_cinza {
         color: grey;
         font-size: 6vh;
@@ -517,12 +533,14 @@ li {
         margin-bottom: 7.5px;
         margin-top: 0;
         text-align: left;
+        width: 200vh;
     }
 
     #texto_materia_principal {
         font-size: 8vh;
         margin-right: 30px;
         text-align: justify;
+        width: 180vh;
     }
 
     #article_main {
@@ -530,18 +548,18 @@ li {
         margin-left: 15px;
     }
 
-    #imagem1{
+    #imagem1 {
         width: 200vh;
     }
 
-    #imagem2{
+    #imagem2 {
         width: 420%;
     }
 
     .imagens {
         border-radius: 15px;
         width: 75vh;
-         height: 70vh;
+        height: 70vh;
     }
 
     .perfil_nome {
@@ -565,7 +583,7 @@ li {
     #article_aside {
         width: 34%;
         margin-right: 21px;
-        border-left:solid 2px #FF0000;
+        border-left: solid 2px #FF0000;
         padding-left: 7px;
         display: flex;
         flex-direction: column;
@@ -628,6 +646,7 @@ li {
         margin-left: 30px;
         margin-right: 30px;
     }
+
     #article_comentarios {
         display: flex;
         justify-content: space-between;
@@ -650,7 +669,7 @@ li {
     }
 
     #fps_card {
-        background-image:url(https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg);
+        background-image: url(https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg);
         background-size: cover;
         opacity: 0.15px;
         border-radius: 12px;
@@ -670,7 +689,7 @@ li {
     }
 
     #fps_card:hover {
-        background-image:url(https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2021/02/TATB3_Unit_10370_R-550x367.jpg);
+        background-image: url(https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2021/02/TATB3_Unit_10370_R-550x367.jpg);
         opacity: 0.15px;
         border-radius: 12px;
         display: flex;
@@ -713,7 +732,7 @@ li {
         background-image: url("https://www.estadao.com.br/resizer/9xZB7Y2k58GbfDVNeIKkhZCGIHM=/320x448/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/SKZR5DSWRBIC3GOUS3JF4WPIPY.jpg");
         border-radius: 12px;
         display: flex;
-        flex-directi: column;
+        flex-direction: column;
         width: 180vh;
         margin-left: 15px;
         margin-right: 15px;
@@ -726,212 +745,212 @@ li {
         transition: 2s;
         transform: scale(1.1);
     }
-    
-        
-            #modo_historia_card {
-                background-image: url("https://files.tecnoblog.net/wp-content/uploads/2021/05/filmes-ficcao-cientifica-Netflix-2.jpg");
-                background-size: cover;
-                border-radius: 12px;
-                display: flex;
-                flex-direction: column;
-                width: 180vh;
-                margin-left: 30px;
-                margin-right: 30px;
-                -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                margin-bottom: 3.75px;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                font-family: 'Quicksand', sans-serif;
-                width: 180vh;
-        
-            }
-        
-            #modo_historia_card:hover {
-                background-image: url("https://t.ctcdn.com.br/mrQ7HoIaG_ZHjXTwf7gy7KcYcIc=/0x84:1501x929/512x288/smart/filters:format(webp)/i325774.jpeg");
-                border-radius: 12px;
-                display: flex;
-                flex-direction: column;
-                width: 180vh;
-                margin-left: 15px;
-                margin-right: 15px;
-                -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                margin-bottom: 3.75px;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                transition: 2s;
-                transform: scale(1.1);
-            }
-        
-            #moba_card {
-                background-image: url("https://i.zst.com.br/images/hqs-confira-10-titulos-que-todo-geek-precisa-ler-photo820052986-44-1f-d.jpg");
-                background-size: cover;
-                border-radius: 12px;
-                display: flex;
-                flex-direction: column;
-                width: 180vh;
-                margin-left: 30px;
-                margin-right: 30px;
-                -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                margin-bottom: 3.75px;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                font-family: 'Quicksand', sans-serif;
-                width: 180vh;
-            }
-        
-            #moba_card:hover {
-                background-image: url("https://static.vecteezy.com/system/resources/previews/007/900/606/original/pop-art-background-concept-free-vector.jpg");
-                border-radius: 12px;
-                display: flex;
-                flex-direction: column;
-                width: 180vh;
-                margin-left: 15px;
-                margin-right: 15px;
-                -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                margin-bottom: 3.75px;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                transition: 2s;
-                transform: scale(1.1);
-            }
-        
-            #poesias {
-                background-image: url("https://i.pinimg.com/originals/06/51/9a/06519a35f43e167e50bfbad0842624bb.jpg");
-                background-size: cover;
-                border-radius: 12px;
-                display: flex;
-                flex-direction: column;
-                width: 180vh;
-                margin-left: 30px;
-                margin-right: 30px;
-                -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                margin-bottom: 3.75px;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                font-family: 'Quicksand', sans-serif;
-                width: 180vh;
-            }
-        
-            #poesias:hover {
-                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HuOhMQ1ckhxE9DwtUldGh6iPCBr0JUOVAQ&usqp=CAU");
-                border-radius: 12px;
-                display: flex;
-                flex-direction: column;
-                width: 180vh;
-                margin-left: 15px;
-                margin-right: 15px;
-                -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-                margin-bottom: 3.75px;
-                padding-top: 30px;
-                padding-bottom: 30px;
-                transition: 2s;
-                transform: scale(1.1);
-            }
-        
-            .first {
-                display: inline;
-                margin-top: 112.5px;
-                text-align: center;
-                justify-content: center;
-                justify-content: space-between;
-            }
-        
-            .second {
-                display: flex;
-                justify-content: center;
-                margin-top: 15px;
-            }
-            .jogos{
-                color:white;
-            }
-        
-            .title_jogos{
-                font-size: 7vh;
-            }
-        
-            .principal_jogos{
-                font-size: 8vh;
-            }
-        
-            #categorias{
-                margin-left: 45px;
-                font-size: 10vh;
-                color: black;
-            }
-            #footer{
-                margin: -5px;
-                width: 200vh;
-            }
-        
-            .grupo_de_comentarios_de_pessoas {
-                display: inline;
-                width: 195vh;
-            }
-        
-            .comentarios_pessoas {
-                display: flex;
-                margin-left: 5vh;
-                padding: 5vh;
-                border: solid 2vw gray;
-                width: 180vh;
-                margin-top: 10vh;
-                border-radius: 20vw;
-                padding-left: 2vw;
-            }
-        
-            .espacamento {
-                margin-left: 5vh;
-            }
-        
-            .postado_por {
-                color: grey;
-                font-size: 9vh;
-                margin-top: 4vw;
-                text-align: center;
-            }
-        
-            .ler_mais {
-                color: blue;
-                text-decoration: underline;
-                text-align: center;
-                font-size: 5vh;
-            }
-        
-            .nome_comentario {
-                color: black;
-                font-size: 8vh;
-            }
-        
-            .titulo_comentario {
-                color: black;
-                text-align: left;
-                width: 180vh;
-                font-size: 7vh;
-            }
-        
-            .texto_comentario {
-                color: black;
-                text-align: left;
-                font-size: 7vh;
-                width: 180vh;
-            }
-        
-            .perfil_post {
-                display: flex;
-                align-items: center;
-                
-            }
-        }
 
+
+    #modo_historia_card {
+        background-image: url("https://files.tecnoblog.net/wp-content/uploads/2021/05/filmes-ficcao-cientifica-Netflix-2.jpg");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 180vh;
+    }
+
+    #modo_historia_card:hover {
+        background-image: url("https://t.ctcdn.com.br/mrQ7HoIaG_ZHjXTwf7gy7KcYcIc=/0x84:1501x929/512x288/smart/filters:format(webp)/i325774.jpeg");
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
+    }
+
+    #moba_card {
+        background-image: url("https://i.zst.com.br/images/hqs-confira-10-titulos-que-todo-geek-precisa-ler-photo820052986-44-1f-d.jpg");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 180vh;
+    }
+
+    #moba_card:hover {
+        background-image: url("https://static.vecteezy.com/system/resources/previews/007/900/606/original/pop-art-background-concept-free-vector.jpg");
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
+    }
+
+    #poesias {
+        background-image: url("https://i.pinimg.com/originals/06/51/9a/06519a35f43e167e50bfbad0842624bb.jpg");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 180vh;
+    }
+
+    #poesias:hover {
+        background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4HuOhMQ1ckhxE9DwtUldGh6iPCBr0JUOVAQ&usqp=CAU");
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 180vh;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
+    }
+
+    .first {
+        display: inline;
+        margin-top: 112.5px;
+        text-align: center;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .second {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .jogos {
+        color: white;
+    }
+
+    .title_jogos {
+        font-size: 7vh;
+    }
+
+    .principal_jogos {
+        font-size: 8vh;
+    }
+
+    #categorias {
+        margin-left: 45px;
+        font-size: 10vh;
+        color: black;
+    }
+
+    #footer {
+        margin: -5px;
+        width: 200vh;
+    }
+
+    .grupo_de_comentarios_de_pessoas {
+        display: inline;
+        width: 195vh;
+    }
+
+    .comentarios_pessoas {
+        display: flex;
+        margin-left: 5vh;
+        padding: 5vh;
+        border: solid 2vw gray;
+        width: 180vh;
+        margin-top: 10vh;
+        border-radius: 20vw;
+        padding-left: 2vw;
+    }
+
+    .espacamento {
+        margin-left: 5vh;
+    }
+
+    .postado_por {
+        color: grey;
+        font-size: 9vh;
+        margin-top: 4vw;
+        text-align: center;
+    }
+
+    .ler_mais {
+        color: blue;
+        text-decoration: underline;
+        text-align: center;
+        font-size: 5vh;
+    }
+
+    .nome_comentario {
+        color: black;
+        font-size: 8vh;
+    }
+
+    .titulo_comentario {
+        color: black;
+        text-align: left;
+        width: 180vh;
+        font-size: 7vh;
+    }
+
+    .texto_comentario {
+        color: black;
+        text-align: left;
+        font-size: 7vh;
+        width: 180vh;
+    }
+
+    .perfil_post {
+        display: flex;
+        align-items: center;
+
+    }
+}
