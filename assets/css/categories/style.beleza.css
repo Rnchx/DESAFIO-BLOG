@@ -527,7 +527,7 @@ align-items: center
         font-size: 7vh;
         margin-right: 7vh;
         text-align: justify;
-        width: 200vh;
+        width: 210vh;
         
     }
    
@@ -550,8 +550,8 @@ align-items: center
     }
     .imagem1 {
         border-radius: 15px;
-        width: 190vh;
-         height: 85vh;
+        width: 210vh;
+         height: 95vh;
     }
 
     .pessoa{
@@ -612,7 +612,7 @@ align-items: center
         margin-bottom: 0;
         padding-top: 7.5px;
         font-size: 7vh;
-        width: 170vh;
+        width: 160vh;
         
     }
     
