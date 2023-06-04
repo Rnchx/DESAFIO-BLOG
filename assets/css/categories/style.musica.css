@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin-right: 0 !important;
+}
+
 body {
     margin: 0px;
     background-color: white;
@@ -8,9 +14,11 @@ body {
     color: white;
     font-size: 20px;
 }
-#header{
+
+#header {
     margin-bottom: -15px;
 }
+
 .linhas {
     color: grey;
     margin-bottom: 0;
@@ -21,17 +29,20 @@ body {
     font-size: 75px;
     color: grey;
 }
+
 #title2 {
     margin-left: 45px;
     font-size: 75px;
     color: black;
     text-align: left;
 }
+
 #title3 {
     margin-left: 45px;
     font-size: 75px;
     color: black;
 }
+
 .letra_cinza {
     color: grey;
     font-size: 22.5px;
@@ -336,10 +347,12 @@ li {
     justify-content: center;
     margin-top: 15px;
 }
-.jogos{
-    color:white;
+
+.jogos {
+    color: white;
 }
-#footer{
+
+#footer {
     margin: -5px
 }
 
@@ -393,16 +406,21 @@ li {
     align-items: center;
 }
 
-@media (max-width: 900px){
-    #header{
+@media (max-width: 650px) {
+    #header {
         width: 200vh;
+        margin-bottom: -15px;
+
+        height: 150px;
     }
 
     body {
-        margin: 0px; 
+        margin: 0px;
+
     }
+
     .h1s {
-       margin-left: 5vh;
+        margin-left: 5vh;
         justify-content: center;
         width: 200vh;
         text-align: center;
@@ -411,18 +429,20 @@ li {
         font-size: 15vh;
         margin-left: 195px;
     }
+
     .linhas {
         color: grey;
         margin-bottom: 0;
     }
-    
+
     #title {
         margin-left: 5vh;
         font-size: 10vh;
         justify-content: center;
-        width: 100vh;
+        width: 200vh;
+
     }
-    
+
     .letra_cinza {
         color: grey;
         font-size: 6vh;
@@ -430,145 +450,155 @@ li {
         margin-left: 3vh;
         display: flex;
     }
-    
+
     .letra_cinza2 {
         color: grey;
-        font-size: 8vh;
+        font-size: 10vh;
         margin-bottom: 0;
-        width: 100vh;
+        width: 200vh;
     }
-    
+
     #banner {
         margin-top: -5px;
+        width: 1800px;
+        height: 150px;
     }
-    
+
     #div_principal {
         flex-direction: column;
         justify-content: center;
         margin-bottom: 22.5px;
     }
-    
+
     #titulo_principal {
         font-size: 10vh;
         margin-bottom: 7.5px;
         margin-top: 0;
-        width: 100vh;
+        width: 190vh;
+
     }
-    #texto1  {
+
+    #texto1 {
         margin-top: 0;
         margin-bottom: 0;
         padding-top: 8.5px;
         font-size: 6.8vh;
         padding-left: 7px;
         display: inline;
-        width: 100vh;
-        
+        width: 235vh;
+
     }
-    
+
     #texto_materia_principal {
-        font-size: 10vh;
+        font-size: 9vh;
         margin-right: 7vh;
         text-align: justify;
-        width: 100vh;
+        width: 190vh;
+
     }
-   
+
     #article_main {
         width: 60%;
         margin-left: 15px;
     }
-    
+
     .imagens {
         border-radius: 15px;
-        width: 512px;
-        height: 512;
-    }
-    .imagebeleza {
-        border-radius: 15px;
-        width: 100vh;
-        height: 100vh;
-        display: flex;
-        
-    }
-    .imagem1 {
-        border-radius: 15px;
-        width: 100vh;
-         height: 85vh;
+        width: 65vh;
+        height: 75vh;
     }
 
-    .pessoa{
+    .imagebeleza {
+        border-radius: 15px;
+        width: 225vh;
+        height: 120vh;
+        display: flex;
+
+    }
+
+    .imagem1 {
+        border-radius: 15px;
+        width: 210vh;
+        height: 95vh;
+    }
+
+    .pessoa {
         width: 15vh;
         height: 15vh;
     }
 
-    .nome{
-        font-size: 7vh;
+    .nome {
+        font-size: 8vh;
         display: flex;
         margin-right: 7.5px;
         margin-left: 7.5px;
     }
-    
+
     .perfil_post {
         display: flex;
         align-items: center;
-        width: 100vh;
+        width: 200vh;
     }
-    
+
     .perfil_post h3 {
         margin-right: 7.5px;
         margin-left: 7.5px;
     }
-    
+
     #article_aside {
         width: 34%;
         margin-right: 21px;
-        border-left:solid 2px #FF0000;
+        border-left: solid 2px #FF0000;
         padding-left: 7px;
+        display: flex;
+        flex-direction: column;
 
     }
-    
+
     .div_subnoticia {
-        width: 100vh;
+        display: flex;
     }
-    
+
     .site_terceiro {
         text-decoration: none;
         color: black;
     }
-    
+
     .titulo_subnoticia {
         margin-top: 0;
         margin-bottom: 0;
-        font-size: 9.5vh;
-        margin-left: 20vw;
+        font-size: 7vh;
     }
-    
+
     .grupo_subnoticia {
         display: inline;
         padding-left: 7.5px;
     }
-    
+
     .texto_subnoticia {
         margin-top: 0;
         margin-bottom: 0;
         padding-top: 7.5px;
         font-size: 8vh;
-        width: 100vh;
-        margin-left: 20vw;
+        width: 120vh;
+        margin-left: 3vh;
+
     }
-    
+
     #article_comentarios {
-        display: inline;
+        display: flex;
         justify-content: space-between;
         margin-left: 45px;
         margin-right: 45px;
     }
-    
+
     .letra_cinza3 {
         color: grey;
-        font-size: 10vh;
+        font-size: 37.5px;
         margin-bottom: 15px;
+        text-align: left;
     }
-    
+
     .quadrado_comentarios {
         border: 2.25px solid grey;
         border-radius: 7.5px;
@@ -578,131 +608,127 @@ li {
         padding-left: 10.5px;
         margin: 7.5px;
         margin-bottom: 22.5px;
-        width: 170%;
     }
-    
+
     .linha_article {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
+
     .comentarios_pessoas {
         display: flex;
         margin-left: 5vh;
         padding: 5vh;
         border: solid 2vw gray;
-        width: 90%;
+        width: 180vh;
         margin-top: 10vh;
         border-radius: 20vw;
         padding-left: 2vw;
     }
-    
+
     #footer {
         margin-bottom: -20px;
-        width: 100vh;
+        width: 240vh;
     }
+
     #anuncio {
-        margin-left: 600px;
-        margin-left: 90px;
+        margin-left: -10vw;
     }
+
     .postado_por {
         color: grey;
         font-size: 9vh;
         margin-top: 4vw;
-        margin-left: 0px;
+
     }
-    
+
     .ler_mais {
         color: blue;
         text-decoration: underline;
         text-align: center;
-        font-size: 6.5vh;
-        margin-right: 7vh;
-        width: 60vh;
+        font-size: 5vh;
     }
+
     .titulo_comentario {
         color: black;
-        font-size: 8vh;
-        margin-right: 5vh;
-        width: 100%;
+        font-size: 9.5vh;
+        margin-right: 9vh;
+        width: 190vh;
     }
-    
+
     .texto_comentario {
         color: black;
         text-align: left;
-        font-size: 5.5vh;
+        font-size: 8.5vh;
         margin-right: 5vh;
-        width: 100%;
+        width: 190vh;
+        margin-top: 0;
+        margin-bottom: 0;
+
     }
+
     .espacamento {
-        margin-left:1vh;
+        margin-left: 5vh;
+
     }
+
     .nome_comentario {
         color: black;
-        font-size: 4vh;
-        margin-right: 5vh;
-        width: 60vh;
+        font-size: 7vh;
+        margin-right: 7vh;
+        width: 100vh;
     }
-    .perfil_nome {
-        color: black;
-        font-size: 12vw;
-    }
-    #title2 {
-        margin-left: 140vw;
-        font-size: 75px;
-        color: black;
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-    }
-    #title {
-        margin-left: 0;
-        text-align: center;
-        font-size: 75px;
-        color: grey;
-    }
-    #disco{
-        width: 100vw;
-    }
-    #bey{
-        width: 1200px;
-        height: 100vh;
-        
-    }
-    #ft_bri{
-        width: 600px;
-        height: 60vh;
-    }
-    #ft_st{
-        width: 600px;
-        height: 60vh;
-    }
-    #ft_br{
-        width: 600px;
-        height: 60vh;
-    }
+
+
     .grupo_de_comentarios_de_pessoas {
         display: inline;
-        width: 100%;
+        width: 195vh;
     }
-    #senai_ad{
-        width: 1200px;
-        height: 1200px;
+
+    .nomep {
+        border-radius: 15px;
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .letra_cinza1 {
+        color: grey;
+        font-size: 6vh;
+        margin-right: 3vh;
+        margin-left: 5vh;
+        display: flex;
+        width: 90vh;
+
+    }
+
+    #h1_categorias {
+        color: black;
         text-align: center;
-        margin-left: 17vh;
+        font-size: 13.5vh;
+        margin-left: 5vh;
+        justify-content: center;
+        width: 210vh;
     }
-    #pai_main1{
-        width: 100%;
+
+    #bey {
+        width: 180vh;
+        margin-left: 8vh;
     }
-    #filho_main1{
-        width: 80%;
+
+    .perfil_nome {
+        font-size: 8vh;
+        padding: 5vh;
+        margin-top: 4vh;
     }
-    .filho_2{
-        width: 80%;
+
+    .comentarios_pessoas {
+        width: ;
+        height: 90vh;
+
     }
-    #pai_2{
-        width: 100%;
+
+    .ft_perfil {
+        width: 45vw;
+        height: 18vh;
     }
 }
-
-
-
