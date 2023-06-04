@@ -465,7 +465,7 @@ li {
         text-align: center;
         color: white;
         font-size: 20px;
-        width: 600px;
+        width: 100%;
     }
 
     #header {
@@ -474,29 +474,29 @@ li {
         height: 150px;
     }
 
-    .arredondar {
-        border-radius: 100%;
-        width: 15vh;
-        height: 15vh;
-    }
-
     .linhas {
         color: grey;
         margin-bottom: 0;
     }
 
     #title {
-        margin-left: 5vh;
-        font-size: 10vh;
-        justify-content: center;
-        width: 200vh;
-    }
-
-    #livros {
-        margin-left: 65vh;
-        font-size: 20vh;
+        margin-left: 155%;
+        font-size: 100px;
         color: grey;
         text-align: center;
+    }
+
+    #title2 {
+        margin-left: 50%;
+        font-size: 100px;
+        justify-content: center;
+        width: 100vh;
+    }
+
+    #title3 {
+        margin-left: 45px;
+        font-size: 10vh;
+        color: black;
     }
 
     .letra_cinza {
@@ -512,7 +512,7 @@ li {
         font-size: 10vh;
         margin-bottom: 0;
         text-align: left;
-        width: 200vh;
+        width: 100vh;
     }
 
     #banner {
@@ -529,18 +529,18 @@ li {
     }
 
     #titulo_principal {
-        font-size: 52.5px;
+        font-size: 7vh;
         margin-bottom: 7.5px;
         margin-top: 0;
         text-align: left;
-        width: 200vh;
+        width: 100vh;
     }
 
     #texto_materia_principal {
         font-size: 8vh;
         margin-right: 30px;
         text-align: justify;
-        width: 180vh;
+        width: 100vh;
     }
 
     #article_main {
@@ -549,11 +549,11 @@ li {
     }
 
     #imagem1 {
-        width: 200vh;
+        width: 400%;
     }
 
     #imagem2 {
-        width: 420%;
+        width: 270%;
     }
 
     .imagens {
@@ -884,12 +884,6 @@ li {
         font-size: 8vh;
     }
 
-    #categorias {
-        margin-left: 45px;
-        font-size: 10vh;
-        color: black;
-    }
-
     #footer {
         margin: -5px;
         width: 200vh;
@@ -939,6 +933,12 @@ li {
         text-align: left;
         width: 180vh;
         font-size: 7vh;
+    }
+
+    .pessoa{
+        border-radius: 100%;
+        width: 15vh;
+        height: 15vh;
     }
 
     .texto_comentario {

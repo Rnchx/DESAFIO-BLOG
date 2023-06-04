@@ -401,7 +401,7 @@ li {
         text-align: center;
         color: white;
         font-size: 20px;
-        width: 600px;
+        width: 100%;
     }
     #header{
         margin-bottom: -15px;
@@ -414,17 +414,17 @@ li {
     }
     
     #title {
-        margin-left: 65vh;
-        font-size: 20vh;
+        margin-left: 155%;
+        font-size: 20px;
         color: grey;
         text-align: center;
         
     }
     #title2 {
-        margin-left: 5vh;
-        font-size: 10vh;
+        margin-left: 50%;
+        font-size: 100px;
         justify-content: center;
-        width: 200vh;
+        width: 100vh;
     }
     #title3 {
         margin-left: 45px;
@@ -444,7 +444,7 @@ li {
         font-size: 10vh;
         margin-bottom: 0;
         text-align: left;
-        width: 200vh;
+        width: 100vh;
     }
     
     #banner {
@@ -461,16 +461,19 @@ li {
     }
     
     #titulo_principal {
-        font-size: 52.5px;
+        font-size: 7vh;
         margin-bottom: 7.5px;
         margin-top: 0;
         text-align: left;
+        width: 100vh;
     }
     
     #texto_materia_principal {
         font-size: 8vh;
         margin-right: 30px;
         text-align: justify;
+        width: 100vh;
+       
     }
     
     #article_main {
@@ -479,7 +482,7 @@ li {
     }
 
     #imagem1{
-        width: 200vh;
+        width: 290%;
     }
 
     #imagem2{
