@@ -1,12 +1,8 @@
 body {
-    margin: 0px;
-    background-color: white;
-    font-family: manu;
-    padding: 0;
-    border-color: black;
-    text-align: center;
-    color: white;
-    font-size: 20px;
+    margin: 0%;
+    padding: 0%;
+   justify-content: center;
+   align-items: center;
 }
 #header{
     margin-bottom: -15px;
@@ -17,9 +13,8 @@ body {
 }
 
 #title {
-    margin-left: 45px;
+    margin-left: 30px;
     font-size: 75px;
-    color: grey;
 }
 #title2 {
     margin-left: 45px;
@@ -34,16 +29,15 @@ body {
 }
 .letra_cinza {
     color: grey;
-    font-size: 22.5px;
-    margin-right: 7.5px;
-    margin-left: 7.5px;
+    font-size: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 .letra_cinza2 {
     color: grey;
     font-size: 22.5px;
     margin-bottom: 0;
-    text-align: left;
 }
 
 #banner {
@@ -53,32 +47,28 @@ body {
 #div_principal {
     display: flex;
     justify-content: center;
-    margin-bottom: 22.5px;
 }
 
 #titulo_principal {
-    font-size: 52.5px;
-    margin-bottom: 7.5px;
+    font-size: 35px;
+    margin-bottom: 5px;
     margin-top: 0;
-    text-align: left;
 }
 
 #texto_materia_principal {
     color: black;
-    font-size: 8vh;
-    display: flex;
-    width: 180vh;
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: justify;
 }
 
 #article_main {
     width: 60%;
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .imagens {
-    border-radius: 15px;
-    width: 20%;
-    height: 20%;
+    border-radius: 10px;
 }
 #imagemacinco {
     display: flex;
@@ -475,6 +465,12 @@ li {
         display: inline;
         width: 235vh;
         
+    }
+    #texto_materia_principal {
+        color: black;
+        font-size: 8vh;
+        width: 180vh;
+        margin-right: 50px;
     }
    
     #article_main {
