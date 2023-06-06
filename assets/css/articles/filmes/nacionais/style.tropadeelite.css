@@ -67,3 +67,79 @@ body{
 #footer{
     margin: -5px
 }
+
+@media (max-width: 650px){
+    body{
+        margin: 0;
+        font-size: 20px;
+        width: 100%;
+    }
+    
+    #title{
+        margin: 30px;
+        font-size: 50px;
+        text-align: center;
+    }
+    #imagem_valorant{
+        text-align: center;
+        margin-top: -10px;
+    }
+    .section{
+        margin-left:45px;
+        margin-right: 45px;
+        width: 500px;
+    }
+    .subtitulo{
+        font-size: 40px;
+        width: 80%;
+    }
+    .div_funcoes{
+        padding-left: 30px;
+    }
+    .texto{
+        padding-left: 15px;
+        font-size: 30px;
+        text-align: justify;
+    }
+    #imagem_meio{
+        text-align: center;
+    }
+    #article_comentarios {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 45px;
+        margin-right: 45px;
+        width: 400px;
+    }
+    
+    .letra_cinza3 {
+        color: grey;
+        font-size: 37.5px;
+        margin-bottom: 15px;
+    }
+    
+    .quadrado_comentarios {
+        border: 2.25px solid grey;
+        border-radius: 7.5px;
+        padding-bottom: 225px;
+        padding-top: 10.5px;
+        padding-left: 10.5px;
+        margin: 7.5px;
+        margin-bottom: 22.5px;
+    }
+    
+    .linha_article {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #footer{
+        margin: -5px
+    }
+    .texto{
+        margin-right: 3vh;
+    }
+    p{
+        width: 100%;
+        text-align: justify;
+    }
+}
