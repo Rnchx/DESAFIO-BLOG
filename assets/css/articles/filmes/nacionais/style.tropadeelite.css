@@ -92,6 +92,7 @@ body{
     .subtitulo{
         font-size: 40px;
         width: 80%;
+        margin-left: 20vh;
     }
     .div_funcoes{
         padding-left: 30px;
