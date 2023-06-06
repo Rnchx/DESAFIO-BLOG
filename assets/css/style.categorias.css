@@ -260,3 +260,157 @@ h1 {
 #footer{
     margin: -5px
 }
+
+@media(max-width: 650px){
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #202020;
+    }
+    #fps_card {
+        background-image: url(https://media.istockphoto.com/id/1313854295/pt/vetorial/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-video-game-wearing.jpg?s=612x612&w=0&k=20&c=Z3OSSCjno_WaWla5P7ttz0VzOP5jh12y_NreAfgrNfE=);
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 15vw;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        height: 500px;
+    }
+    
+    #online_card {
+        background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2021/12/produtos-de-beleza-shutterstock_1170176554-scaled.jpg?fit=2560%2C1707&ssl=1);
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+    }
+    
+    #modo_historia_card {
+        background-image: url(https://zenitemarcas.com.br/wp-content/uploads/2018/05/como-registrar-uma-m%C3%BAsica.jpg);
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+    
+    }
+    
+    #moba_card {
+        background-image: url(https://adoropapel.com.br/wp-content/uploads/2021/04/capa.jpg);
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+    }
+    
+    #filmes {
+        background-image: url(https://st.depositphotos.com/1555678/1276/i/600/depositphotos_12766135-stock-photo-3d-cinema-clapper-film-reel.jpg);
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+    }
+    
+    #vestibular {
+        background-image: url(https://uniandrade.br/wp-content/uploads/2020/07/simulado-tem-varias-questoes-vestibular-57d9a8d50b0b0.jpg);
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+    }
+    
+    .first {
+        display: flex;
+        margin-top: 112.5px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .jogos{
+        color:black;
+    }
+    #title_categorias {
+        text-align: center;
+        font-size: 75px;
+        color: whitesmoke;
+        text-decoration: overline #FF0000 2px;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    #h1_jogos {
+        color: whitesmoke;
+    }
+    
+    h1 {
+        font-size: 35px;
+    }
+    #footer{
+        margin: -5px
+    }
+}

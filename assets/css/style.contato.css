@@ -112,57 +112,51 @@ p {
         -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
         -moz-box-shadow: 16px 14px 31px 1px orange;
         box-shadow: 16px 14px 31px 1px orange;
-        margin-right: 450px;
+        margin-right: 40vw;
         border-radius: 10px;
-        margin-bottom: 50px;
+        margin-bottom: 10vh;
         font-family: verdana;
-        padding-top: 50px;
+        padding-top: 10vh;
         
     }
     form{
         display: flex;
         flex-direction: column;
         font-family: Verdana;
-        height: 300px;
+        height: 36%;
         background-color: rgb(255, 255, 255);
         border-radius: 10px;
-        width: 30%;
+        width: 75vw;
         padding-left: 20px;
         padding-right: 20px;
-        padding-top: 5vh;
+        padding-top: 2vh;
         -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
         -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
         box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
         text-align: center;
-        margin-top: 180px;
+        margin-top: 5vh;
         transition: 2s;
         transform: scale(1.0);
-        
-    
-    
     }
+
     #submit{
-        margin-top: 30px;
+        margin-top: 1vh;
         background-color: white;
         color: black;
-        padding-top: 10;
+        padding-top: 1vh;
         font-family: serif;
-        margin-bottom: 15px;
+        margin-bottom: 1.5vh;
         text-align: center;
         border: solid 1.5px #FF0000;
-        margin-bottom: 40px;
+        margin-bottom: 4vh;
         margin-top: 20px;
         border-radius: 10px;
-    }
-    #submit:hover{
-        background-color: #FF0000;
-        font-family: serif;
     }
     input {
         padding: 8px;
     }
     #mensagem {
-        margin-bottom: 10px;
+        margin-bottom: 0.5vh;
     }
     .inputs {
         border: solid 1.5px #FF0000;
@@ -181,7 +175,7 @@ p {
         font-family: verdana;
         font-size: small;
         color:    whitesmoke;
-        margin-left: 35px;
+        margin-left: 5vw;
     }
     h1 {
         font-size: 40px;
@@ -193,10 +187,6 @@ p {
     
     #footer {
         margin: -5px;
-        width: 50vh;
+        width: 54vh;
     }
-
-
-
-
 }

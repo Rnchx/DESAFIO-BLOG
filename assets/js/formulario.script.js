@@ -1,41 +1,57 @@
-var postDiv;
-var postContainer;
-var armt = [];
-var armc = [];
-var armde = [];
-var arma = [];
-var armd = [];
-var i = 0;
+var titulo;
+var categoria;
+var descricao;
+var data;
+var autor;
+var ordem = []
+var mensagem = []
+
+
 
 function adicionar() {
-    let titulo = document.getElementById("titulo").value;
-    let categoria = document.getElementById("categoria").value;
-    let assunto = document.getElementById("descricao").value;
-    let nome = document.getElementById("autor").value;
-    let data = document.getElementById("data").value;
+    titulo = document.getElementById("titulo").value;
+    categoria = document.getElementById("categoria").value;
+    descricao = document.getElementById("descricao").value;
+    data = document.getElementById("data").value;
+    autor = document.getElementById("autor").value;
 
-     postContainer = document.getElementById("posts");
-     postDiv = '<div id="flex">' +
-                    '<div class="post">' +
-                    '<h2 id="h3_post">' + titulo + '</h2>' +
-                    '<p id="categoria_post">Categoria: ' + categoria + '</p>' +
-                    '<p id="descricao_post">Assunto: ' + assunto + '</p>' +
-                    '<p id="autor_post">Nome: ' + nome + '</p>' +
-                    '<p id="data_post">Data agendada:' + data +'</p>' +
-                    '</div>' + '<div id="d_botao">' + '<span class="botao" onclick="removerPost()">remover</span>' +
-                    '</div>' + '</div>';
 
-postContainer.innerHTML += postDiv;
+    ordem.unshift(autor)
+    ordem.unshift(data)
+    ordem.unshift(descricao)
+    ordem.unshift(titulo)
 
-document.getElementById("titulo").value = "";
-document.getElementById("data").value = "";
-document.getElementById("assunto").value = "";
-document.getElementById("nome").value = "";
+    mensagem.push(ordem)
+
+    console.log(ordem)
+    console.log(mensagem)
+
+    document.getElementById("titulo").value = "";
+    document.getElementById("categoria").value = "";
+    document.getElementById("descricao").value = "";
+    document.getElementById("data").value = "";
+    document.getElementById("autor").value = "";
+    atualizar();
 }
 
-function removerPost(){
-    if(adicionar() == true){
-        i++
+function atualizar() {
+    for (let j = 0; j < mensagem.length; j++) {
+        mensagem[j]
+        document.getElementById("mensagem").innerHTML = `<div id="flex">
+    <div id="post">
+        <h3 id="h3_post">${ordem[0]}</h3>
+        <span id="data_post">Data de Publicação:${ordem[1]}</span>
+        <span id="descricao_post">Descrição:${ordem[2]}</span>
+        <span id="autor_post">Autor:${ordem[3]}</span>
+    </div>
+    <div id="botoes">
+        <span onclick="editar()" class="botao">Editar</span>
+    </div>
+    <div id="botoes2">
+        <span onclick="remover()" class="botao">Remover</span>
+    </div>
+</div>`
+
     }
 }
 
