@@ -903,3 +903,290 @@ align-items: center
     margin-top: 15px;
 }
 }
+
+@media (max-width: 650px){
+    #header{
+        width: 200vh;
+    }
+
+    body {
+        margin: 0px;
+    }
+    .h1s {
+       margin-left: 5vh;
+        justify-content: center;
+        width: 200vh;
+        text-align: center;
+        margin-bottom: 30px;
+        color: gray;
+        font-size: 15vh;
+        margin-left: 195px;
+    }
+    .linhas {
+        color: grey;
+        margin-bottom: 0;
+    }
+    
+    #title {
+        margin-left: 5vh;
+        font-size: 10vh;
+        justify-content: center;
+        width: 200vh;
+    }
+    
+    .letra_cinza {
+        color: grey;
+        font-size: 6vh;
+        margin-right: 3vh;
+        margin-left: 3vh;
+        display: flex;
+    }
+    
+    .letra_cinza2 {
+        color: grey;
+        font-size: 10vh;
+        margin-bottom: 0;
+        text-align: left;
+        width: 100vh;
+    }
+    
+    #banner {
+        margin-top: -5px;
+    }
+    
+    #div_principal {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 22.5px;
+    }
+    
+    #titulo_principal {
+        font-size: 7vh;
+        margin-bottom: 7.5px;
+        margin-top: 0;
+        text-align: left;
+        width: 100vh;
+    }
+    #texto1  {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 8.5px;
+        font-size: 6.8vh;
+        padding-left: 7px;
+        display: inline;
+        width: 100vh;
+        
+    }
+    
+    #texto_materia_principal {
+        font-size: 8vh;
+        margin-right: 7vh;
+        text-align: justify;
+        width: 100vh;
+    }
+   
+    #article_main {
+        width: 60%;
+        margin-left: 15px;
+    }
+    
+    .imagens {
+        border-radius: 15px;
+        width: 65vh;
+         height: 65vh;
+    }
+    .imagebeleza {
+        border-radius: 15px;
+        width: 397%;
+        height: 100%;
+        display: flex;
+        
+    }
+    .imagem1 {
+        border-radius: 15px;
+        width: 400%;
+         height: 100%;
+    }
+
+    .pessoa{
+        width: 15vh;
+        height: 15vh;
+    }
+
+    .nome{
+        font-size: 7vh;
+        display: flex;
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    
+    .perfil_post {
+        display: flex;
+        align-items: center;
+        width: 150vh;
+    }
+    
+    .perfil_post h3 {
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+    
+    #article_aside {
+        width: 34%;
+        margin-right: 20px;
+        border-left:solid 2px #FF0000;
+        padding-left: 7px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .div_subnoticia {
+        width: 150vh;
+    }
+    
+    .site_terceiro {
+        text-decoration: none;
+        color: black;
+    }
+    
+    .titulo_subnoticia {
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 7vh;
+    }
+    
+    .grupo_subnoticia {
+        display: inline;
+        padding-left: 7.5px;
+    }
+    
+    .texto_subnoticia {
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 7.5px;
+        font-size: 7vh;
+        width: 100vh;
+        
+    }
+    
+    #article_comentarios {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 40px;
+        margin-right: 40px;
+        
+    }
+    
+    .letra_cinza3 {
+        color: grey;
+        font-size: 36.5px;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    
+    .quadrado_comentarios {
+        border: 2.25px solid grey;
+        border-radius: 7.5px;
+        padding-right: 1050px;
+        padding-bottom: 125px;
+        padding-top: 10.5px;
+        padding-left: 10.5px;
+        margin: 7.5px;
+        margin-bottom: 22.5px;
+    }
+    
+    .linha_article {
+        margin-left: 20vh;
+        margin-right: 20vw;
+    }
+    .comentarios_pessoas {
+        display: flex;
+        margin-left: 2vh;
+        padding: 2vh;
+        border: solid 2vw gray;
+        width: 200vh;
+        margin-top: 10vh;
+        border-radius: 20vw;
+        padding-left: 20vw;
+    }
+    
+    #footer {
+        margin-bottom: -20px;
+        width: 240vh;
+    }
+    #anuncio {
+        margin-left: 550vh;
+        margin-left: 20vw;
+    }
+.postado_por {
+    color: grey;
+    font-size: 10.5vh;
+    margin-top: 4vw;
+    text-align: center;
+}
+
+.ler_mais {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 5.5vh;
+  
+}
+.titulo_comentario {
+    color: black;
+    font-size: 9.5vh;
+    margin-right: 9vh;
+    width: 170vh;
+}
+.texto_comentario {
+    color: black;
+    text-align: left;
+    font-size: 7.5vh;
+    margin-right: 5vh;
+    width: 160vh;
+    margin-top: 0;
+    margin-bottom: 0;
+  
+}
+.espacamento {
+    margin-left:-0vh;
+    
+}
+.nome_comentario {
+    color: black;
+    font-size: 7.5vh;
+    margin-right: 5vh;
+    width: 95vh;
+}
+
+
+.grupo_de_comentarios_de_pessoas {
+    display: inline;
+    width: 165vh;
+}
+
+.nomep{
+    border-radius: 10px;
+    width: 10vh;
+     height: 10vh;
+}
+.letra_cinza1 {
+    color: grey;
+        font-size: 7vh;
+        margin-right: 3vh;
+        margin-left: 5vh;
+        display: flex;
+        width: 95vh;
+   
+}
+
+#h1_categorias {
+    color: black;
+    text-align: center;
+    font-size: 13.5vh;
+    margin-left: 5vh;
+    justify-content: center;
+    width: 245vh;
+}
+}
