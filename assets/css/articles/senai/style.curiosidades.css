@@ -1,38 +1,45 @@
-body{
+body {
     margin: 0%;
 }
 
-#title{
+#title {
     margin: 30px;
     font-size: 50px;
     text-align: center;
     color: black;
-      text-decoration: overline #FF0000 2px;
-        font-size: 80px;
+    text-decoration: overline #FF0000 2px;
+    font-size: 80px;
 }
-#imagem_valorant{
+
+#imagem_valorant {
     text-align: center;
     margin-left: -30px;
     margin-top: -10px;
 }
-.section{
-    margin-left:45px;
+
+.section {
+    margin-left: 45px;
     margin-right: 45px;
 }
-.subtitulo{
+
+.subtitulo {
     font-size: 40px;
 }
-.div_funcoes{
+
+.div_funcoes {
     padding-left: 30px;
 }
-.texto{
+
+.texto {
     padding-left: 15px;
     font-size: 30px;
     text-align: justify;
 }
-#imagem_meio{
+
+#imagem_meio {
     text-align: center;
 }
+
 #article_comentarios {
     display: flex;
     justify-content: space-between;
@@ -61,6 +68,73 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
-#footer{
+
+#footer {
     margin: -5px
+}
+
+@media (max-width: 650px) {
+    body {
+        margin: 0%;
+    }
+
+    #title {
+        margin: 1vh;    
+        font-size: 50px;
+        text-align: center;
+        color: black;
+        text-decoration: overline #FF0000 2px;
+        font-size: 40px;
+    }
+
+    #imagem_valorant {
+        text-align: center;
+        margin-left: -30px;
+        margin-top: -10px;
+    }
+
+    .section {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .subtitulo {
+        font-size: 40px;
+    }
+
+    .div_funcoes {
+        padding-left: 4vw;
+    }
+
+    .texto {
+        padding-left: 5vw;
+        font-size: 30px;
+        text-align: justify;
+    }
+
+    #imagem_meio {
+        text-align: center;
+    }
+
+    #article_comentarios {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+
+    .letra_cinza3 {
+        color: grey;
+        font-size: 37.5px;
+        margin-bottom: 15px;
+    }
+
+    .linha_article {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #footer {
+        margin: -5px
+    }
 }
