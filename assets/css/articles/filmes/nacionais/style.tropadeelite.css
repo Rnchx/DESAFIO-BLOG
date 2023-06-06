@@ -91,6 +91,7 @@ body{
     }
     .subtitulo{
         font-size: 40px;
+        width: 80%;
         margin-left: 20vh;
     }
     .div_funcoes{
@@ -137,5 +138,9 @@ body{
     }
     .texto{
         margin-right: 3vh;
+    }
+    p{
+        width: 100%;
+        text-align: justify;
     }
 }

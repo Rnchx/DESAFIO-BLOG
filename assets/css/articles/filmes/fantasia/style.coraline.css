@@ -20,7 +20,7 @@ body{
 }
 .subtitulo{
     font-size: 40px;
-    margin-left: 80px;
+    
 }
 .div_funcoes{
     padding-left: 30px;
@@ -68,40 +68,36 @@ body{
 #footer{
     margin: -5px
 } 
-@media (max-width: 650px) {
+@media (max-width: 650px){
     body{
         margin: 0;
+        font-size: 20px;
+        width: 100%;
     }
     
     #title{
-        margin: 10vh;
-        font-size: 8vh;
+        font-size: 50px;
         text-align: center;
     }
-    #imagem_filme{
+    #imagem_valorant{
         text-align: center;
         margin-top: -10px;
-        width: 355%;
     }
     .section{
-        margin-left:45px;
-        margin-right: 45px;
-        padding-left: 30px;
-        padding-bottom: 15px;
+        width: 100%;
+        justify-content: center;
     }
     .subtitulo{
-        font-size: 8vh;
-        width: 250%;
-        margin-left: 5vh;
+        font-size: 40px;
+        text-align: center;
     }
     .div_funcoes{
         padding-left: 30px;
     }
     .texto{
-        padding-left: 9vh;
-        font-size: 60px;
+        font-size: 30px;
         text-align: justify;
-        width: 350%;
+        width: 90%;
     }
     #imagem_meio{
         text-align: center;
@@ -111,6 +107,7 @@ body{
         justify-content: space-between;
         margin-left: 45px;
         margin-right: 45px;
+        width: 400px;
     }
     
     .letra_cinza3 {
@@ -118,12 +115,10 @@ body{
         font-size: 37.5px;
         margin-bottom: 15px;
     }
-
     
     .quadrado_comentarios {
         border: 2.25px solid grey;
         border-radius: 7.5px;
-        padding-right: 98vh;
         padding-bottom: 225px;
         padding-top: 10.5px;
         padding-left: 10.5px;
@@ -135,12 +130,24 @@ body{
         margin-left: 20px;
         margin-right: 20px;
     }
+    #footer{
+        margin: -5px
+    }
+
+    #imagem1{
+        width: 90%;
+        margin-left: 0;
+    }
     #atores {
         display: inline;
         padding-top: 8px;
-        font-size: 7vh;
-    }
-    #footer{
-        margin: -5px
-    } 
+        width: 100%;
+        text-align: center;
+}
+#explicacao_filme{
+    width: 85%;
+}
+#imagem1{
+    width: 100%;
+}
 }
