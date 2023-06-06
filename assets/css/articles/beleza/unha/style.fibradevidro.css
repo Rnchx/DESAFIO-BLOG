@@ -162,6 +162,7 @@ body{
 #div_fibra2{
     margin-right:  55vh;;
     margin-left: 20vh;
+   
 }
 #article_comentarios {
     display: flex;
@@ -220,15 +221,18 @@ display: flex;
 .div_fibra1{
     margin-right:  -80vh;;
     margin-left: 60vh;
+    display: inline;
 }
 .div_fibra3{
     margin-right:  -80vh;;
     margin-left: 60vh;
+    display: inline;
 
 }
 .div_fibra4{
     margin-right:  -60vh;;
     margin-left: 87vh;
+    display: inline;
 
 }
 .div_fibra5{
