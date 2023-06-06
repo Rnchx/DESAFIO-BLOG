@@ -1,25 +1,22 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../assets/css/style.puclicacao.css">
-    <link rel="icon" type="imagem/x-icon" href="../assets/images/ICON.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="../assets/js/formulario.script.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.puclicacao.css">
     <title>Red News</title>
 </head>
-
 <body>
-    <iframe src="../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="125px"></iframe>
-    <div id="form2">
-        <div id="feedback">
-            <h1>Faça a sua publicação:</h1>
-            <p>Preencha os campos para agendar suas publicações:</p>
-        </div>
-        <form>
-            <label class="label">Título:</label>
-            <input type="text" required placeholder="digite o título da publicação" id="titulo">
-            <label class="label">Categorias:</label>
+    <div>
+        <label class="label">Título:</label>
+        <input id="titulo" type="text" placeholder="Digite o título do post">
+
+        <label class="label">Data:</label>
+        <input id="data" type="date" min="2023-06-01">
+
+        <label class="label">Categorias:</label>
             <select name="Categorias" id="categoria">
                 <option>
                     Beleza
@@ -40,21 +37,16 @@
                     Vestibular
                 </option>
             </select>
-            <label class="label">Descrição:</label>
-            <input type="text" required placeholder="digite a descrição do seu post" id="descricao">
-            <label class="label">Autor:</label>
-            <input type="text" required placeholder="digite o nome do autor" required minlength="10" id="autor">
-            <label class="label">Data:</label>
-            <input type="date" id="data">
-            <span onclick="adicionar()" id="botao">Enviar</span>
-        </form>
-    </div>
-    <div id="posts">
-        
-    </div>
-    <iframe id="footer" src="../layouts/footer.html" frameborder="0" scrolling="no" width="100%"
-        height="400px"></iframe>
 
+        <label class="label">Descrição:</label>
+        <input id="mensagem" type="text" placeholder="Digite o assunto do post">
+
+        <label class="label">Autor:</label>
+        <input id="autor" type="text" placeholder="Digite seu nome">
+
+        <button onclick="criarPost()">Criar Post</button>
+      </div>
+    
+      <div id="postEntrada"></div>
 </body>
-
 </html>

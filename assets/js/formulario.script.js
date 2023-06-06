@@ -1,57 +1,48 @@
-var titulo;
-var categoria;
-var descricao;
-var data;
-var autor;
-var ordem = []
-var mensagem = []
+var postVL = 0;
+var arrD;
 
+function criarPost() {
+  var titulo = document.getElementById("titulo").value;
 
+  var data = document.getElementById("data").value;
+  arrD = data.split("-");
+  var arrDN = arrD.reverse().join("/");
 
-function adicionar() {
-    titulo = document.getElementById("titulo").value;
-    categoria = document.getElementById("categoria").value;
-    descricao = document.getElementById("descricao").value;
-    data = document.getElementById("data").value;
-    autor = document.getElementById("autor").value;
+  var categoria = document.getElementById("categoria").value
+  var mensagem = document.getElementById("mensagem").value;
+  var autor = document.getElementById("autor").value;
 
+  if (titulo == "" & data == "" & mensagem == "" & autor == "") {
+    alert("Insira algo nos campos");
 
-    ordem.unshift(autor)
-    ordem.unshift(data)
-    ordem.unshift(descricao)
-    ordem.unshift(titulo)
+    document.getElementById("titulo").value = '';
+    document.getElementById("data").value = '';
+    document.getElementById("categoria").value = '';
+    document.getElementById("mensagem").value = '';
+    document.getElementById("autor").value = '';
+  }
 
-    mensagem.push(ordem)
+  var postEntrada = document.getElementById("postEntrada");
+  var postDiv = '<div class="post" id="post2' + postVL + '">' +
+                  '<h1>' + titulo + '</h1>' +
+                  '<p>Data: ' + arrDN + '</p>' +
+                  '<p>Categoria: ' + categoria + '</p>' +
+                  '<p>Assunto: ' + mensagem + '</p>' +
+                  '<p>Nome: ' + autor + '</p>' +
+                  '<button onclick="removerPost('+postVL+')">Apagar</button>' +
+                '</div>';
 
-    console.log(ordem)
-    console.log(mensagem)
+  postEntrada.innerHTML += postDiv;
 
-    document.getElementById("titulo").value = "";
-    document.getElementById("categoria").value = "";
-    document.getElementById("descricao").value = "";
-    document.getElementById("data").value = "";
-    document.getElementById("autor").value = "";
-    atualizar();
+  document.getElementById("titulo").value = '';
+  document.getElementById("data").value = '';
+  document.getElementById("mensagem").value = '';
+  document.getElementById("autor").value = '';
+
+  postVL++;
 }
 
-function atualizar() {
-    for (let j = 0; j < mensagem.length; j++) {
-        mensagem[j]
-        document.getElementById("mensagem").innerHTML = `<div id="flex">
-    <div id="post">
-        <h3 id="h3_post">${ordem[0]}</h3>
-        <span id="data_post">Data de Publicação:${ordem[1]}</span>
-        <span id="descricao_post">Descrição:${ordem[2]}</span>
-        <span id="autor_post">Autor:${ordem[3]}</span>
-    </div>
-    <div id="botoes">
-        <span onclick="editar()" class="botao">Editar</span>
-    </div>
-    <div id="botoes2">
-        <span onclick="remover()" class="botao">Remover</span>
-    </div>
-</div>`
-
-    }
+function removerPost(id) {
+  var postDiv = document.getElementById('post2' + id);
+  postDiv.style.display = 'none';
 }
-
