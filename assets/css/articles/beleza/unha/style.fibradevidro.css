@@ -100,3 +100,122 @@ body{
 #footer{
     margin: -5px
 }
+@media  (max-width: 650px){
+ body{
+    margin: 0;
+}
+#header{
+    margin-bottom: -15px;
+}
+#title{
+    margin-left: 5vh;
+    justify-content: center;
+    width: 400%;
+    text-align: center;
+    margin-bottom: 30vh;
+    font-size: 15vh;
+}
+
+.section{
+    margin-left:30px;
+    margin-right: 30px;
+}
+.subtitulo{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 8.5vh;
+    width: 100vh;
+}
+.div_fibra{
+    padding-left: 20px;
+}
+.texto{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 8.5px;
+    font-size: 8.8vh;
+    width: 358%;
+}
+.linhas{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vidro{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 35px;
+    margin-left: 35px;
+}
+.hr_fibra{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#agentes_exclusive{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-right: 90px;
+    margin-left: 5px;
+}
+#div_fibra2{
+    margin-right:  55px;;
+    margin-left: 20px;
+}
+#article_comentarios {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.letra_cinza3 {
+    color: grey;
+    font-size: 37.5px;
+    margin-bottom: 15px;
+}
+
+.quadrado_comentarios {
+    border: 2.25px solid grey;
+    border-radius: 7.5px;
+    padding-right: 1050px;
+    padding-bottom: 225px;
+    padding-top: 10.5px;
+    padding-left: 10.5px;
+    margin: 7.5px;
+    margin-bottom: 22.5px;
+}
+
+.linha_article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.quadrado_comentarios {
+    border: 2.25px solid grey;
+    border-radius: 7.5px;
+    padding-right: 1050px;
+    padding-bottom: 225px;
+    padding-top: 10.5px;
+    padding-left: 10.5px;
+    margin: 7.5px;
+    margin-bottom: 22.5px;
+}
+
+.linha_article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#footer{
+    margin: -5px
+} 
+.banner {
+    border-radius: 15px;
+width: 240vh;
+height: 120vh;
+display: flex;
+}
+    
+}
