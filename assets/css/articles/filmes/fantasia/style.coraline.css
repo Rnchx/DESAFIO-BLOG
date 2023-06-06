@@ -10,6 +10,7 @@ body{
 #imagem_filme{
     text-align: center;
     margin-top: -10px;
+    width: 100%;
 }
 .section{
     margin-left:45px;
@@ -66,4 +67,80 @@ body{
 }
 #footer{
     margin: -5px
+} 
+@media (max-width: 650px) {
+    body{
+        margin: 0;
+    }
+    
+    #title{
+        margin: 10vh;
+        font-size: 8vh;
+        text-align: center;
+    }
+    #imagem_filme{
+        text-align: center;
+        margin-top: -10px;
+        width: 355%;
+    }
+    .section{
+        margin-left:45px;
+        margin-right: 45px;
+        padding-left: 30px;
+        padding-bottom: 15px;
+    }
+    .subtitulo{
+        font-size: 8vh;
+        width: 250%;
+        margin-left: 5vh;
+    }
+    .div_funcoes{
+        padding-left: 30px;
+    }
+    .texto{
+        padding-left: 9vh;
+        font-size: 60px;
+        text-align: justify;
+        width: 350%;
+    }
+    #imagem_meio{
+        text-align: center;
+    }
+    #article_comentarios {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    
+    .letra_cinza3 {
+        color: grey;
+        font-size: 37.5px;
+        margin-bottom: 15px;
+    }
+
+    
+    .quadrado_comentarios {
+        border: 2.25px solid grey;
+        border-radius: 7.5px;
+        padding-right: 98vh;
+        padding-bottom: 225px;
+        padding-top: 10.5px;
+        padding-left: 10.5px;
+        margin: 7.5px;
+        margin-bottom: 22.5px;
+    }
+    
+    .linha_article {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #atores {
+        display: inline;
+        padding-top: 8px;
+        font-size: 7vh;
+    }
+    #footer{
+        margin: -5px
+    } 
 }
