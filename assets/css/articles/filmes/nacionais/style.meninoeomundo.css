@@ -79,42 +79,51 @@ body {
     margin: -5px
 }
 
-@media (max-width: 450px){
-    body{
+@media (max-width: 650px) {
+    body {
         margin: 0;
         font-size: 20px;
         width: 100%;
     }
-    
-    #title{
+
+    #title {
+        margin: 30px;
         font-size: 50px;
         text-align: center;
-        width: 80%;
-
     }
-    #imagem_valorant{
+
+    #imagem_valorant {
         text-align: center;
         margin-top: -10px;
     }
-    .section{
-        width: 100%;
-        justify-content: center;
+
+    .section {
+        margin-left: 45px;
+        margin-right: 45px;
+        width: 500px;
     }
-    .subtitulo{
+
+    .subtitulo {
         font-size: 40px;
+        width: 80%;
         text-align: center;
+
     }
-    .div_funcoes{
+
+    .div_funcoes {
         padding-left: 30px;
     }
-    .texto{
+
+    .texto {
+        padding-left: 15px;
         font-size: 30px;
         text-align: justify;
-        width: 90%;
     }
-    #imagem_meio{
+
+    #imagem_meio {
         text-align: center;
     }
+
     #article_comentarios {
         display: flex;
         justify-content: space-between;
@@ -122,13 +131,13 @@ body {
         margin-right: 45px;
         width: 400px;
     }
-    
+
     .letra_cinza3 {
         color: grey;
         font-size: 37.5px;
         margin-bottom: 15px;
     }
-    
+
     .quadrado_comentarios {
         border: 2.25px solid grey;
         border-radius: 7.5px;
@@ -138,29 +147,22 @@ body {
         margin: 7.5px;
         margin-bottom: 22.5px;
     }
-    
+
     .linha_article {
         margin-left: 20px;
         margin-right: 20px;
     }
-    #footer{
+
+    #footer {
         margin: -5px
     }
 
-    #imagem1{
-        width: 90%;
-        margin-left: 0;
+    .texto {
+        margin-right: 3vh;
     }
-    #atores {
-        display: inline;
-        padding-top: 8px;
+
+    p {
         width: 100%;
-        text-align: center;
-}
-#explicacao_filme{
-    width: 85%;
-}
-#imagem1{
-    width: 100%;
-}
+        text-align: justify;
+    }
 }

@@ -68,6 +68,76 @@ body{
     margin: -5px
 }
 
+body{
+    margin: 0;
+}
+
+#title{
+    margin: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+#imagem_filme{
+    text-align: center;
+    margin-top: -10px;
+}
+.section{
+    margin-left:45px;
+    margin-right: 45px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+.subtitulo{
+    font-size: 40px;
+    margin-left: 80px;
+}
+.div_funcoes{
+    padding-left: 30px;
+}
+.texto{
+    padding-left: 15px;
+    font-size: 30px;
+    text-align: justify;
+}
+#imagem_meio{
+    text-align: center;
+}
+#article_comentarios {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.letra_cinza3 {
+    color: grey;
+    font-size: 37.5px;
+    margin-bottom: 15px;
+}
+
+.quadrado_comentarios {
+    border: 2.25px solid grey;
+    border-radius: 7.5px;
+    padding-right: 1050px;
+    padding-bottom: 225px;
+    padding-top: 10.5px;
+    padding-left: 10.5px;
+    margin: 7.5px;
+    margin-bottom: 22.5px;
+}
+
+.linha_article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#atores {
+    display: flex;
+    padding-top: 8px;
+}
+#footer{
+    margin: -5px
+}
+
 @media (max-width: 450px){
     body{
         margin: 0;
@@ -76,30 +146,38 @@ body{
     }
     
     #title{
-        font-size: 50px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
         text-align: center;
-        width: 80%;
-
+        margin: 0;
+        padding: 0;
+        margin-bottom: 4%;
     }
     #imagem_valorant{
         text-align: center;
         margin-top: -10px;
     }
     .section{
-        width: 100%;
-        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
     .subtitulo{
         font-size: 40px;
         text-align: center;
+        width: 80%;
     }
     .div_funcoes{
         padding-left: 30px;
     }
     .texto{
-        font-size: 30px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
         text-align: justify;
-        width: 90%;
+        margin: 0;
+        padding: 0;
     }
     #imagem_meio{
         text-align: center;
@@ -137,17 +215,11 @@ body{
     }
 
     #imagem1{
-        width: 90%;
-        margin-left: 0;
+        width: 100%;
     }
     #atores {
         display: inline;
         padding-top: 8px;
-        width: 100%;
-        text-align: center;
-}
-#explicacao_filme{
-    width: 85%;
 }
 #imagem1{
     width: 100%;
