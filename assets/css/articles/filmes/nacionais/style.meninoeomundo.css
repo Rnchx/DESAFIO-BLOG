@@ -1,46 +1,37 @@
-body {
+body{
     margin: 0;
 }
 
-#title {
+#title{
+    margin: 30px;
     font-size: 50px;
     text-align: center;
-    width: 80%;
 }
-
-#imagem_filme {
+#imagem_filme{
     text-align: center;
     margin-top: -10px;
 }
-
-.section {
-    margin-left: 45px;
+.section{
+    margin-left:45px;
     margin-right: 45px;
     padding-left: 30px;
     padding-bottom: 15px;
-    width: 70%;
 }
-
-.subtitulo {
-    font-size: 20px;
-    width: 100%;
-    text-align: justify;
+.subtitulo{
+    font-size: 40px;
+    margin-left: 80px;
 }
-
-.div_funcoes {
+.div_funcoes{
     padding-left: 30px;
 }
-
-.texto {
+.texto{
     padding-left: 15px;
     font-size: 30px;
     text-align: justify;
 }
-
-#imagem_meio {
+#imagem_meio{
     text-align: center;
 }
-
 #article_comentarios {
     display: flex;
     justify-content: space-between;
@@ -69,113 +60,85 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
-
 #atores {
     display: flex;
     padding-top: 8px;
 }
-
-#footer {
+#footer{
     margin: -5px
 }
 
-@media (max-width: 450px){
-    body{
+@media (max-width: 450px) {
+    body {
         margin: 0;
         font-size: 20px;
-        width: 50%;
-    }
-    
-    #title{
-        font-size: 40px;
-        text-align: center;
-    }
-    #imagem_valorant{
-        text-align: center;
-        margin-top: -10px;
         width: 100%;
     }
-    .section{
-        margin-left:7vw;
-        margin-right: 3vw;
-        width: 95vw;
-        text-align: justify;
-    }
-    .subtitulo{
-        font-size: 30px;
-        margin-left: 0;
-        margin-left: 0;
-        text-align: justify;
-        width: 80%;
-    }
 
-    #subtitulo1 {
-       margin-left: 0;
-       margin-right: 0;
-       width: 100%;
-    }
-
-    #subtitulo2 {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .div_funcoes{
-        padding-left: 30px;
-    }
-    .texto{
-        font-size: 30px;
-        text-align: justify;
-        width: 95%;
-    }
-    #imagem_meio{
-        text-align: center;
-    }
-    #article_comentarios {
+    #paiDeTodos {
+        margin: 0;
+        padding: 0;
         display: flex;
-        justify-content: space-between;
-        margin-left: 45px;
-        margin-right: 45px;
-        width: 400px;
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
     }
-    
-    .letra_cinza3 {
-        color: grey;
-        font-size: 37.5px;
-        margin-bottom: 15px;
+
+    #title {
+        font-size: 30px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 3%;
+        align-content: space-between;
     }
-    
-    .quadrado_comentarios {
-        border: 2.25px solid grey;
-        border-radius: 7.5px;
-        padding-bottom: 225px;
-        padding-top: 10.5px;
-        padding-left: 10.5px;
-        margin: 7.5px;
-        margin-bottom: 22.5px;
+
+    #imagem_valorant {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    
-    .linha_article {
-        margin-left: 20px;
-        margin-right: 20px;
-        display: none;
+
+    .section {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    #footer{
-        margin: -5px
+
+    .subtitulo,
+    h2 {
+        font-size: 25px;
+        text-align: center;
+        padding: 0 !important;
+        margin: 0;
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
-    p{
+    p,
+    .texto {
+        font-size: 30px;
         text-align: justify;
         width: 100%;
-        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    #explicacao_jogo{
+
+    #explicacao_jogo {
         width: 92%;
     }
-    #banner{
-        width: 218%;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    #arrumando{
+    #tyL{
         width: 100%;
     }
 }
