@@ -387,6 +387,14 @@ li {
     align-items: center;
 }
 
+.title_jogos {
+    color: white;
+}
+
+.principal_jogos {
+    color: white;
+}
+
 @media (max-width: 650px){
     body {
         margin: 0px;
@@ -763,10 +771,12 @@ li {
 
     .title_jogos{
         font-size: 7vh;
+        color: white;
     }
 
     .principal_jogos{
         font-size: 8vh;
+        color: white;
     }
 
     #footer{
