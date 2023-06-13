@@ -146,7 +146,7 @@ body {
 
 
 
-@media (max-width: 450px){
+@media (max-width: 650px){
     #header{
         width: 100vw;
     }
