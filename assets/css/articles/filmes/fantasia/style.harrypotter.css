@@ -76,28 +76,38 @@ body{
     }
     
     #title{
-        font-size: 50px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
         text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 4%;
     }
     #imagem_valorant{
         text-align: center;
         margin-top: -10px;
     }
     .section{
-        width: 100%;
-        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
     .subtitulo{
         font-size: 40px;
         text-align: center;
+        width: 80%;
     }
     .div_funcoes{
         padding-left: 30px;
     }
     .texto{
-        font-size: 30px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
         text-align: justify;
-        width: 90%;
+        margin: 0;
+        padding: 0;
     }
     #imagem_meio{
         text-align: center;
@@ -135,19 +145,13 @@ body{
     }
 
     #imagem1{
-        width: 90%;
-        margin-left: 0;
+        width: 100%;
     }
     #atores {
         display: inline;
         padding-top: 8px;
-        width: 100%;
-        text-align: center;
-}
-#explicacao_filme{
-    width: 85%;
 }
 #imagem1{
-    width: 100vw;
+    width: 100%;
 }
 }
