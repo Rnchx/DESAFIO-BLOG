@@ -153,7 +153,9 @@ body{
         width: 100%;
     }
     #operadores{
-        display: inline;
-        flex-direction: column;
+        display: none;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
