@@ -19,7 +19,7 @@ body{
     margin-left: 15%;
 }
 #textocasal{
-    width: 1300px;
+    width: 100%;
     margin-left: 20%;
 }
 .section{
@@ -90,7 +90,7 @@ main{
     display: inline-flex;
     flex-direction: row;
 }
-@media (max-width: 650px){
+@media (max-width: 450px){
     body{
         margin: 0;
         font-size: 20px;
@@ -170,6 +170,24 @@ main{
     }
     #container{
         display: inline;
+    }
+    #tweet1{
+        display: inline;
+        flex-direction: column;
+        width: 100%;
+    }
+    .tweets{
+        width: 100%;
+    }
+    #textocasal{
+        width: 100%;
+        margin-left: 20%;
+        display: inline;
+        flex-direction: column;
+    }
+    #container{
+        display: inline;
+        flex-direction: column;
     }
 }
 
