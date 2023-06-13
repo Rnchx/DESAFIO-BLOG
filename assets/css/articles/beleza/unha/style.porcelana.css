@@ -115,11 +115,10 @@ body{
    }
    .texto{
        margin-top: 0;
-       margin-bottom: -0;
-       padding-top: 8.5vh;
+       margin-bottom: 0;
+       padding-top: 10.5vh;
        font-size: 8.8vh;
-      width: 50vh;
-       margin-left: -1;
+       width: 370%;
    }
    .linhas{
        margin-left: 10vh;
@@ -199,7 +198,7 @@ body{
    } 
    .banner {
        border-radius: 0vh;
-   width: 380%;
+   width: 400%;
    height: 120%;
    display: flex;
    }
@@ -209,8 +208,8 @@ body{
        display: inline;
    }
    .div_fibra3{
-       margin-right:  -80vh;;
-       margin-left: 60vh;
+       margin-right:  -90vh;;
+       margin-left: 50vh;
        display: inline;
    
    }
