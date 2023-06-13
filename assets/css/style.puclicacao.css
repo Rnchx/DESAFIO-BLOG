@@ -229,5 +229,9 @@ p {
     }
     #botao{
         width: 20vw;
+
+    #footerMobile {
+        display: inline;
+        visibility: visible;
     }
 }
