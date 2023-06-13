@@ -76,21 +76,24 @@ body{
     }
     
     #title{
-        font-size: 50px;
+        font-size: 35px;
         text-align: center;
+        margin-left: 0;
+        margin-right: 0;
     }
     #imagem_valorant{
         text-align: center;
         margin-top: -10px;
+        width: 100%;
+    }
+
+    #banner{
+        width: 500%;
     }
     .section{
-        margin-left:45px;
-        margin-right: 45px;
-        width: 500px;
-    }
-    .subtitulo{
-        font-size: 40px;
-        text-align: center;
+        margin-left:7vw;
+        margin-right: 3vw;
+        width: 90vw;
     }
     .div_funcoes{
         padding-left: 30px;
@@ -102,13 +105,6 @@ body{
     }
     #imagem_meio{
         text-align: center;
-    }
-    #article_comentarios {
-        display: flex;
-        justify-content: space-between;
-        margin-left: 45px;
-        margin-right: 45px;
-        width: 400px;
     }
     
     .letra_cinza3 {
@@ -126,11 +122,6 @@ body{
         margin: 7.5px;
         margin-bottom: 22.5px;
     }
-    
-    .linha_article {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
     #footer{
         margin: -5px
     }
@@ -143,6 +134,9 @@ body{
         width: 92%;
     }
     #banner{
+        width: 100%;
+    }
+    #arrumando{
         width: 100%;
     }
 }
