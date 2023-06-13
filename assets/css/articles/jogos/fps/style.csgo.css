@@ -63,51 +63,42 @@ body{
     margin: -5px
 }
 
-@media (max-width: 650px) {
-    body {
+@media (max-width: 450px){
+    body{
         margin: 0;
         font-size: 20px;
-        width: 100%;
+        width: 50%;
     }
-
-    #title {
-        margin: 30px;
+    
+    #title{
         font-size: 50px;
         text-align: center;
     }
-
-    #imagem_valorant {
+    #imagem_valorant{
         text-align: center;
         margin-top: -10px;
+        width: 100%;
     }
-
-    .section {
-        margin-left: 45px;
+    .section{
+        margin-left:45px;
         margin-right: 45px;
         width: 500px;
     }
-
-    .subtitulo {
+    .subtitulo{
         font-size: 40px;
-        width: 80%;
-        text-align: center;
-
+        margin-left: 11vh;
     }
-
-    .div_funcoes {
+    .div_funcoes{
         padding-left: 30px;
     }
-
-    .texto {
-        padding-left: 15px;
+    .texto{
         font-size: 30px;
         text-align: justify;
+        width: 95%;
     }
-
-    #imagem_meio {
+    #imagem_meio{
         text-align: center;
     }
-
     #article_comentarios {
         display: flex;
         justify-content: space-between;
@@ -115,13 +106,13 @@ body{
         margin-right: 45px;
         width: 400px;
     }
-
+    
     .letra_cinza3 {
         color: grey;
         font-size: 37.5px;
         margin-bottom: 15px;
     }
-
+    
     .quadrado_comentarios {
         border: 2.25px solid grey;
         border-radius: 7.5px;
@@ -131,26 +122,23 @@ body{
         margin: 7.5px;
         margin-bottom: 22.5px;
     }
-
+    
     .linha_article {
         margin-left: 20px;
         margin-right: 20px;
     }
-
-    #footer {
+    #footer{
         margin: -5px
     }
-
-    .texto {
-        margin-right: 3vh;
-    }
-
-    p {
+    p{
+        text-align: justify;
         width: 100%;
-        text-align: center;
+        font-size: 30px;
     }
-    #atores {
-        display: inline;
-        padding-top: 8px;
+    #explicacao_jogo{
+        width: 92%;
+    }
+    #banner{
+        width: 100%;
     }
 }

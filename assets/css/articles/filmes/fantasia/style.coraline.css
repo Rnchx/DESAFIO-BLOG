@@ -80,31 +80,38 @@ body{
     }
     
     #title{
-        margin: 30px;
-        font-size: 50px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
         text-align: center;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 4%;
     }
     #imagem_valorant{
         text-align: center;
         margin-top: -10px;
     }
     .section{
-        margin-left:45px;
-        margin-right: 45px;
-        width: 77%;
-        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
     }
     .subtitulo{
         font-size: 40px;
         text-align: center;
+        width: 80%;
     }
     .div_funcoes{
         padding-left: 30px;
     }
     .texto{
-      
-        font-size: 30px;
+        margin-left: 30px !important;
+        margin-right: 30px !important;
         text-align: justify;
+        margin: 0;
+        padding: 0;
     }
     #imagem_meio{
         text-align: center;

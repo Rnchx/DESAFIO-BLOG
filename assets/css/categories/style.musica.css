@@ -406,17 +406,15 @@ li {
     align-items: center;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 450px) {
     #header {
         width: 200vh;
         margin-bottom: -15px;
-
         height: 150px;
     }
 
     body {
         margin: 0px;
-
     }
 
     .h1s {
@@ -446,8 +444,8 @@ li {
     .letra_cinza {
         color: grey;
         font-size: 6vh;
-        margin-right: 3vh;
-        margin-left: 3vh;
+        margin-right: 1vh;
+        margin-left: 1vh;
         display: flex;
     }
 
@@ -537,7 +535,7 @@ li {
     .perfil_post {
         display: flex;
         align-items: center;
-        width: 200vh;
+        width: 90%;
     }
 
     .perfil_post h3 {
@@ -552,6 +550,7 @@ li {
         padding-left: 7px;
         display: flex;
         flex-direction: column;
+        margin-top: 5vh;
 
     }
 
@@ -730,5 +729,8 @@ li {
     .ft_perfil {
         width: 45vw;
         height: 18vh;
+    }
+    .first{
+        width: 100%;
     }
 }
