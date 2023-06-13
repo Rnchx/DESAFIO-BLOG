@@ -81,7 +81,7 @@ body{
     
     #title{
         margin: 30px;
-        font-size: 50px;
+        font-size: 30px;
         text-align: center;
     }
     #imagem_valorant{
@@ -91,7 +91,7 @@ body{
     .section{
         margin-left:45px;
         margin-right: 45px;
-        width: 500px;
+        width: 100%;
     }
     .subtitulo{
         font-size: 40px;
@@ -101,12 +101,18 @@ body{
         padding-left: 30px;
     }
     .texto{
-        padding-left: 15px;
-        font-size: 30px;
+        font-size: 25px;
         text-align: justify;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     #imagem_meio{
         text-align: center;
+    }
+    #imagem_filme{
+        text-align: center;
+        margin-top: -10px;
+        width: 100%;
     }
     #article_comentarios {
         display: flex;

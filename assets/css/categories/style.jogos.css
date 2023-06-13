@@ -1,14 +1,10 @@
 body {
-    margin: 0px;
-    background-color: white;
-    padding: 0;
-    border-color: black;
-    text-align: center;
-    color: white;
+    margin: 0%;
+    padding: 0%;
     font-size: 20px;
 }
 #header{
-    margin-bottom: -15px;
+    margin-bottom: -20px;
 }
 .linhas {
     color: grey;
@@ -391,6 +387,14 @@ li {
     align-items: center;
 }
 
+.title_jogos {
+    color: white;
+}
+
+.principal_jogos {
+    color: white;
+}
+
 @media (max-width: 650px){
     body {
         margin: 0px;
@@ -767,10 +771,12 @@ li {
 
     .title_jogos{
         font-size: 7vh;
+        color: white;
     }
 
     .principal_jogos{
         font-size: 8vh;
+        color: white;
     }
 
     #footer{

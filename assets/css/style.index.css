@@ -130,13 +130,18 @@ body {
     margin-right: 20px;
 }
 
-#footer {
+.footer {
     margin-bottom: -20px;
+}
+
+#footer2 {
+    display: none;
+    visibility: hidden;
 }
 
 @media (max-width: 650px){
     #header{
-        width: 300vh;
+        width: 100vw;
     }
 
     body {
@@ -297,9 +302,14 @@ body {
         margin-right: 20px;
     }
     
-    #footer {
+    .footer {
         margin-bottom: -20px;
         width: 200vh;
+    }
+
+    #footer1 {
+        display: none;
+        visibility: hidden;
     }
 }
 
