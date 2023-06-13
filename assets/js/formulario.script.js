@@ -24,12 +24,12 @@ function criarPost() {
 
   var postEntrada = document.getElementById("postEntrada");
   var postDiv = '<div class="post" id="post2' + postVL + '">' +
-                  '<h1>' + titulo + '</h1>' +
-                  '<p>Data: ' + arrDN + '</p>' +
-                  '<p>Categoria: ' + categoria + '</p>' +
-                  '<p>Assunto: ' + mensagem + '</p>' +
-                  '<p>Nome: ' + autor + '</p>' +
-                  '<button onclick="removerPost('+postVL+')">Apagar</button>' +
+                  '<h1 id="h1_post">' + titulo + '</h1>' +
+                  '<p id="data_post">Data: ' + arrDN + '</p>' +
+                  '<p id="categoria_post>Categoria: ' + categoria + '</p>' +
+                  '<p id="descricao_post">Assunto: ' + mensagem + '</p>' +
+                  '<p id="autor_post">Nome: ' + autor + '</p>' +
+                  '<button onclick="removerPost('+postVL+')" class="botao">Apagar</button>' +
                 '</div>';
 
   postEntrada.innerHTML += postDiv;
