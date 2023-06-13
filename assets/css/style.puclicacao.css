@@ -200,12 +200,25 @@ p {
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    margin-top: 30px;
+    margin-top: 5vh;
     transition: 2s;
     transform: scale(1.0);
 }
+
 #d_botao{
     margin-top: 6.5vh;
     margin-right: 17vw;
     width: 20%;
+}
+
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
+@media (max-width: 450px) {
+    #footer1{
+        display: none;
+        visibility: hidden;
+    }
 }
