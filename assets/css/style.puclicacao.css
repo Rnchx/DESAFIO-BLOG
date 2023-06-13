@@ -221,6 +221,14 @@ p {
         display: none;
         visibility: hidden;
     }
+    #form{
+        width: 90%;
+    }
+    #data{
+        width: 25vw;
+    }
+    #botao{
+        width: 20vw;
 
     #footerMobile {
         display: inline;
