@@ -221,4 +221,9 @@ p {
         display: none;
         visibility: hidden;
     }
+
+    #footerMobile {
+        display: inline;
+        visibility: visible;
+    }
 }
