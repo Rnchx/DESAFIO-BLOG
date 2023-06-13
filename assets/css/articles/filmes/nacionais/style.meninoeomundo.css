@@ -93,6 +93,7 @@ body {
     #imagem_valorant{
         text-align: center;
         margin-top: -10px;
+        width: 100%;
     }
     .section{
         margin-left:45px;
@@ -101,7 +102,7 @@ body {
     }
     .subtitulo{
         font-size: 40px;
-        text-align: center;
+        margin-left: 11vh;
     }
     .div_funcoes{
         padding-left: 30px;
