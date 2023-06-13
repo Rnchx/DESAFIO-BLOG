@@ -139,6 +139,9 @@ body {
     visibility: hidden;
 }
 
+#footer1 {
+    visibility: visible;
+}
 
 
 
@@ -314,6 +317,10 @@ body {
     #footer1 {
         display: none;
         visibility: hidden;
+    }
+
+    #footer2 {
+        visibility: visible;
     }
 }
 
