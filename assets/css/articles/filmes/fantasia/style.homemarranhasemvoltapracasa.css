@@ -68,7 +68,7 @@ body{
     margin: -5px
 }
 
-@media (max-width: 650px){
+@media (max-width: 450px){
     body{
         margin: 0;
         font-size: 20px;

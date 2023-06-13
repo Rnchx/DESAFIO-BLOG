@@ -68,7 +68,7 @@ body{
     margin: -5px
 }
 
-@media (max-width: 650px){
+@media (max-width: 450px){
     body{
         margin: 0;
         font-size: 20px;
@@ -76,31 +76,30 @@ body{
     }
     
     #title{
-        margin: 30px;
         font-size: 50px;
         text-align: center;
+        width: 80%;
+
     }
     #imagem_valorant{
         text-align: center;
         margin-top: -10px;
     }
     .section{
-        margin-left:45px;
-        margin-right: 45px;
-        width: 500px;
+        width: 100%;
+        justify-content: center;
     }
     .subtitulo{
         font-size: 40px;
-        width: 80%;
-        margin-left: 20vh;
+        text-align: center;
     }
     .div_funcoes{
         padding-left: 30px;
     }
     .texto{
-        padding-left: 15px;
         font-size: 30px;
         text-align: justify;
+        width: 90%;
     }
     #imagem_meio{
         text-align: center;
@@ -136,11 +135,21 @@ body{
     #footer{
         margin: -5px
     }
-    .texto{
-        margin-right: 3vh;
+
+    #imagem1{
+        width: 90%;
+        margin-left: 0;
     }
-    p{
+    #atores {
+        display: inline;
+        padding-top: 8px;
         width: 100%;
-        text-align: justify;
-    }
+        text-align: center;
+}
+#explicacao_filme{
+    width: 85%;
+}
+#imagem1{
+    width: 100%;
+}
 }

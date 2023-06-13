@@ -68,7 +68,7 @@ body{
     margin: -5px
 }
 
-@media (max-width: 650px){
+@media (max-width: 450px){
     body{
         margin: 0;
         font-size: 20px;
@@ -79,6 +79,7 @@ body{
         font-size: 50px;
         text-align: center;
         width: 80%;
+
     }
     #imagem_valorant{
         text-align: center;
