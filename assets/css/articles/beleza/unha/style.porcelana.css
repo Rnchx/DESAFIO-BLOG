@@ -31,25 +31,24 @@ body{
 }
 
 
-.emgel2{
+.vidro{
     display: flex;
     text-align: center;
     justify-content: center;
     margin-right: 35px;
     margin-left: 35px;
 }
-.hr_emgel{
+.vidro{
     margin-right: 100px;
     margin-left: 100px;
 }
-.decoradas{
+.vidro{
     display: flex;
     text-align: center;
     justify-content: center;
     margin-right: 90px;
     margin-left: 5px;
-}
-#div_decoradas{
+.div_fibra5{
     margin-right:  55px;;
     margin-left: 20px;
 }
@@ -84,7 +83,8 @@ body{
 #footer{
     margin: -5px
 }
-@media  (max-width: 650px){
+}
+@media  (max-width: 450px){
     body{
        margin: 0;
    }
@@ -116,7 +116,7 @@ body{
    .texto{
        margin-top: 0;
        margin-bottom: 0;
-       padding-top: 8.5vh;
+       padding-top: 10.5vh;
        font-size: 8.8vh;
        width: 370%;
    }
@@ -198,7 +198,7 @@ body{
    } 
    .banner {
        border-radius: 0vh;
-   width: 380%;
+   width: 400%;
    height: 120%;
    display: flex;
    }
@@ -208,13 +208,13 @@ body{
        display: inline;
    }
    .div_fibra3{
-       margin-right:  -80vh;;
-       margin-left: 60vh;
+       margin-right:  -90vh;;
+       margin-left: 50vh;
        display: inline;
    
    }
    .div_fibra4{
-       margin-right:  -65vh;;
+       margin-right:  -60vh;;
        margin-left: 87vh;
        display: inline;
    
@@ -222,7 +222,6 @@ body{
    .div_fibra5{
        margin-right:  -60vh;;
        margin-left: 87vh;
-       display: inline;
    
    }
    }

@@ -7,7 +7,7 @@ body{
 
 }
 
-form{
+#form{
     display: flex;
     flex-direction: column;
     font-family: Verdana;
@@ -45,14 +45,6 @@ iframe {
     height: 65vh;
 }
 
-#feedback {
-    text-align: center;
-    font-family: verdana;
-    font-size: small;
-    color:    whitesmoke;
-    margin-left: 35px;
-}
-
 h1 {
     font-size: 45px;
 }
@@ -60,6 +52,7 @@ h1 {
 p {
     font-size: 20px;
 }
+
 #titulo{
     margin-bottom: 10px;
     border-radius: 5px;
@@ -68,6 +61,7 @@ p {
     color: grey;
     border: grey 1px solid;
 }
+
 #categoria{
     margin-bottom: 10px;
     border-radius: 5px;
@@ -76,7 +70,8 @@ p {
     color: grey;
     border: grey 1px solid;
 }
-#descricao{
+
+#mensagem{
     margin-bottom: 10px;
     border-radius: 5px;
     padding: 10px;
@@ -84,6 +79,7 @@ p {
     color: grey;
     border: grey 1px solid;
 }
+
 #data{
     margin-bottom: 15px;
     border-radius: 5px;
@@ -94,6 +90,7 @@ p {
     border: grey 1px solid;
     margin-right: 1650px;
 }
+
 #autor{
     margin-bottom: 10px;
     border-radius: 5px;
@@ -102,9 +99,11 @@ p {
     color: grey;
     border: grey 1px solid;
 }
+
 .label{
     margin-bottom: 5px;
 }
+
 #botao{
     background-color: rgb(38, 184, 38);
     padding: 10px;
@@ -114,26 +113,31 @@ p {
     margin-right: 1677px;
     cursor:pointer;
 }
+
 #botao:hover{
     background-color: whitesmoke;
     color: rgb(38, 184, 38);
     border: grey 1px solid;
 }
+
 .post{
     display: flex;
     flex-direction: column;
     width: 80%;
 }
-#h3_post{
+
+#h1_post{
     margin: 0;
     margin-bottom: 6px;
     font-weight: bold;
 }
+
 #data_post{
     margin: 0;
     margin-bottom: 5px;
     color: grey;
 }
+
 #descricao_post{
     margin: 0;
     margin-bottom: 5px;
@@ -176,16 +180,16 @@ p {
     color: red;
     border: grey 1px solid;
 }
-#flex{
+.post{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 80%;
     justify-content:unset ;
     margin-left: 0;
     margin-right: 0;
-    width: 70%;
     font-family: Verdana;
     font-size: 17px;
-    height: 145px;
+    height: 170px;
     background-color: rgb(255, 255, 255);
     border-radius: 7px;
     margin: auto;
@@ -196,12 +200,38 @@ p {
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     -moz-box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
     box-shadow: 16px 14px 31px 1px rgba(0,0,0,0.9);
-    margin-top: 30px;
+    margin-top: 5vh;
     transition: 2s;
     transform: scale(1.0);
 }
+
 #d_botao{
     margin-top: 6.5vh;
     margin-right: 17vw;
     width: 20%;
+}
+
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
+@media (max-width: 450px) {
+    #footer1{
+        display: none;
+        visibility: hidden;
+    }
+    #form{
+        width: 90%;
+    }
+    #data{
+        width: 25vw;
+    }
+    #botao{
+        width: 20vw;
+
+    #footerMobile {
+        display: inline;
+        visibility: visible;
+    }
 }

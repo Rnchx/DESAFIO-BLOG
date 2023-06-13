@@ -73,68 +73,85 @@ body {
     margin: -5px
 }
 
-@media (max-width: 650px) {
-    body {
-        margin: 0%;
+@media (max-width: 450px){
+    body{
+        margin: 0;
+        font-size: 20px;
+        width: 50%;
     }
-
-    #title {
-        margin: 1vh;    
-        font-size: 50px;
-        text-align: center;
-        color: black;
-        text-decoration: overline #FF0000 2px;
+    
+    #title{
         font-size: 40px;
-    }
-
-    #imagem_valorant {
         text-align: center;
-        margin-left: -30px;
+
+    }
+    #imagem_valorant{
+        text-align: center;
         margin-top: -10px;
     }
-
-    .section {
-        margin-left: 10vw;
-        margin-right: 10vw;
+    .section{
+        margin-left:45px;
+        margin-right: 45px;
+        width: 500px;
     }
-
-    .subtitulo {
+    .subtitulo{
         font-size: 40px;
-    }
-
-    .div_funcoes {
-        padding-left: 4vw;
-    }
-
-    .texto {
-        padding-left: 5vw;
-        font-size: 30px;
-        text-align: justify;
-    }
-
-    #imagem_meio {
         text-align: center;
     }
-
+    .div_funcoes{
+        padding-left: 30px;
+    }
+    .texto{
+        font-size: 30px;
+        text-align: justify;
+        width: 95%;
+    }
+    #imagem_meio{
+        text-align: center;
+    }
     #article_comentarios {
         display: flex;
         justify-content: space-between;
-        margin-left: 15vw;
-        margin-right: 15vw;
+        margin-left: 45px;
+        margin-right: 45px;
+        width: 400px;
     }
-
+    
     .letra_cinza3 {
         color: grey;
         font-size: 37.5px;
         margin-bottom: 15px;
     }
-
+    
+    .quadrado_comentarios {
+        border: 2.25px solid grey;
+        border-radius: 7.5px;
+        padding-bottom: 225px;
+        padding-top: 10.5px;
+        padding-left: 10.5px;
+        margin: 7.5px;
+        margin-bottom: 22.5px;
+    }
+    
     .linha_article {
         margin-left: 20px;
         margin-right: 20px;
     }
-
-    #footer {
+    #footer{
         margin: -5px
+    }
+    p{
+        text-align: justify;
+        width: 95%;
+        font-size: 30px;
+    }
+    #explicacao_jogo{
+        width: 92%;
+    }
+    #banner{
+        width: 100%;
+    }
+    img{
+        margin-right: 5vw;
     }
 }
