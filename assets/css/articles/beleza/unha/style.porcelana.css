@@ -115,10 +115,11 @@ body{
    }
    .texto{
        margin-top: 0;
-       margin-bottom: 0;
+       margin-bottom: -0;
        padding-top: 8.5vh;
        font-size: 8.8vh;
-       width: 370%;
+      width: 50vh;
+       margin-left: -1;
    }
    .linhas{
        margin-left: 10vh;
