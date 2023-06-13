@@ -84,3 +84,144 @@ body{
 #footer{
     margin: -5px
 }
+@media  (max-width: 450px){
+    body{
+       margin: 0;
+   }
+   #header{
+       margin-bottom: -15px;
+   }
+   #title{
+       margin-left: 5vh;
+       justify-content: center;
+       width: 400%;
+       text-align: center;
+       margin-bottom: 30vh;
+       font-size: 15vh;
+   }
+   
+   .section{
+       margin-left:3vh;
+       margin-right: 3vh;
+   }
+   .subtitulo{
+       margin-top: 0;
+       margin-bottom: 0;
+       font-size: 8.5vh;
+       width: 100vh;
+   }
+   .div_fibra{
+       padding-left: 45vh;
+   }
+   .texto{
+       margin-top: 0;
+       margin-bottom: 0;
+       padding-top: 8.5vh;
+       font-size: 8.8vh;
+       width: 370%;
+   }
+   .linhas{
+       margin-left: 10vh;
+       margin-right: 10vh;
+   }
+   
+   .vidro{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       margin-right: 30vh;
+       margin-left: 30vh;
+   }
+   .hr_fibra{
+       margin-right: 30vh;
+       margin-left: 30vh;
+   }
+   #agentes_exclusive{
+       display: flex;
+       text-align: center;
+       justify-content: center;
+       margin-right: 90vh;
+       margin-left: 5vh;
+   }
+   #div_fibra2{
+       margin-right:  55vh;;
+       margin-left: 20vh;
+      
+   }
+   #article_comentarios {
+       display: flex;
+       justify-content: space-between;
+       margin-left: 45px;
+       margin-right: 45px;
+   }
+   
+   .letra_cinza3 {
+       color: grey;
+       font-size: 37.5px;
+       margin-bottom: 15px;
+   }
+   
+   .quadrado_comentarios {
+       border: 2.25px solid grey;
+       border-radius: 7.5px;
+       padding-right: 1050px;
+       padding-bottom: 225px;
+       padding-top: 10.5px;
+       padding-left: 10.5px;
+       margin: 7.5px;
+       margin-bottom: 22.5px;
+   }
+   
+   .linha_article {
+       margin-left: 20vh;
+       margin-right: 20vh;
+   }
+   
+   
+   .quadrado_comentarios {
+       border: 2.25px solid grey;
+       border-radius: 7.5px;
+       padding-right: 1050px;
+       padding-bottom: 225px;
+       padding-top: 10.5px;
+       padding-left: 10.5px;
+       margin: 7.5px;
+       margin-bottom: 22.5px;
+   }
+   
+   .linha_article {
+       margin-left: 60vh;
+       margin-right: 20vh;
+   }
+   #footer{
+       margin: -5vh
+   } 
+   .banner {
+       border-radius: 0vh;
+   width: 380%;
+   height: 120%;
+   display: flex;
+   }
+   .div_decoradas1{
+       margin-right:  -80vh;;
+       margin-left: 60vh;
+       display: inline;
+   }
+   .div_decoradas3{
+       margin-right:  -70vh;;
+       margin-left: 60vh;
+       display: inline;
+   
+   }
+   .div_decoradas4{
+       margin-right:  -80vh;;
+       margin-left: -76vh;
+       display: inline;
+   
+   }
+   .div_decoradas5{
+       margin-right:  -80vh;;
+       margin-left: 86vh;
+   
+   }
+   }
