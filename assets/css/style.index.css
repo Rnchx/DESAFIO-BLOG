@@ -134,7 +134,7 @@ body {
     margin-bottom: -20px;
 }
 
-#footer2 {
+#footerMobile {
     display: none;
     visibility: hidden;
 }
@@ -319,7 +319,8 @@ body {
         visibility: hidden;
     }
 
-    #footer2 {
+    #footerMobile {
+        display: inline;
         visibility: visible;
     }
 }
