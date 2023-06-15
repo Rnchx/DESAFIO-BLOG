@@ -52,6 +52,7 @@ body{
 #div_decoradas{
     margin-right:  55px;;
     margin-left: 20px;
+    text-align: center;
 }
 #article_comentarios {
     display: flex;
@@ -219,7 +220,7 @@ body{
        display: inline;
    
    }
-   .div_decoradas5{
+   .div_decoradas{
        margin-right:  -80vh;;
        margin-left: 86vh;
    
