@@ -3,6 +3,14 @@ body {
     padding: 0;
     background-color: #202020;
 }
+
+#title_categorias {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    text-decoration: overline #FF0000 2px;
+}
+
 #fps_card {
     background-image: url(https://media.istockphoto.com/id/1313854295/pt/vetorial/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-video-game-wearing.jpg?s=612x612&w=0&k=20&c=Z3OSSCjno_WaWla5P7ttz0VzOP5jh12y_NreAfgrNfE=);
     background-size: cover;
@@ -251,9 +259,13 @@ a {
 h1 {
     font-size: 35px;
 }
-#footer{
-    margin: -5px
+
+#footerMobile {
+    display: none;
+    visibility: hidden;
 }
+
+
 
 
 
@@ -512,7 +524,14 @@ h1 {
     h1 {
         font-size: 35px;
     }
-    #footer{
-        margin: -5px
+
+    #footer1{
+        display: none;
+        visibility: hidden;
+    }
+
+    #footerMobile {
+        display: inline;
+        visibility: visible;
     }
 }
