@@ -351,6 +351,7 @@ body {
     color: grey;
     font-size: 22.5px;
     margin-bottom: 0;
+    padding-left: 4% !important;
 }
 
 #div_principal {
@@ -418,6 +419,7 @@ body {
     justify-content: left;
     margin: 0;
     padding: 0;
+    padding-left: 4% !important;
 }
 
 .perfil_post h3 {
@@ -430,7 +432,6 @@ body {
     padding: 0;
     margin-right: 7.5px;
     margin-left: 7.5px;
-
 }
 
 #article_aside {
@@ -453,7 +454,7 @@ body {
     text-align: left;
     justify-content: left;
     margin: 0;
-    padding: 0;
+    padding: 4% !important;
 }
 
 .site_terceiro {
