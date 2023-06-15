@@ -119,6 +119,7 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 5vh;
+    visibility: visible;
   }
   .flip_card {
       background-color: transparent;
