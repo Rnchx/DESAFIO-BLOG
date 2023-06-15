@@ -93,7 +93,12 @@ p {
     visibility: hidden;
   }
 
-@media (max-width: 650px){
+  #footerMobile {
+    display: none;
+    visibility: hidden;
+  }
+
+@media (max-width: 450px){
   body {
     margin: 0%;
     padding: 0%;
@@ -182,5 +187,15 @@ p {
     #footer {
       margin-top: 100px;
       margin-bottom: -5px;
+    }
+
+    #footerMobile {
+      display: inline;
+      visibility: visible;
+    }
+
+    #footer1 {
+      display: none;
+      visibility: hidden;
     }
 }

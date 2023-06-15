@@ -98,6 +98,11 @@ p {
     font-size: 20px;
 }
 
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
 @media (max-width: 650px){
     body{
         margin: 0%;
@@ -191,4 +196,14 @@ p {
         margin: -5px;
         width: 54vh;
     }
+
+    #footer1 {
+        display: none;
+        visibility: hidden;
+     }
+
+     #footerMobile {
+        display: inline;
+        visibility: visible;
+     }
 }
