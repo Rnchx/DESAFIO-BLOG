@@ -698,6 +698,9 @@ body {
 
 .grupo_de_comentarios_de_pessoas {
     display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 .comentarios_pessoas {
@@ -955,6 +958,11 @@ body {
         visibility: visible;
         margin: 0;
         padding: 0;
+    }
+
+    .grupo_de_comentarios_de_pessoas {
+        display: none;
+        visibility: hidden;
     }
     
     #fps_card {
