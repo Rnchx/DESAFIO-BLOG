@@ -216,11 +216,19 @@ p {
     visibility: hidden;
 }
 
+
+
 @media (max-width: 450px) {
     #footer1{
         display: none;
         visibility: hidden;
     }
+
+    #footerMobile {
+    display: inline;
+    visibility: visible;
+    }
+
     #form{
         width: 90%;
     }
@@ -229,9 +237,5 @@ p {
     }
     #botao{
         width: 20vw;
-
-    #footerMobile {
-        display: inline;
-        visibility: visible;
     }
 }

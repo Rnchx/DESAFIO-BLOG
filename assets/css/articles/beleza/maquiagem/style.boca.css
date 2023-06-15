@@ -49,7 +49,7 @@ body{
     margin-right: 90px;
     margin-left: 5px;
 }
-#div_decoradas{
+#div_decoradas1{
     margin-right:  55px;;
     margin-left: 20px;
 }
@@ -202,38 +202,23 @@ body{
    height: 120%;
    display: flex;
    }
-   .div_decoradas1{
-       margin-right:  -70vh;;
+   .div_decoradas{
+       margin-right:  -80vh;;
        margin-left: 60vh;
        display: inline;
    }
    
    .div_decoradas3{
-    margin-right:  -20vh;;
+    margin-right:  -70vh;;
     margin-left: 60vh;
     display: inline;
 
    
    }
-   .div_fibra1{
+   .div_fibra{
     margin-right:  -80vh;;
     margin-left: 60vh;
     display: inline;
 }
-.div_fibra3{
-    margin-right:  -80vh;;
-    margin-left: 60vh;
-    display: inline;
 
-}
-.div_fibra4{
-    margin-right:  -60vh;;
-    margin-left: 87vh;
-    display: inline;
-
-}
-.div_fibra5{
-    margin-right:  -60vh;;
-    margin-left: 87vh;
-}
    }

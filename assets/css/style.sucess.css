@@ -48,3 +48,71 @@ button:hover {
     border: solid 2px #444444;
     color: whitesmoke;
 }
+
+@media (max-width: 450px) {
+    body{
+        background-color:#202020;
+        margin: 0%;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        margin-top: 200px;
+    }
+    p {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        color: whitesmoke;
+        font-size: 40px;
+        margin-top: 20px;
+        text-align: center;
+        border-top: solid 1.5px #FF0000;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        }
+    
+        img {
+            margin-top: -180px;
+            margin-bottom: 50px;
+        }
+    
+    #centro{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+        color: #FF0000;
+    
+    }
+    #header{
+        width: 100%;
+    }
+    #footer{
+        margin-bottom: -10px;
+        width: 100%;
+        margin-top: 100px;
+    }
+    
+    button {
+        background-color: whitesmoke;
+        color: #202020;
+        font-size: 20px;
+        border-radius: 10px;
+        border: 0px;
+    }
+    
+    button:hover {
+        background-color: #FF0000;
+        border: solid 2px #444444;
+        color: whitesmoke;
+    }
+}
