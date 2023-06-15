@@ -406,6 +406,12 @@ li {
     align-items: center;
 }
 
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
+
 @media (max-width: 450px) {
     #header {
         width: 200vh;
@@ -720,17 +726,21 @@ li {
         margin-top: 4vh;
     }
 
-    .comentarios_pessoas {
-        width: ;
-        height: 90vh;
-
-    }
-
     .ft_perfil {
         width: 45vw;
         height: 18vh;
     }
     .first{
         width: 100%;
+    }
+
+    #footer1 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #footerMobile {
+        display: inline;
+        visibility: visible;
     }
 }
