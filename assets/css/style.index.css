@@ -238,8 +238,6 @@ body.dark .search-field i {
     visibility: hidden;
 }
 
-
-
 @media (max-width: 450px) {
     nav .nav-bar .sidebarOpen {
         display: block;
@@ -661,6 +659,7 @@ body {
 
     .titulo_subnoticia {
         font-size: 4vh;
+        margin-right: 4% !important;
         margin: 0;
         padding: 0;
     }
@@ -675,6 +674,7 @@ body {
         text-align: justify;
         font-size: 2vh;
         margin: 0;
+        margin-right: 4%;
         padding: 0;
     }
 
@@ -710,8 +710,14 @@ body {
     }
 
     #footer1 {
+        visibility: hidden;
+        display: none;
+    }
+
+    #footerMobile {
+        display: inline;
         visibility: visible;
-        margin: 0;
-        padding: 0;
+        margin: 0%;
+        padding: 0%;
     }
 }
