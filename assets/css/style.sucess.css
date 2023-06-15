@@ -49,6 +49,16 @@ button:hover {
     color: whitesmoke;
 }
 
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
+#footer1 {
+    display: inline;
+    visibility: visible;
+}
+
 @media (max-width: 450px) {
     body{
         background-color:#202020;
@@ -114,5 +124,15 @@ button:hover {
         background-color: #FF0000;
         border: solid 2px #444444;
         color: whitesmoke;
+    }
+
+    #footer1 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #footerMobile {
+        display: inline;
+        visibility: visible;
     }
 }
