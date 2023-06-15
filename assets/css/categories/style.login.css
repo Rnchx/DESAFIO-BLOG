@@ -93,6 +93,11 @@ body {
     margin: -5px
 }
 
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
 @media (max-width: 650px) {
     body {
         padding: 0;
@@ -189,5 +194,15 @@ body {
     }
     #footer{
         margin: -5px
+    }
+
+    #footer1 {
+        display: none;
+        visibility: hidden;
+    }
+
+    #footerMobile {
+        display: inline;
+        visibility: visible;
     }
 }
