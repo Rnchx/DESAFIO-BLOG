@@ -6,105 +6,181 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Red News</title>
     <link rel="stylesheet" href="../../assets/css/categories/style.livros.css">
-    <link rel="icon" type="image/x-icon" href="../../assets/images/icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="../../assets/images/ICON.png">
 </head>
 
 <body>
-        <img src="../../assets/images/estante2.png" alt="foto dos livros" width="100%" height="850px"  id="imagem1">
-        <h1 id="title">LIVROS</h1>
-        <h1 id="title2">DESTAQUES DE HOJE</h1>
-        <div id="div_principal">
-            <!--article da noticia principal-->
-            <article id="article_main">
-                <section>
-                    <p class="letra_cinza2">Postado por:</p>
-                    <div class="perfil_post">
-                        <img class="pessoa" src="../../assets/images/rafa.jfif" alt="foto do Rafa" width="54px" height="54px">
-                        <h3 class="nome_comentario">Rafael Lino</h3>
-                        <p class="letra_cinza">- há 3 horas</p>
-                        <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
-                        <p class="letra_cinza">2000 likes</p>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+                <span class="logo navLogo"><a href="index.html"><img src="../../assets/images/Logo RNW.png" alt="logo rnw" width="64px" height="54px"></a></span>
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <span class="logo"><a href="index.html"><img src="../../assets/images/Logo RNW.png" alt="logo rnw" width="64px" height="54px"></a></span>
+                        <i class='bx bx-x siderbarClose'></i>
                     </div>
-                    <a class="site_terceiro" href="https://veja.abril.com.br/coluna/radar-economico/de-olho-em-falencia-leitura-busca-espaco-para-megaloja-em-sao-paulo/">
-                        <h2 id="titulo_principal">Leitura está á beira da falência!!</h2>
-                        <img  id="imagem2" src="../../assets/images/leitura.webp"
-                            alt="Livraria leitura" width="1080px" height="600px">
-                        <p id="texto_materia_principal">Com a falência dando uma visitada, a livraria Leitura prucura  novos espaços para o estabelecimento. Diz ela, que está pensando em abrir uma mega até o final do ano!</p>
+                    <ul class="nav-links">
+                        <li><a href="../../index.html">MENU</a></li>
+                        <li><a href="../../pages/categorias.html">CATEGORIAS</a></li>
+                        <li><a href="../../pages/sobre.html">SOBRE</a></li>
+                        <li><a href="../../pages/publicacao.html">PUBLICAR</a></li>
+                        <li><a href="../../pages/contato.html">CONTATO</a></li>
+                        <li><a href="../../pages/feedback.html">FEEDBACK</a></li>
+                        <li><a href="../../pages/categories/senai.html">SENAI</a></li>
+                        <li><a href="../../pages/categories/login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+                    <div class="searchBox">
+                        <div class="searchToggle">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <script>
+            const body = document.querySelector("body"),
+                nav = document.querySelector("nav"),
+                modeToggle = document.querySelector(".dark-light"),
+                searchToggle = document.querySelector(".searchToggle"),
+                sidebarOpen = document.querySelector(".sidebarOpen"),
+                siderbarClose = document.querySelector(".siderbarClose");
+            let getMode = localStorage.getItem("mode");
+            if (getMode && getMode === "dark-mode") {
+                body.classList.add("dark");
+            }
+            // js code to toggle dark and light mode
+            modeToggle.addEventListener("click", () => {
+                modeToggle.classList.toggle("active");
+                body.classList.toggle("dark");
+                // js code to keep user selected mode even page refresh or file reopen
+                if (!body.classList.contains("dark")) {
+                    localStorage.setItem("mode", "light-mode");
+                } else {
+                    localStorage.setItem("mode", "dark-mode");
+                }
+            });
+            // js code to toggle search box
+            searchToggle.addEventListener("click", () => {
+                searchToggle.classList.toggle("active");
+            });
+    
+    
+            //   js code to toggle sidebar
+            sidebarOpen.addEventListener("click", () => {
+                nav.classList.add("active");
+            });
+            body.addEventListener("click", e => {
+                let clickedElm = e.target;
+                if (!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")) {
+                    nav.classList.remove("active");
+                }
+            });
+        </script>
+    </header>
+    <img src="../../assets/images/estante2.png" alt="foto dos livros" width="100%" height="850px"  id="imagem1">
+    <h1 id="titlex">LIVROS</h1>
+    <h1 id="title">DESTAQUES DE HOJE</h1>
+    <div id="div_principal">
+        <!--article da noticia principal-->
+        <article id="article_main">
+            <section>
+                <p class="letra_cinza2">Postado por:</p>
+                <div class="perfil_post">
+                    <img class="pessoa" src="../../assets/images/rafa.jfif" alt="foto do Rafa" width="54px" height="54px">
+                    <h3 class="nome_comentario">Rafael Lino</h3>
+                    <p class="letra_cinza">- há 3 horas</p>
+                    <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
+                    <p class="letra_cinza">2000 likes</p>
+                </div>
+                <a class="site_terceiro" href="https://veja.abril.com.br/coluna/radar-economico/de-olho-em-falencia-leitura-busca-espaco-para-megaloja-em-sao-paulo/">
+                    <h2 id="titulo_principal">Leitura está á beira da falência!!</h2>
+                    <img  id="imagem2" src="../../assets/images/leitura.webp"
+                        alt="Livraria leitura" width="1080px" height="600px">
+                    <p id="texto_materia_principal">Com a falência dando uma visitada, a livraria Leitura prucura  novos espaços para o estabelecimento. Diz ela, que está pensando em abrir uma mega até o final do ano!</p>
+                </a>
+            </section>
+        </article>
+        <!--article da noticia principal-->
+        <!--article das subnoticias-->
+        <article id="article_aside">
+            <section>
+                <p class="letra_cinza2">Postado por:</p>
+                <div class="perfil_post">
+                    <img class="pessoa" src="../../assets/images/heloisa.png" alt="foto da Heloisa" width="54px" height="54px">
+                    <h3 class="nome_comentario">Heloisa Lyes</h3>
+                    <p class="letra_cinza">- há 4 horas</p>
+                    <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
+                    <p class="letra_cinza">1500 likes</p>
+                </div>
+                <div class="div_subnoticia">
+                    <a class="site_terceiro"
+                        href="https://veja.abril.com.br/cultura/feridas-abertas-livro-explora-brutalidade-do-preconceito-contra-asiaticos/">
+                        <img class="imagens" src="../../assets/images/asiatico.jpg"
+                            alt="pessoa asiática" width="192px" height="192px">
+                        <div class="grupo_subnoticia">
+                            <h2 class="titulo_subnoticia">Preconceito contra asiáticos?</h2>
+                            <p class="texto_subnoticia"> Livro aborda o assunto muito pouco falado, o preconceito contra os asiáticos...
+                            </p>
                     </a>
-                </section>
-            </article>
-            <!--article da noticia principal-->
-            <!--article das subnoticias-->
-            <article id="article_aside">
-                <section>
-                    <p class="letra_cinza2">Postado por:</p>
-                    <div class="perfil_post">
-                        <img class="pessoa" src="../../assets/images/heloisa.png" alt="foto da Heloisa" width="54px" height="54px">
-                        <h3 class="nome_comentario">Heloisa Lyes</h3>
-                        <p class="letra_cinza">- há 4 horas</p>
-                        <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
-                        <p class="letra_cinza">1500 likes</p>
-                    </div>
-                    <div class="div_subnoticia">
-                        <a class="site_terceiro"
-                            href="https://veja.abril.com.br/cultura/feridas-abertas-livro-explora-brutalidade-do-preconceito-contra-asiaticos/">
-                            <img class="imagens" src="../../assets/images/asiatico.jpg"
-                                alt="pessoa asiática" width="192px" height="192px">
-                            <div class="grupo_subnoticia">
-                                <h2 class="titulo_subnoticia">Preconceito contra asiáticos?</h2>
-                                <p class="texto_subnoticia"> Livro aborda o assunto muito pouco falado, o preconceito contra os asiáticos...
-                                </p>
-                        </a>
-                    </div>
-                </section>
-                <hr class="linhas">
-                <section>
-                    <p class="letra_cinza2">Postado por:</p>
-                    <div class="perfil_post">
-                        <img src="../../assets/images/raissa.png" alt="foto da raissa" width="54px" height="54px">
-                        <h3 class="nome_comentario">Raissa Godoy</h3>
-                        <p class="letra_cinza">- há 11 horas</p>
-                        <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
-                        <p class="letra_cinza">135 likes</p>
-                    </div>
-                    <div class="div_subnoticia">
-                        <a class="site_terceiro"
-                            href="https://veja.abril.com.br/cultura/para-alem-do-principe-harry-5-otimas-autobiografias-de-celebridades/">
-                            <img class="imagens" src="../../assets/images/autobiografias.webp" alt="Base da Virginia Fonseca"
-                                width="192px" height="192px">
-                            <div class="grupo_subnoticia">
-                                <h2 class="titulo_subnoticia">Melhores autobiografias!</h2>
-                                <p class="texto_subnoticia">Já leu uma das melhores autobiografias? Veja aqui se você tem bom gosto patra literatura!
-                                </p>
-                        </a>
-                    </div>
-                </section>
-                <hr class="linhas">
-                <section>
-                    <p class="letra_cinza2">Postado por:</p>
-                    <div class="perfil_post">
-                        <img class="pessoa" src="../../assets/images/analivia.jfif" alt="foto da Ana" width="54px" height="54px">
-                        <h3 class="nome_comentario">Ana Lívia Martins</h3>
-                        <p class="letra_cinza">- há 14 horas</p>
-                        <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
-                        <p class="letra_cinza">712 likes</p>
-                    </div>
-                    <div class="div_subnoticia">
-                        <a class="site_terceiro"
-                            href="https://veja.abril.com.br/cultura/a-antologia-imperdivel-que-derruba-um-velho-tabu-da-literatura-nacional/">
-                            <img class="imagens" src="../../assets/images/terror.jpg" alt="Coldplay no Brasil" width="192px"
-                                height="192px">
-                            <div class="grupo_subnoticia">
-                                <h2 class="titulo_subnoticia">Tabu na literatura!</h2>
-                                <p class="texto_subnoticia">Veja aqui a antologia que quebrou o tabu existente na literatura!
-                                </p>
-                        </a>
-                    </div>
-                </section>
-            </article>
-            <!--article das subnoticias-->
-        </div>
-        <hr class="linha_article">
+                </div>
+            </section>
+            <hr class="linhas">
+            <section>
+                <p class="letra_cinza2">Postado por:</p>
+                <div class="perfil_post">
+                    <img src="../../assets/images/raissa.png" alt="foto da raissa" width="54px" height="54px">
+                    <h3 class="nome_comentario">Raissa Godoy</h3>
+                    <p class="letra_cinza">- há 11 horas</p>
+                    <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
+                    <p class="letra_cinza">135 likes</p>
+                </div>
+                <div class="div_subnoticia">
+                    <a class="site_terceiro"
+                        href="https://veja.abril.com.br/cultura/para-alem-do-principe-harry-5-otimas-autobiografias-de-celebridades/">
+                        <img class="imagens" src="../../assets/images/autobiografias.webp" alt="Base da Virginia Fonseca"
+                            width="192px" height="192px">
+                        <div class="grupo_subnoticia">
+                            <h2 class="titulo_subnoticia">Melhores autobiografias!</h2>
+                            <p class="texto_subnoticia">Já leu uma das melhores autobiografias? Veja aqui se você tem bom gosto patra literatura!
+                            </p>
+                    </a>
+                </div>
+            </section>
+            <hr class="linhas">
+            <section>
+                <p class="letra_cinza2">Postado por:</p>
+                <div class="perfil_post">
+                    <img class="pessoa" src="../../assets/images/analivia.jfif" alt="foto da Ana" width="54px" height="54px">
+                    <h3 class="nome_comentario">Ana Lívia Martins</h3>
+                    <p class="letra_cinza">- há 14 horas</p>
+                    <img src="../../assets/images/Like.png" alt="like" width="30px" height="30px">
+                    <p class="letra_cinza">712 likes</p>
+                </div>
+                <div class="div_subnoticia">
+                    <a class="site_terceiro"
+                        href="https://veja.abril.com.br/cultura/a-antologia-imperdivel-que-derruba-um-velho-tabu-da-literatura-nacional/">
+                        <img class="imagens" src="../../assets/images/terror.jpg" alt="Coldplay no Brasil" width="192px"
+                            height="192px">
+                        <div class="grupo_subnoticia">
+                            <h2 class="titulo_subnoticia">Tabu na literatura!</h2>
+                            <p class="texto_subnoticia">Veja aqui a antologia que quebrou o tabu existente na literatura!
+                            </p>
+                    </a>
+                </div>
+            </section>
+        </article>
+        <!--article das subnoticias-->
+    </div>
+    <hr class="linha_article">
         <!--comentarios das noticias-->
         <div class="grupo_de_comentarios_de_pessoas">
             <article class="comentarios_pessoas">
@@ -163,9 +239,9 @@
             </article>
         </div>
         <!--comentarios das noticias-->
-    <hr class="linha_article">
+        <hr class="linha_article">
     <!--categorias de jogos-->
-    <h1 id="title3">Categorias</h1>
+    <h1 id="titlex">Categorias</h1>
     <article class="first">
         <section id="fps_card">
             <h1 class="title_jogos">Romances</h1>
@@ -201,25 +277,6 @@
             <a class="a_categorias" href="../articles/livros/biografia/ritalee.html">
                 <p class="jogos">Rita Lee</p>
             </a>
-
-        </section>
-        <section id="modo_historia_card">
-            <h1 class="title_jogos">Ficção Ciêntífica</h1>
-            <p  class="principal_jogos">Principais livros</p>
-            <hr width="50px">
-            <a class="a_categorias" href="../articles/livros/ficcao_cientifica/abibliotecadameianoite.html">
-                <p class="jogos">A Biblioteca da Meia-Noite</p>
-            </a>
-            <a class="a_categorias" href="../articles/livros/ficcao_cientifica/agarotadolago.html">
-                <p class="jogos">A Garota do Lago</p>
-            </a>
-            <a class="a_categorias" href="../articles/livros/ficcao_cientifica/jogosvorazes.html">
-                <p class="jogos">Jogos Vorazes</p>
-            </a>
-            <a class="a_categorias" href="../articles/livros/ficcao_cientifica/mazerunner.html">
-                <p class="jogos">Maze Runner</p>
-            </a>
-
         </section>
         <section id="moba_card">
             <h1 class="title_jogos">Histórias em Quadrinhos</h1>
@@ -257,6 +314,9 @@
         </section>
     </article>
     <!--categorias de jogos-->
+    <div id="footer1">
+        <iframe class="footer" src="../../layouts/footer.html" frameborder="0" scrolling="no" width="100%" height="400px"></iframe>
+    </div>
 </body>
 
 </html>
