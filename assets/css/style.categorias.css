@@ -280,6 +280,27 @@ h1 {
         box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
         margin-bottom: 3.75px;
         font-family: 'Quicksand', sans-serif;
+        margin-top: 2vh;
+    }
+
+    #fps_card:hover {
+        background-image: url(https://media.istockphoto.com/id/1313854295/pt/vetorial/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-video-game-wearing.jpg?s=612x612&w=0&k=20&c=Z3OSSCjno_WaWla5P7ttz0VzOP5jh12y_NreAfgrNfE=);
+        opacity: 0.15px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 2.5px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
+    
     }
     
     #online_card {
@@ -296,6 +317,25 @@ h1 {
         box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
         margin-bottom: 3.75px;
         font-family: 'Quicksand', sans-serif;
+        margin-top: 2vh;
+    }
+
+    #online_card:hover {
+        background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2021/12/produtos-de-beleza-shutterstock_1170176554-scaled.jpg?fit=2560%2C1707&ssl=1);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
     }
     
     #modo_historia_card {
@@ -312,6 +352,25 @@ h1 {
         box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
         margin-bottom: 3.75px;
         font-family: 'Quicksand', sans-serif;
+        margin-top: 2vh;
+    }
+
+    #modo_historia_card:hover {
+        background-image: url(https://zenitemarcas.com.br/wp-content/uploads/2018/05/como-registrar-uma-m%C3%BAsica.jpg);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
     }
     
     #moba_card {
@@ -328,6 +387,25 @@ h1 {
         box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
         margin-bottom: 3.75px;
         font-family: 'Quicksand', sans-serif;
+        margin-top: 2vh;
+    }
+
+    #moba_card:hover {
+        background-image: url(https://adoropapel.com.br/wp-content/uploads/2021/04/capa.jpg);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
     }
     
     #filmes {
@@ -344,6 +422,25 @@ h1 {
         box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
         margin-bottom: 3.75px;
         font-family: 'Quicksand', sans-serif;
+        margin-top: 2vh;
+    }
+
+    #filmes:hover {
+        background-image: url(https://st.depositphotos.com/1555678/1276/i/600/depositphotos_12766135-stock-photo-3d-cinema-clapper-film-reel.jpg);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
     }
     
     #vestibular {
@@ -360,6 +457,25 @@ h1 {
         box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
         margin-bottom: 3.75px;
         font-family: 'Quicksand', sans-serif;
+        margin-top: 2vh;
+    }
+
+    #vestibular:hover {
+        background-image: url(https://uniandrade.br/wp-content/uploads/2020/07/simulado-tem-varias-questoes-vestibular-57d9a8d50b0b0.jpg);
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        transition: 2s;
+        transform: scale(1.1);
     }
     
     .first {
