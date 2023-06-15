@@ -436,6 +436,11 @@ a {
     text-align: center;
 }
 
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
 @media (max-width: 650px){
     body {
         margin: 0px;
@@ -851,6 +856,16 @@ a {
     .perfil_post {
         display: flex;
         align-items: center;
+    }
+
+    #footerMobile {
+        visibility: visible;
+        display: inline;
+    }
+
+    #footer1 {
+        visibility: hidden;
+        display: none;
     }
 
 }

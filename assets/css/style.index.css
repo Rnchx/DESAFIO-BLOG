@@ -238,6 +238,11 @@ body.dark .search-field i {
     visibility: hidden;
 }
 
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
 @media (max-width: 450px) {
     nav .nav-bar .sidebarOpen {
         display: block;
@@ -708,8 +713,15 @@ body {
     }
 
     #footer1 {
-        visibility: visible;
-        margin: 0;
-        padding: 0;
+        visibility: hidden;
+        display: none;
     }
+
+    #footerMobile {
+        display: inline;
+        visibility: visible;
+        margin: 0%;
+        padding: 0%;
+    }
+
 }
