@@ -85,6 +85,11 @@ body{
     margin: -5px
 }
 
+#imagem1{
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 450px){
     body{
         margin: 0;
