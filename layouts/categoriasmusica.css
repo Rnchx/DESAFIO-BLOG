@@ -1,18 +1,5 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #202020;
-}
-
-#title_categorias {
-    text-align: center;
-    font-size: 50px;
-    color: whitesmoke;
-    text-decoration: overline #FF0000 2px;
-}
-
 #fps_card {
-    background-image: url(https://media.istockphoto.com/id/1313854295/pt/vetorial/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-video-game-wearing.jpg?s=612x612&w=0&k=20&c=Z3OSSCjno_WaWla5P7ttz0VzOP5jh12y_NreAfgrNfE=);
+    background-image: url(hhttps://i.pinimg.com/564x/e5/58/9d/e5589de25586590bb1a884806e82854d.jpg);
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -31,30 +18,8 @@ body {
     width: 270px;
     height: 500px;
 }
-
-#fps_card:hover {
-    background-image: url(https://media.istockphoto.com/id/1313854295/pt/vetorial/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-video-game-wearing.jpg?s=612x612&w=0&k=20&c=Z3OSSCjno_WaWla5P7ttz0VzOP5jh12y_NreAfgrNfE=);
-    opacity: 0.15px;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-left: 15px;
-    margin-right: 15px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 2.5px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    transition: 2s;
-    transform: scale(1.1);
-
-}
-
-
 #online_card {
-    background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2021/12/produtos-de-beleza-shutterstock_1170176554-scaled.jpg?fit=2560%2C1707&ssl=1);
+    background-image: url(https://i.pinimg.com/564x/2b/80/e3/2b80e3ff9959666b9838d2bf349f02cd.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -265,10 +230,6 @@ h1 {
     visibility: hidden;
 }
 
-
-
-
-
 @media (max-width: 450px){
 
     body {
@@ -278,7 +239,7 @@ h1 {
     }
 
     #fps_card {
-        background-image: url(https://i.pinimg.com/564x/85/50/d9/8550d941d5d4fda02c922d3cdd01c786.jpg);
+        background-image: url(https://i.pinimg.com/564x/e5/58/9d/e5589de25586590bb1a884806e82854d.jpg);
         background-size: cover;
         border-radius: 12px;
         display: flex;
@@ -294,29 +255,8 @@ h1 {
         font-family: 'Quicksand', sans-serif;
         margin-top: 2vh;
     }
-
-    #fps_card:hover {
-        background-image: url(https://i.pinimg.com/564x/6f/65/b9/6f65b91972803ab5dbb585aaa2979134.jpghttps://i.pinimg.com/564x/6f/65/b9/6f65b91972803ab5dbb585aaa2979134.jpghttps://i.pinimg.com/564x/6f/65/b9/6f65b91972803ab5dbb585aaa2979134.jpg);
-        opacity: 0.15px;
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 2.5px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
-    
-    }
-    
     #online_card {
-        background-image: url(https://i.pinimg.com/564x/6f/65/b9/6f65b91972803ab5dbb585aaa2979134.jpg);
+        background-image: url(https://i.pinimg.com/564x/2b/80/e3/2b80e3ff9959666b9838d2bf349f02cd.jpg);
         background-size: cover;
         border-radius: 12px;
         display: flex;
