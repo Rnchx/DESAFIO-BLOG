@@ -535,11 +535,3 @@ h1 {
         visibility: visible;
     }
 }
-.first {
-    display: flex;
-    margin-top: 4%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}

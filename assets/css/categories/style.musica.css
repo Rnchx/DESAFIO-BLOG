@@ -312,6 +312,20 @@ body {
     font-size: 75px;
 }
 
+#titlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.7%;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-size: 75px;
+}
+
 .letra_cinza {
     display: flex;
     flex-direction: column;
@@ -337,6 +351,7 @@ body {
     color: grey;
     font-size: 22.5px;
     margin-bottom: 0;
+    padding-left: 4% !important;
 }
 
 #div_principal {
@@ -404,6 +419,7 @@ body {
     justify-content: left;
     margin: 0;
     padding: 0;
+    padding-left: 4% !important;
 }
 
 .perfil_post h3 {
@@ -416,7 +432,6 @@ body {
     padding: 0;
     margin-right: 7.5px;
     margin-left: 7.5px;
-
 }
 
 #article_aside {
@@ -439,7 +454,7 @@ body {
     text-align: left;
     justify-content: left;
     margin: 0;
-    padding: 0;
+    padding: 4% !important;
 }
 
 .site_terceiro {
@@ -507,8 +522,10 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
 #fps_card {
-    background-image: url(hhttps://i.pinimg.com/564x/e5/58/9d/e5589de25586590bb1a884806e82854d.jpg);
+    background-image: url("https://i.pinimg.com/736x/64/d3/a9/64d3a9af45e5095dcaa4a68e9cedaed7.jpg");
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -525,10 +542,31 @@ body {
     padding-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
     width: 270px;
-    height: 500px;
 }
+
+#fps_card:hover {
+    background-image: url("https://i.pinimg.com/736x/64/d3/a9/64d3a9af45e5095dcaa4a68e9cedaed7.jpg");
+    opacity: 0.15px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin-left: 15px;
+    margin-right: 15px;
+    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+    margin-bottom: 2.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    transition: 2s;
+    transform: scale(1.1);
+
+}
+
+
 #online_card {
-    background-image: url(https://i.pinimg.com/564x/2b/80/e3/2b80e3ff9959666b9838d2bf349f02cd.jpg);
+    background-image: url("https://i.pinimg.com/564x/a0/52/b5/a052b528e826a7af2dc9d9651984315f.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -547,7 +585,7 @@ body {
 }
 
 #online_card:hover {
-    background-image: url(https://i0.wp.com/mercadoeconsumo.com.br/wp-content/uploads/2021/12/produtos-de-beleza-shutterstock_1170176554-scaled.jpg?fit=2560%2C1707&ssl=1);
+    background-image: url("https://i.pinimg.com/564x/b3/a8/96/b3a8962d814ffb31a0049bd57130e498.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -565,7 +603,7 @@ body {
 }
 
 #modo_historia_card {
-    background-image: url(https://zenitemarcas.com.br/wp-content/uploads/2018/05/como-registrar-uma-m%C3%BAsica.jpg);
+    background-image: url("https://i.pinimg.com/564x/40/01/cf/4001cf3381e9e0e4b19582d2388f34ff.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -585,7 +623,7 @@ body {
 }
 
 #modo_historia_card:hover {
-    background-image: url(https://zenitemarcas.com.br/wp-content/uploads/2018/05/como-registrar-uma-m%C3%BAsica.jpg);
+    background-image: url("https://i.pinimg.com/564x/40/01/cf/4001cf3381e9e0e4b19582d2388f34ff.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -603,7 +641,7 @@ body {
 }
 
 #moba_card {
-    background-image: url(https://adoropapel.com.br/wp-content/uploads/2021/04/capa.jpg);
+    background-image: url("https://i.pinimg.com/564x/c1/f9/a6/c1f9a64f0e93f9815d86b7be70c2a28d.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -622,7 +660,7 @@ body {
 }
 
 #moba_card:hover {
-    background-image: url(https://adoropapel.com.br/wp-content/uploads/2021/04/capa.jpg);
+    background-image: url("https://i.pinimg.com/564x/c1/f9/a6/c1f9a64f0e93f9815d86b7be70c2a28d.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -639,79 +677,6 @@ body {
     transform: scale(1.1);
 }
 
-#filmes {
-    background-image: url(https://st.depositphotos.com/1555678/1276/i/600/depositphotos_12766135-stock-photo-3d-cinema-clapper-film-reel.jpg);
-    background-size: cover;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-left: 30px;
-    margin-right: 30px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 3.75px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Quicksand', sans-serif;
-    width: 270px;
-}
-
-#filmes:hover {
-    background-image: url(https://st.depositphotos.com/1555678/1276/i/600/depositphotos_12766135-stock-photo-3d-cinema-clapper-film-reel.jpg);
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-left: 15px;
-    margin-right: 15px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 3.75px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    transition: 2s;
-    transform: scale(1.1);
-}
-
-#vestibular {
-    background-image: url(https://uniandrade.br/wp-content/uploads/2020/07/simulado-tem-varias-questoes-vestibular-57d9a8d50b0b0.jpg);
-    background-size: cover;
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-left: 30px;
-    margin-right: 30px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 3.75px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    font-family: 'Quicksand', sans-serif;
-    width: 270px;
-}
-
-#vestibular:hover {
-    background-image: url(https://uniandrade.br/wp-content/uploads/2020/07/simulado-tem-varias-questoes-vestibular-57d9a8d50b0b0.jpg);
-    border-radius: 12px;
-    display: flex;
-    flex-direction: column;
-    width: 25%;
-    margin-left: 15px;
-    margin-right: 15px;
-    -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-    margin-bottom: 3.75px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    transition: 2s;
-    transform: scale(1.1);
-}
 .first {
     display: flex;
     margin-top: 112.5px;
@@ -719,7 +684,75 @@ body {
     justify-content: center;
 }
 
+.second {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.jogos{
+    color:white;
+}
+#footer{
+    margin: -5px
+}
 
+.grupo_de_comentarios_de_pessoas {
+    display: flex;
+}
+
+.comentarios_pessoas {
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+    border: solid 2px gray;
+    width: 30%;
+    margin-top: 6px;
+    border-radius: 20px;
+}
+
+.espacamento {
+    margin-left: 10px;
+}
+
+.postado_por {
+    color: grey;
+    font-size: 30px;
+    margin-top: -20px;
+}
+
+.ler_mais {
+    color: blue;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.nome_comentario {
+    color: black;
+    font-size: 20px;
+}
+
+.titulo_comentario {
+    color: black;
+    text-align: left;
+}
+
+.texto_comentario {
+    color: black;
+    text-align: left;
+}
+
+.perfil_post {
+    display: flex;
+    align-items: center;
+}
+
+.title_jogos {
+    color: white;
+}
+
+.principal_jogos {
+    color: white;
+}
 
 @media (max-width: 450px) {
     * {
@@ -922,5 +955,106 @@ body {
         visibility: visible;
         margin: 0;
         padding: 0;
+    }
+    
+    #fps_card {
+        background-image: url("https://i.pinimg.com/736x/64/d3/a9/64d3a9af45e5095dcaa4a68e9cedaed7.jpg");
+        background-size: cover;
+        opacity: 0.15px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        margin-bottom: 4%;
+    }
+    
+    #online_card {
+        background-image: url("https://i.pinimg.com/564x/a0/52/b5/a052b528e826a7af2dc9d9651984315f.jpg");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        margin-bottom: 4%;
+    }
+    
+    
+    #modo_historia_card {
+        background-image: url("https://i.pinimg.com/564x/40/01/cf/4001cf3381e9e0e4b19582d2388f34ff.jpg");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        margin-bottom: 4%;
+    
+    }
+    
+    #moba_card {
+        background-image: url("https://i.pinimg.com/564x/c1/f9/a6/c1f9a64f0e93f9815d86b7be70c2a28d.jpg");
+        background-size: cover;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 30px;
+        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
+        margin-bottom: 3.75px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        margin-bottom: 4%;
+    }
+    
+    .first {
+        display: flex;
+        margin-top: 4%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .second {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .jogos{
+        color:white;
     }
 }
