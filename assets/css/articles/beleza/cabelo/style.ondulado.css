@@ -48,7 +48,7 @@ body{
     margin-right: 90px;
     margin-left: 5px;
 }
-#div_fibra2{
+#div_fibra{
     margin-right:  55px;;
     margin-left: 20px;
 }
@@ -218,26 +218,19 @@ body{
    height: 120%;
    display: flex;
    }
-   .div_fibra1{
-       margin-right:  -89vh;;
-       margin-left: 59vh;
-       display: inline;
-   }
-   .div_fibra3{
-       margin-right:  -60vh;;
-       margin-left: 60vh;
-       display: inline;
    
    }
-   .div_fibra4{
+  
+   
+   
+   .div_fibra{
        margin-right:  -60vh;;
        margin-left: 87vh;
        display: inline;
    
    }
-   .div_fibra5{
-       margin-right:  -60vh;;
+   .div_fibra{
+       margin-right:  -65vh;;
        margin-left: 87vh;
    
-   }
    }
