@@ -1,33 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;
+    ;
+}
+
+/* ===== Colours ===== */
+:root {
+    --body-color: white;
+    --nav-color: #444444;
+    --side-nav: #444444;
+    --text-color: #FFF;
+    --search-bar: #F2F2F2;
+    --search-text: #444444;
+}
+
 body {
-    margin: 0%;
-    padding: 0%;
-    font-size: 20px;
+    height: 100vh;
+    background-color: var(--body-color);
 }
-#header{
-    margin-bottom: -20px;
+
+body.dark {
+    --body-color: #18191A;
+    --nav-color: #242526;
+    --side-nav: #242526;
+    --text-color: #CCC;
+    --search-bar: #242526;
 }
+
+nav {
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: var(--nav-color);
+    z-index: 100;
+}
+
+body.dark nav {
+    border: 1px solid #393838;
+}
+
+nav .nav-bar {
+    position: relative;
+    height: 100%;
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--nav-color);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .nav-bar .sidebarOpen {
+    color: var(--text-color);
+    font-size: 25px;
+    padding: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+nav .nav-bar .logo a {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.menu .logo-toggle {
+    display: none;
+}
+
+.nav-bar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar .nav-links li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.nav-links li a {
+    position: relative;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links li a::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.nav-links li:hover a::before {
+    opacity: 1;
+}
+
+.nav-bar .darkLight-searchBox {
+    display: flex;
+    align-items: center;
+}
+
+.darkLight-searchBox .dark-light,
+.darkLight-searchBox .searchToggle {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.dark-light i,
+.searchToggle i {
+    position: absolute;
+    color: var(--text-color);
+    font-size: 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.dark-light i.sun {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.dark-light.active i.sun {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.dark-light.active i.moon {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchToggle i.cancel {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchToggle.active i.cancel {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.searchToggle.active i.search {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.searchBox {
+    position: relative;
+}
+
+.searchBox .search-field {
+    position: absolute;
+    bottom: -85px;
+    right: 5px;
+    height: 50px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    background-color: var(--nav-color);
+    padding: 3px;
+    border-radius: 6px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.searchToggle.active~.search-field {
+    bottom: -74px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.search-field::before {
+    content: '';
+    position: absolute;
+    right: 14px;
+    top: -4px;
+    height: 12px;
+    width: 12px;
+    background-color: var(--nav-color);
+    transform: rotate(-45deg);
+    z-index: -1;
+}
+
+.search-field input {
+    height: 100%;
+    width: 100%;
+    padding: 0 45px 0 15px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--search-text);
+    background-color: var(--search-bar);
+}
+
+body.dark .search-field input {
+    color: var(--text-color);
+}
+
+.search-field i {
+    position: absolute;
+    color: var(--nav-color);
+    right: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+body.dark .search-field i {
+    color: var(--text-color);
+}
+
+.darkLight-searchBox {
+    display: none;
+    visibility: hidden;
+}
+
+@media (max-width: 450px) {
+    nav .nav-bar .sidebarOpen {
+        display: block;
+        padding-left: 10vw;
+    }
+
+    .menu {
+        position: fixed;
+        height: 100%;
+        width: 320px;
+        left: -100%;
+        top: 0;
+        padding: 20px;
+        background-color: var(--side-nav);
+        z-index: 100;
+        transition: all 0.4s ease;
+    }
+
+    nav.active .menu {
+        left: -0%;
+    }
+
+    nav.active .nav-bar .navLogo a {
+        opacity: 0;
+        transition: all 0.3s ease;
+    }
+
+    .menu .logo-toggle {
+        display: block;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-toggle .siderbarClose {
+        color: var(--text-color);
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-bar .nav-links {
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .nav-links li a {
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+body {
+    margin: 0px;
+}
+
 .linhas {
     color: grey;
     margin-bottom: 0;
 }
 
 #title {
-    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.7%;
+    margin-top: 1%;
     font-size: 75px;
-    color: grey;
 }
-#title2 {
-    margin-left: 45px;
+
+#titlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.7%;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
     font-size: 75px;
-    color: black;
-    text-align: left;
 }
-#title3 {
-    margin-left: 45px;
-    font-size: 75px;
-    color: black;
-}
+
 .letra_cinza {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     color: grey;
     font-size: 22.5px;
     margin-right: 7.5px;
@@ -35,14 +341,16 @@ body {
 }
 
 .letra_cinza2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     color: grey;
     font-size: 22.5px;
     margin-bottom: 0;
-    text-align: left;
-}
-
-#banner {
-    margin-top: -5px;
 }
 
 #div_principal {
@@ -52,49 +360,100 @@ body {
 }
 
 #titulo_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     font-size: 52.5px;
     margin-bottom: 7.5px;
     margin-top: 0;
 }
 
 #texto_materia_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     font-size: 30px;
     margin-right: 30px;
     text-align: justify;
 }
 
 #article_main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     width: 60%;
     margin-left: 15px;
 }
 
 .imagens {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     border-radius: 15px;
-}
-
-.perfil_nome {
-    color: black;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .perfil_post {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    text-align: center;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
 }
 
 .perfil_post h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     margin-right: 7.5px;
     margin-left: 7.5px;
+
 }
 
 #article_aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     width: 34%;
     margin-right: 21px;
-    border-left:solid 2px #FF0000;
+    border-left: solid 2px #FF0000;
     padding-left: 7px;
 }
 
 .div_subnoticia {
     display: flex;
+    flex-direction: row;
+    align-items: start;
+    text-align: left;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
 }
 
 .site_terceiro {
@@ -103,7 +462,7 @@ body {
 }
 
 .titulo_subnoticia {
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 0;
     font-size: 30px;
 }
@@ -115,55 +474,54 @@ body {
 
 .texto_subnoticia {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     padding-top: 7.5px;
     text-align: justify;
     font-size: 20px;
 }
 
-#article_comentarios {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 45px;
-    margin-right: 45px;
-}
-
 .letra_cinza3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     color: grey;
     font-size: 37.5px;
     margin-bottom: 15px;
-    text-align: left;
-}
-
-.quadrado_comentarios {
-    border: 2.25px solid grey;
-    border-radius: 7.5px;
-    padding-right: 1050px;
-    padding-bottom: 225px;
-    padding-top: 10.5px;
-    padding-left: 10.5px;
-    margin: 7.5px;
-    margin-bottom: 22.5px;
 }
 
 .linha_article {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-@font-face {
-    font-family: manu;
-    src: url('https://fonts.googleapis.com/css2?family= Areia movediça & display=swap');
+.footer {
+    margin-bottom: -20px;
 }
 
-.a_categorias {
-    text-decoration: none;
-    margin: 15px 0;
+#footerMobile {
+    display: none;
+    visibility: hidden;
 }
 
-li {
-    list-style-type: none;
+#footer1 {
+    visibility: visible;
 }
+
+#imagem2 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
 
 #fps_card {
     background-image: url("https://www.gamersdecide.com/sites/default/files/styles/news_images/public/csgo_banner.jpg");
@@ -244,7 +602,7 @@ li {
 }
 
 #modo_historia_card {
-    background-image: url("https://i.imgur.com/LxLOCWa.png");
+    background-image: url("https://i.guim.co.uk/img/media/579318570c74cd4dbc08f82db78e8291f3977f9b/0_100_3305_1983/master/3305.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=760dafb2c10aaa4f8bfecce77583d3b6");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -282,7 +640,7 @@ li {
 }
 
 #moba_card {
-    background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/4/42/Season_1_Banner.jpg/revision/latest?cb=20100616151834");
+    background-image: url("https://s2.glbimg.com/FvVp6C8s9wmFWC2YwdO096XlUXM=/0x0:2400x1708/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/K/y/nj1EsBR0ANgvEBN9BWvA/summoners-rift-update-map.png");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -395,457 +753,207 @@ li {
     color: white;
 }
 
-@media (max-width: 650px){
+@media (max-width: 450px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     body {
         margin: 0px;
-        background-color: white;
-        font-family: manu;
+        margin: 0;
         padding: 0;
-        border-color: black;
-        text-align: center;
-        color: white;
-        font-size: 20px;
-        width: 100%;
     }
-    #header{
-        margin-bottom: -15px;
-        width: 200vh;
-        height: 150px;
-    }
+
     .linhas {
         color: grey;
-        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #title {
-        margin-left: 150vw;
-        font-size: 100px;
-        color: grey;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: center;
-        
+        margin: 0;
+        padding: 0;
+        font-size: 5vh;
     }
-    #title2 {
-        margin-left: 50px;
-        font-size: 50px;
-        justify-content: center;
-        width: 100vh;
-    }
-    #title3 {
-        margin-left: 100vw;
-        font-size: 100px;
-        color: black;
-    }
+
     .letra_cinza {
         color: grey;
-        font-size: 45px;
-        margin-right: 9vw;
-        margin-left: 7vw;
-        display: flex;
+        font-size: 2vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .letra_cinza2 {
         color: grey;
-        font-size: 70px;
-        margin-bottom: 0;
-        text-align: left;
-        width: 100vw;
+        font-size: 2vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #banner {
-        margin-top: -5px;
-        width: 1800px;
-        height: 150px;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #div_principal {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 22.5px;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #titulo_principal {
-        font-size: 50px;
-        margin-bottom: 7.5px;
-        margin-top: 0;
-        text-align: left;
-        width: 100vh;
+        font-size: 4.2vh;
+        width: 90vw;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #texto_materia_principal {
-        font-size: 50px;
-        margin-right: 30px;
+        font-size: 30px;
         text-align: justify;
-        width: 100vh;
-       
+        width: 92vw;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #article_main {
-        width: 60%;
-        margin-left: 15px;
-    }
-
-    #imagem1{
-        width: 400%;
-    }
-
-    #imagem2{
-        width: 600%;
-        height: 200vw;
-    }
-    
-    .imagens {
-        border-radius: 15px;
-        width: 50vh;
-         height: 100vw;
-    }
-    
-    .perfil_nome {
-        font-size: 35px;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
         display: flex;
-        margin-right: 7.5px;
-        margin-left: 7.5px;
+        flex-direction: column;
+        align-items: center;
     }
-    
+
+    .imagens {
+        border-radius: 10px;
+        width: 92vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pessoa {
+        width: 7vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .coracao {
+        width: 4vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    #imagem2 {
+        width: 92vw;
+        height: auto;
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
     .perfil_post {
         display: flex;
         align-items: center;
-        width: 100vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .perfil_post h3 {
-        margin-right: 7.5px;
-        margin-left: 7.5px;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #article_aside {
-        margin-right: 21px;
-        border-left:solid 2px #FF0000;
-        padding-left: 7px;
+        border: #FFF;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    
+
     .div_subnoticia {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .site_terceiro {
         text-decoration: none;
         color: black;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .titulo_subnoticia {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 35px;
+        font-size: 4vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .grupo_subnoticia {
         display: inline;
-        padding-left: 7.5px;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .texto_subnoticia {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-top: 7.5px;
-        font-size: 35px;
-        width: 70vh;
+        text-align: justify;
+        font-size: 2vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #article_comentarios {
         display: flex;
         justify-content: space-between;
-        margin-left: 4vw;
-        margin-right: 4vw;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .letra_cinza3 {
         color: grey;
-        font-size: 50px;
-        margin-bottom: 5vw;
-        text-align: left;
+        font-size: 37.5px;
+        margin: 0;
+        padding: 0;
     }
-    
-    .quadrado_comentarios {
-        border: 2.25px solid grey;
-        border-radius: 7.5px;
-        padding-right: 1050px;
-        padding-bottom: 225px;
-        padding-top: 10.5px;
-        padding-left: 10.5px;
-        margin: 7.5px;
-        margin-bottom: 22.5px;
-    }
-    
+
     .linha_article {
-        margin-left: 30px;
-        margin-right: 30px;
-    }
-    
-    @font-face {
-        font-family: manu;
-        src: url('https://fonts.googleapis.com/css2?family= Areia movediça & display=swap');
-    }
-    
-    .a_categorias {
-        text-decoration: none;
-        margin: 15px 0;
-    }
-    
-    li {
-        list-style-type: none;
-    }
-    
-    #fps_card {
-        background-image: url("https://www.gamersdecide.com/sites/default/files/styles/news_images/public/csgo_banner.jpg");
-        background-size: cover;
-        opacity: 0.15px;
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 30px;
-        margin-right: 30px;
-        margin-bottom: 8vh;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-family: 'Quicksand', sans-serif;
-        width: 180vh;
-    }
-    
-    #fps_card:hover {
-        background-image: url("https://prod.assets.earlygamecdn.com/images/csgo_weapons_assault_rifles.jpg?x=0.5&y=0.5");
-        opacity: 0.15px;
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 2.5px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
-    
-    }
-    
-    
-    #online_card {
-        background-image: url("https://store-images.s-microsoft.com/image/apps.13950.70702278257994163.eb8febd9-1124-4e74-9587-d5082fbfffb5.5422b74c-3e78-408f-8df6-9a88c288b704");
-        background-size: cover;
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 30px;
-        margin-right: 30px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-family: 'Quicksand', sans-serif;
-        width: 180vh;
-    }
-    
-    #online_card:hover {
-        background-image: url("https://gamearena.gg/wp-content/uploads/2023/03/fortnite-1024x576.jpg");
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
-    }
-    
-    #modo_historia_card {
-        background-image: url("https://i.imgur.com/LxLOCWa.png");
-        background-size: cover;
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 30px;
-        margin-right: 30px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-family: 'Quicksand', sans-serif;
-        width: 180vh;
-    
-    }
-    
-    #modo_historia_card:hover {
-        background-image: url("https://i.guim.co.uk/img/media/579318570c74cd4dbc08f82db78e8291f3977f9b/0_100_3305_1983/master/3305.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=760dafb2c10aaa4f8bfecce77583d3b6");
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
-    }
-    
-    #moba_card {
-        background-image: url("https://static.wikia.nocookie.net/leagueoflegends/images/4/42/Season_1_Banner.jpg/revision/latest?cb=20100616151834");
-        background-size: cover;
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 30px;
-        margin-right: 30px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        font-family: 'Quicksand', sans-serif;
-    }
-    
-    #moba_card:hover {
-        background-image: url("https://s2.glbimg.com/FvVp6C8s9wmFWC2YwdO096XlUXM=/0x0:2400x1708/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2018/K/y/nj1EsBR0ANgvEBN9BWvA/summoners-rift-update-map.png");
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 25%;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
-    }
-    
-    .first {
-        display: inline;
-        margin-top: 112.5px;
-        text-align: center;
-        justify-content: center;
-        justify-content: space-between;
-    }
-    
-    .second {
-        display: flex;
-        justify-content: center;
-        margin-top: 15px;
-    }
-    .jogos{
-        color:white;
-        font-size: 7vh;
+        margin: 0;
+        padding: 0;
     }
 
-    .title_jogos{
-        font-size: 7vh;
-        color: white;
+    .footer {
+        margin: 0;
+        padding: 0;
     }
 
-    .principal_jogos{
-        font-size: 8vh;
-        color: white;
+    #footerMobile {
+        display: none;
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
     }
 
-    #footer{
-        margin: -5px;
-        width: 200vh;
+    #footer1 {
+        visibility: visible;
+        margin: 0;
+        padding: 0;
     }
     
-    .grupo_de_comentarios_de_pessoas {
-        display: inline;
-        width: 100vh;
-    }
-    
-    .comentarios_pessoas {
-        display: flex;
-        margin-left: 5vh;
-        padding: 5vh;
-        border: solid 2vw gray;
-        width: 100vh;
-        margin-top: 10vh;
-        border-radius: 20vw;
-        padding-left: 2vw;
-    }
-    
-    .espacamento {
-        margin-left: 5vh;
-    }
-    
-    .postado_por {
-        color: grey;
-        font-size: 9vh;
-        margin-top: 4vw;
-        text-align: center;
-    }
-    
-    .ler_mais {
-        color: blue;
-        text-decoration: underline;
-        text-align: center;
-        font-size: 5vh; 
-    }
-    
-    .nome_comentario {
-        color: black;
-        font-size: 8vh;
-    }
-    
-    .titulo_comentario {
-        color: black;
-        text-align: left;
-        width: 180vh;
-        font-size: 7vh;
-    }
-    
-    .pessoa{
-        width: 15vh;
-        height: 15vh;
-    }
-
-    .texto_comentario {
-        color: black;
-        text-align: left;
-        font-size: 7vh;
-        width: 180vh;
-    }
-    
-    .perfil_post {
-        display: flex;
-        align-items: center;
-    }
-
-          
 }

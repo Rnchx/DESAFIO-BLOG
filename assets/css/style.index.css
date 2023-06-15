@@ -659,6 +659,7 @@ body {
 
     .titulo_subnoticia {
         font-size: 4vh;
+        margin-right: 4% !important;
         margin: 0;
         padding: 0;
     }
@@ -673,6 +674,7 @@ body {
         text-align: justify;
         font-size: 2vh;
         margin: 0;
+        margin-right: 4%;
         padding: 0;
     }
 
@@ -711,5 +713,9 @@ body {
         visibility: visible;
         margin: 0;
         padding: 0;
+    }
+
+    .section_aside{
+        margin-left: 4%;
     }
 }
