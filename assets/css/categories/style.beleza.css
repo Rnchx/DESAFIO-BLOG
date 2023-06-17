@@ -253,7 +253,7 @@ li {
 }
 
 #fps_card {
-    background-image: url(https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg);
+    background-image: url(https://i.pinimg.com/564x/ad/04/50/ad04508224debf230da3382dc558f384.jpg);
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -273,7 +273,7 @@ li {
 }
 
 #fps_card:hover {
-    background-image: url(https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2021/02/TATB3_Unit_10370_R-550x367.jpg);
+    background-image: url(https://i.pinimg.com/564x/e6/30/78/e630783bf0a4a8fe7a0a17ea921f52bd.jpg);
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -294,7 +294,7 @@ li {
 
 
 #online_card {
-    background-image: url("https://www.cafehistoria.com.br/wp-content/uploads/2019/02/por-que-escrevemos-biografias.jpg");
+    background-image: url(https://i.pinimg.com/564x/4d/38/37/4d3837aff1c9d7e29ddea6fc5aaf33f2.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -313,7 +313,7 @@ li {
 }
 
 #online_card:hover {
-    background-image: url("https://www.estadao.com.br/resizer/9xZB7Y2k58GbfDVNeIKkhZCGIHM=/320x448/filters:format(jpg):quality(80):focal(-5x-5:5x5)/cloudfront-us-east-1.images.arcpublishing.com/estadao/SKZR5DSWRBIC3GOUS3JF4WPIPY.jpg");
+    background-image: url(https://i.pinimg.com/564x/c0/eb/dd/c0ebdded603685494e642bfc4220b48c.jpg);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -331,7 +331,7 @@ li {
 }
 
 #modo_historia_card {
-    background-image: url("https://files.tecnoblog.net/wp-content/uploads/2021/05/filmes-ficcao-cientifica-Netflix-2.jpg");
+    background-image: url(https://i.pinimg.com/564x/8a/99/85/8a998552d3157156c9fd6e8e7a794047.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -351,7 +351,7 @@ li {
 }
 
 #modo_historia_card:hover {
-    background-image: url("https://t.ctcdn.com.br/mrQ7HoIaG_ZHjXTwf7gy7KcYcIc=/0x84:1501x929/512x288/smart/filters:format(webp)/i325774.jpeg");
+    background-image: url(https://i.pinimg.com/564x/e5/52/f6/e552f6334364de8bd34033aa97251099.jpg);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -369,7 +369,7 @@ li {
 }
 
 #moba_card {
-    background-image: url("https://i.zst.com.br/images/hqs-confira-10-titulos-que-todo-geek-precisa-ler-photo820052986-44-1f-d.jpg");
+    background-image: url(https://i.pinimg.com/564x/12/3e/87/123e87cf36609ac1bd4ca6dabf60639d.jpg);
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -388,7 +388,7 @@ li {
 }
 
 #moba_card:hover {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/007/900/606/original/pop-art-background-concept-free-vector.jpg");
+    background-image: url(https://i.pinimg.com/564x/7f/ba/c3/7fbac33c8a0fb5f34c128a659297b6c9.jpg);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -1068,7 +1068,7 @@ body {
     }
     
     #fps_card {
-        background-image: url(https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg);
+        background-image: url(https://i.pinimg.com/564x/ad/04/50/ad04508224debf230da3382dc558f384.jpg);
         background-size: cover;
         opacity: 0.15px;
         border-radius: 12px;
@@ -1088,7 +1088,7 @@ body {
     }
     
     #online_card {
-        background-image: url("https://www.cafehistoria.com.br/wp-content/uploads/2019/02/por-que-escrevemos-biografias.jpg");
+        background-image: url(https://i.pinimg.com/564x/4d/38/37/4d3837aff1c9d7e29ddea6fc5aaf33f2.jpg);
         background-size: cover;
         border-radius: 12px;
         display: flex;
@@ -1107,7 +1107,7 @@ body {
     }
 
     #modo_historia_card {
-        background-image: url("https://files.tecnoblog.net/wp-content/uploads/2021/05/filmes-ficcao-cientifica-Netflix-2.jpg");
+        background-image: url(https://i.pinimg.com/564x/8a/99/85/8a998552d3157156c9fd6e8e7a794047.jpg);
         background-size: cover;
         border-radius: 12px;
         display: flex;
@@ -1127,7 +1127,7 @@ body {
     }
 
     #moba_card {
-        background-image: url("https://i.zst.com.br/images/hqs-confira-10-titulos-que-todo-geek-precisa-ler-photo820052986-44-1f-d.jpg");
+        background-image: url(https://i.pinimg.com/564x/12/3e/87/123e87cf36609ac1bd4ca6dabf60639d.jpg);
         background-size: cover;
         border-radius: 12px;
         display: flex;
