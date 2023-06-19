@@ -354,82 +354,77 @@ body{
     margin: -5px
 }
 
-@media (max-width: 650px){
-    body{
+@media (max-width: 450px){
+    body {
         margin: 0;
         font-size: 20px;
         width: 100%;
     }
-    
-    #title{
-        margin: 30px;
-        font-size: 50px;
-        text-align: center;
-    }
-    #imagem_valorant{
-        text-align: center;
-        margin-top: -10px;
-    }
-    .section{
-        margin-left:45px;
-        margin-right: 45px;
-        width: 90%;
-        justify-content: center;
-    }
-    .subtitulo{
-        font-size: 40px;
-        text-align: center;
-    }
-    .div_funcoes{
-        padding-left: 30px;
-    }
-    .texto{
-        padding-left: 15px;
-        font-size: 30px;
+
+    #paiDeTodos {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         text-align: justify;
     }
-    #imagem_meio{
+
+    #title {
+        font-size: 30px;
         text-align: center;
-    }
-    #article_comentarios {
+        margin: 0;
+        padding: 0;
         display: flex;
-        justify-content: space-between;
-        margin-left: 45px;
-        margin-right: 45px;
-        width: 400px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 3%;
+        align-content: space-between;
     }
-    
-    .letra_cinza3 {
-        color: grey;
-        font-size: 37.5px;
-        margin-bottom: 15px;
+
+    #imagem_valorant {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    
-    .quadrado_comentarios {
-        border: 2.25px solid grey;
-        border-radius: 7.5px;
-        padding-bottom: 225px;
-        padding-top: 10.5px;
-        padding-left: 10.5px;
-        margin: 7.5px;
-        margin-bottom: 22.5px;
+
+    .section {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    
-    .linha_article {
-        margin-left: 20px;
-        margin-right: 20px;
+
+    .subtitulo,
+    h2 {
+        font-size: 25px;
+        text-align: center;
+        padding: 0 !important;
+        margin: 0;
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
-    #footer{
-        margin: -5px
+    p,
+    .texto {
+        font-size: 30px;
+        text-align: justify;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
     }
-    .texto{
-        margin-right: 3vh;
+
+    #explicacao_jogo {
+        width: 92%;
     }
-    #imagem1{
+    #tyL{
         width: 100%;
     }
-    #atores {
-        display: inline;
-        padding-top: 8px;
-}
 }
