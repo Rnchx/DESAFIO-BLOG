@@ -307,7 +307,7 @@ body{
     margin-right: 500px;
     color: #ffff;
     margin-bottom: 30px;
-    color: gray;
+    color: black;
     font-size: 75px;
 }
 #h2_1 {
@@ -508,7 +508,7 @@ li {
     padding-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
     width: 270px;
-    height: 500px;
+    height: 200px;
 }
 
 #fps_card:hover {
@@ -694,9 +694,6 @@ a {
     width: 200px;
     border: solid black 1.5px;
 }
-#footer{
-    margin: -5px
-}
 
 .grupo_de_comentarios_de_pessoas {
     display: flex;
@@ -733,9 +730,17 @@ a {
     visibility: hidden;
 }
 
+#footer1 {
+    display: inline;
+    visibility: visible;
+    margin: 0%;
+    padding:0%;
+}
+
 @media (max-width: 650px){
     body {
         margin: 0px;
+        padding: 0%;
     }
     #header{
         margin-bottom: -15px;
@@ -783,7 +788,7 @@ a {
     
     #banner {
         margin-top: -5px;
-        width: 1800px;
+        width: 450px;
         height: 150px;
     }
     
@@ -1082,10 +1087,6 @@ a {
         justify-content: center;
         margin-top: 15px;
     }
-    #footer{
-        margin: -5px;
-        width: 200vh;
-    }
     
     .grupo_de_comentarios_de_pessoas {
         display: inline;
@@ -1153,6 +1154,8 @@ a {
     #footerMobile {
         visibility: visible;
         display: inline;
+        margin: 0%;
+        padding: 0%;
     }
 
     #footer1 {
