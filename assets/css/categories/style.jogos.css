@@ -960,19 +960,6 @@ body {
         padding: 0;
     }
 
-    #footerMobile {
-        display: none;
-        visibility: hidden;
-        margin: 0;
-        padding: 0;
-    }
-
-    #footer1 {
-        visibility: visible;
-        margin: 0;
-        padding: 0;
-    }
-
     .grupo_de_comentarios_de_pessoas {
         display: none;
         visibility: hidden;
@@ -1077,5 +1064,17 @@ body {
     }
     .jogos{
         color:white;
+    }
+
+    #footerMobile {
+        visibility: visible;
+        display: inline;
+        margin: 0%;
+        padding: 0%;
+    }
+
+    #footer1 {
+        visibility: hidden;
+        display: none;
     }
 }

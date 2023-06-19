@@ -702,13 +702,6 @@ body {
         padding: 0;
     }
 
-    #footerMobile {
-        display: none;
-        visibility: hidden;
-        margin: 0;
-        padding: 0;
-    }
-
     #footer1 {
         visibility: hidden;
         display: none;

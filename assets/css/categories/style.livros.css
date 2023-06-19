@@ -253,7 +253,7 @@ li {
 }
 
 #fps_card {
-    background-image: url(https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg);
+    background-image: url("https://temalguemassistindo.com.br/wp-content/uploads/2021/04/A-Ultima-Carta-de-Amor-scaled.jpg");
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -273,7 +273,7 @@ li {
 }
 
 #fps_card:hover {
-    background-image: url(https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2021/02/TATB3_Unit_10370_R-550x367.jpg);
+    background-image: url("https://blogs.correiobraziliense.com.br/proximocapitulo/wp-content/uploads/sites/27/2021/02/TATB3_Unit_10370_R-550x367.jpg");
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -1018,14 +1018,15 @@ body {
     }
 
     #footerMobile {
-        display: none;
-        visibility: hidden;
+        display: inline;
+        visibility: visible;
         margin: 0;
         padding: 0;
     }
 
     #footer1 {
-        visibility: visible;
+        visibility: hidden;
+        display: none;
         margin: 0;
         padding: 0;
     }
