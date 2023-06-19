@@ -963,14 +963,15 @@ body {
     }
 
     #footerMobile {
-        display: none;
-        visibility: hidden;
+        display: inline;
+        visibility: visible;
         margin: 0;
         padding: 0;
     }
 
     #footer1 {
-        visibility: visible;
+        visibility: hidden;
+        display: none;
         margin: 0;
         padding: 0;
     }
