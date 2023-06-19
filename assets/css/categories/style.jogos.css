@@ -689,8 +689,13 @@ body {
     justify-content: center;
     margin-top: 15px;
 }
-.jogos{
+
+.jogos {
     color:white;
+}
+
+.jogos2 {
+    color:black;
 }
 #footer{
     margin: -5px
@@ -753,8 +758,16 @@ body {
     color: white;
 }
 
+.title_jogos2 {
+    color: black;
+}
+
 .principal_jogos {
     color: white;
+}
+
+.principal_jogos2 {
+    color: black;
 }
 
 @media (max-width: 450px) {
