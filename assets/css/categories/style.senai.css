@@ -296,7 +296,7 @@ body {
     background-color: #202020;
 }
 #fps_card {
-    background-image: url(https://st.depositphotos.com/1144687/1737/i/600/depositphotos_17371233-stock-photo-thinking-women.jpg);
+    background-image: url("https://st.depositphotos.com/1144687/1737/i/600/depositphotos_17371233-stock-photo-thinking-women.jpg");
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -317,7 +317,7 @@ body {
 }
 
 #fps_card:hover {
-    background-image: url(https://st.depositphotos.com/1144687/1737/i/600/depositphotos_17371233-stock-photo-thinking-women.jpg);
+    background-image: url("https://st.depositphotos.com/1144687/1737/i/600/depositphotos_17371233-stock-photo-thinking-women.jpg");
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
@@ -338,7 +338,7 @@ body {
 
 
 #online_card {
-    background-image: url(https://mecatronica.sp.senai.br/galeriaimagens/imageviewer.ashx?Url=66922);
+    background-image: url("https://mecatronica.sp.senai.br/galeriaimagens/imageviewer.ashx?Url=66922");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -357,7 +357,7 @@ body {
 }
 
 #online_card:hover {
-    background-image: url(https://mecatronica.sp.senai.br/galeriaimagens/imageviewer.ashx?Url=66922);
+    background-image: url("https://mecatronica.sp.senai.br/galeriaimagens/imageviewer.ashx?Url=66922");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -375,7 +375,7 @@ body {
 }
 
 #modo_historia_card {
-    background-image: url(https://st4.depositphotos.com/2101281/25856/i/600/depositphotos_258563198-stock-photo-old-books-and-a-quill.jpg);
+    background-image: url("https://st4.depositphotos.com/2101281/25856/i/600/depositphotos_258563198-stock-photo-old-books-and-a-quill.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -395,7 +395,7 @@ body {
 }
 
 #modo_historia_card:hover {
-    background-image: url(https://st4.depositphotos.com/2101281/25856/i/600/depositphotos_258563198-stock-photo-old-books-and-a-quill.jpg);
+    background-image: url("https://st4.depositphotos.com/2101281/25856/i/600/depositphotos_258563198-stock-photo-old-books-and-a-quill.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -413,7 +413,7 @@ body {
 }
 
 #modo_hierarquia_card {
-    background-image: url(https://img.freepik.com/vetores-premium/simbolo-de-hierarquia-de-pessoas-conceito-de-trabalho-em-equipe-de-negocios-conceito-de-lideranca_532867-212.jpg);
+    background-image: url("https://img.freepik.com/vetores-premium/simbolo-de-hierarquia-de-pessoas-conceito-de-trabalho-em-equipe-de-negocios-conceito-de-lideranca_532867-212.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -433,7 +433,7 @@ body {
 }
 
 #modo_hierarquia_card:hover {
-    background-image: url(https://img.freepik.com/vetores-premium/simbolo-de-hierarquia-de-pessoas-conceito-de-trabalho-em-equipe-de-negocios-conceito-de-lideranca_532867-212.jpg);
+    background-image: url("https://img.freepik.com/vetores-premium/simbolo-de-hierarquia-de-pessoas-conceito-de-trabalho-em-equipe-de-negocios-conceito-de-lideranca_532867-212.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -451,7 +451,7 @@ body {
 }
 
 #mudanças_card {
-    background-image: url(https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/05/09/894007/20220509130135611904e.jpg);
+    background-image: url("https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/05/09/894007/20220509130135611904e.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -470,7 +470,7 @@ body {
 }
 
 #mudanças_card:hover {
-    background-image: url(https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/05/09/894007/20220509130135611904e.jpg);
+    background-image: url("https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2022/05/09/894007/20220509130135611904e.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -488,7 +488,7 @@ body {
 }
 
 #filmes {
-    background-image: url(https://img.freepik.com/vetores-premium/um-homem-de-capacete-e-colete-de-protecao-segura-uma-prancheta-com-um-documento-controle-de-qualidade-tecnica_531064-1779.jpg?w=2000);
+    background-image: url("https://img.freepik.com/vetores-premium/um-homem-de-capacete-e-colete-de-protecao-segura-uma-prancheta-com-um-documento-controle-de-qualidade-tecnica_531064-1779.jpg?w=2000");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -507,7 +507,7 @@ body {
 }
 
 #filmes:hover {
-    background-image: url(https://img.freepik.com/vetores-premium/um-homem-de-capacete-e-colete-de-protecao-segura-uma-prancheta-com-um-documento-controle-de-qualidade-tecnica_531064-1779.jpg?w=2000);
+    background-image: url("https://img.freepik.com/vetores-premium/um-homem-de-capacete-e-colete-de-protecao-segura-uma-prancheta-com-um-documento-controle-de-qualidade-tecnica_531064-1779.jpg?w=2000");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -540,6 +540,7 @@ body {
     font-size: 75px;
     color: whitesmoke;
     text-decoration: overline #FF0000 2px;
+    margin-top: 5vh;
 }
 a {
     text-decoration: none;
@@ -558,8 +559,16 @@ h1 {
 #mudanças{
     color: white;
 }
-#footer{
-    margin: -5px
+#footer1{
+    display: inline;
+    visibility: visible;
+    margin: 0%;
+    padding: 0%;
+}
+
+#footerMobile {
+    display: none;
+    visibility: hidden;
 }
 
 @media (max-width: 450px){
@@ -801,5 +810,7 @@ h1 {
     #footerMobile {
         display: inline;
         visibility: visible;
+        margin: 0%;
+        padding: 0%;
     }
 }
