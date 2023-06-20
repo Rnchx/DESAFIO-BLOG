@@ -3,14 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../../../../assets/css/articles/jogos/moba/style.mobilelegends.css">
     <link rel="icon" type="image/x-icon" href="../../../../assets/images/ICON.png">
     <title>Red News</title>
 </head>
 
 <body>
-    <iframe id="header" src="../../../../layouts/header.html" frameborder="0" scrolling="no" width="100%" height="125px"></iframe>
+    <header>
+        <nav>
+            <div class="nav-bar">
+                <i class='bx bx-menu sidebarOpen'></i>
+                <span class="logo navLogo"><a href="../../../../index.html"><img src="../../../../assets/images/Logo RNW.png" alt="logo rnw" width="64px" height="54px"></a></span>
+                <div class="menu">
+                    <div class="logo-toggle">
+                        <span class="logo"><a href="../../../../index.html"><img src="../../../../assets/images/Logo RNW.png" alt="logo rnw" width="64px" height="54px"></a></span>
+                        <i class='bx bx-x siderbarClose'></i>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="../../../../index.html">MENU</a></li>
+                        <li><a href="../../../../pages/categorias.html">CATEGORIAS</a></li>
+                        <li><a href="../../../../pages/sobre.html">SOBRE</a></li>
+                        <li><a href="../../../../pages/publicacao.html">PUBLICAR</a></li>
+                        <li><a href="../../../../pages/contato.html">CONTATO</a></li>
+                        <li><a href="../../../../pages/feedback.html">FEEDBACK</a></li>
+                        <li><a href="../../../../pages/categories/senai.html">SENAI</a></li>
+                        <li><a href="../../../../pages/categories/login.html">LOGIN</a></li>
+                    </ul>
+                </div>
+                <div class="darkLight-searchBox">
+                    <div class="dark-light">
+                        <i class='bx bx-moon moon'></i>
+                        <i class='bx bx-sun sun'></i>
+                    </div>
+                    <div class="searchBox">
+                        <div class="searchToggle">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </nav>
+        <script>
+            const body = document.querySelector("body"),
+                nav = document.querySelector("nav"),
+                modeToggle = document.querySelector(".dark-light"),
+                searchToggle = document.querySelector(".searchToggle"),
+                sidebarOpen = document.querySelector(".sidebarOpen"),
+                siderbarClose = document.querySelector(".siderbarClose");
+            let getMode = localStorage.getItem("mode");
+            if (getMode && getMode === "dark-mode") {
+                body.classList.add("dark");
+            }
+            // js code to toggle dark and light mode
+            modeToggle.addEventListener("click", () => {
+                modeToggle.classList.toggle("active");
+                body.classList.toggle("dark");
+                // js code to keep user selected mode even page refresh or file reopen
+                if (!body.classList.contains("dark")) {
+                    localStorage.setItem("mode", "light-mode");
+                } else {
+                    localStorage.setItem("mode", "dark-mode");
+                }
+            });
+            // js code to toggle search box
+            searchToggle.addEventListener("click", () => {
+                searchToggle.classList.toggle("active");
+            });
+    
+    
+            //   js code to toggle sidebar
+            sidebarOpen.addEventListener("click", () => {
+                nav.classList.add("active");
+            });
+            body.addEventListener("click", e => {
+                let clickedElm = e.target;
+                if (!clickedElm.classList.contains("sidebarOpen") && !clickedElm.classList.contains("menu")) {
+                    nav.classList.remove("active");
+                }
+            });
+        </script>
+    </header>
     <div>
         <!--section como jogar-->
         <article>
