@@ -356,6 +356,7 @@ body {
     height: 300px;
     background-color: transparent;
   }
+  
   .topicos{
     display: flex;
     flex-direction: column;

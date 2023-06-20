@@ -290,8 +290,8 @@ body.dark .search-field i {
 }
 
 body{
-    margin: 0%;
-    padding: 0%;
+    margin: 0% !important;
+    padding: 0% !important;
     background-color: #202020;
 }
 
@@ -506,8 +506,9 @@ p {
 #footer1 {
     display: inline;
     visibility: visible;
-    margin: 0%;
-    padding: 0%;
+    margin: 0% !important;
+    padding: 0% !important;
+    
 }
 
 @media (max-width: 450px) {

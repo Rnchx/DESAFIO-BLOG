@@ -292,6 +292,7 @@ body.dark .search-field i {
 
 body{
     margin: 0%;
+    padding: 0%;
 }
 
 #title{
@@ -352,9 +353,17 @@ body{
     margin-right: 20px;
 }
 
-#footer {
-    margin-top: 100px;
-    margin-bottom: -10px;
+#footerMobile {
+    display: none;
+    visibility: hidden;
+}
+
+#footer1 {
+    display: inline;
+    visibility: visible;
+    margin: 0% !important;
+    padding: 0% !important; 
+    margin-bottom: -100px;
 }
 
 @media (max-width: 450px){
@@ -438,4 +447,16 @@ body{
     img{
         margin-right: 5vw;
     }
+
+    #footer1 {
+        display: none;
+        visibility: hidden;
+     }
+
+     #footerMobile {
+        display: inline;
+        visibility: visible;
+        margin: 0%;
+        padding: 0%;
+     }
 }
