@@ -290,113 +290,171 @@ body.dark .search-field i {
     }
 }
 
-body{
-    background-color: #ffff;
-    margin: 0;
-    padding: 0;
-    color: black;
-    font-family:'Playfair Display', serif;
+body {
+    margin: 0px;
 }
 
-#header {
-    margin-bottom: -15px;
-}
-.h1s {
-    text-align: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    color: #ffff;
-    margin-bottom: 30px;
-    color: black;
-    font-size: 75px;
-}
-#h2_1 {
-    margin-bottom: 30px;
-    color: #ffff;
-    margin-left: 50px;
-    margin-right: 850px;
-    color: black;
-    padding-left: 5px;
-    font-size: 60px;
-}
-
-.linhas{
+.linhas {
     color: grey;
     margin-bottom: 0;
 }
-#title{
-    margin-left: 30px;
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.7%;
+    margin-top: 1%;
     font-size: 75px;
 }
+
+#titlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.7%;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-size: 75px;
+}
+
 .letra_cinza {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     color: grey;
     font-size: 22.5px;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
 }
 
 .letra_cinza2 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     color: grey;
     font-size: 22.5px;
     margin-bottom: 0;
-}
-
-#banner {
-    margin-top: -5px;
+    padding-left: 4% !important;
 }
 
 #div_principal {
     display: flex;
     justify-content: center;
+    margin-bottom: 22.5px;
 }
 
 #titulo_principal {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     font-size: 52.5px;
-    margin-bottom: 5px;
+    margin-bottom: 7.5px;
     margin-top: 0;
 }
-#texto_materia_principal{
-    font-size: 30px;
-    margin-right: 50px;
-    text-align: justify;
-    margin-top: 40px;
-}
-#imagem_e_p_Carina {
+
+#texto_materia_principal {
     display: flex;
-    margin-top: 100px;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    margin-right: 30px;
+    text-align: justify;
 }
-#link_G1 {
-    margin-right: 50px;
-}
+
 #article_main {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     width: 60%;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .imagens {
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .perfil_post {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    text-align: center;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    padding-left: 4% !important;
 }
 
 .perfil_post h3 {
-    margin-right: 5px;
-    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    margin-right: 7.5px;
+    margin-left: 7.5px;
 }
 
 #article_aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    margin: 0;
+    padding: 0;
     width: 34%;
-    margin-right: 14px;
-    border-left:solid 2px #FF0000;
+    margin-right: 21px;
+    border-left: solid 2px #FF0000;
     padding-left: 7px;
 }
 
 .div_subnoticia {
     display: flex;
-    color: rgb(75, 75, 75);
+    flex-direction: row;
+    align-items: start;
+    text-align: left;
+    justify-content: left;
+    margin: 0;
+    padding: 4% !important;
 }
 
 .site_terceiro {
@@ -405,93 +463,83 @@ body{
 }
 
 .titulo_subnoticia {
-    margin-top: 0;
+    margin-top: 5px;
     margin-bottom: 0;
     font-size: 30px;
-    color: black;
 }
 
 .grupo_subnoticia {
     display: inline;
-    padding-left: 5px;
+    padding-left: 7.5px;
 }
 
 .texto_subnoticia {
     margin-top: 0;
-    margin-bottom: 0;
-    padding-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 7.5px;
     text-align: justify;
-    color: rgb(75, 75, 75);
-}
-#article1{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 2.5px;
-}
-#article2{
-    display: flex;
-    justify-content: center;
-}
-
-.categoria1 {
-    text-decoration: none;
-    color: black;
-    width: 33%;
-}
-
-.felipe {
-    background-color: #5D5D5D;
-    border-radius: 5px;
-    box-shadow: 5px white;
-    text-align: center;
-    margin-bottom: 2.5px;
-    color: whitesmoke;
-}
-#texto_categorias_3 {
-    height: 20px;
-}
-
-#article_comentarios {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 45px;
-    margin-right: 45px;
+    font-size: 20px;
 }
 
 .letra_cinza3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
     color: grey;
-    font-size: 56.25px;
+    font-size: 37.5px;
     margin-bottom: 15px;
 }
 
-.quadrado_comentarios {
-    border: 2.25px solid grey;
-    border-radius: 7.5px;
-    padding-right: 1050px;
-    padding-bottom: 225px;
-    padding-top: 10.5px;
-    padding-left: 10.5px;
-    margin: 7.5px;
-    margin-bottom: 22.5px;
+.linha_article {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-
-@font-face {
-    font-family: manu;
-    src: url('https://fonts.googleapis.com/css2?family= Areia movediça & display=swap');
+.footer {
+    margin-bottom: -20px;
 }
 
-.a_categorias {
-    text-decoration: none;
-    margin: 15px 0;
+#footerMobile {
+    display: none;
+    visibility: hidden;
 }
 
-li {
-    list-style-type: none;
+#footer1 {
+    visibility: visible;
 }
+
+#imagem2 {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+#title3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+    margin-left: 2.7%;
+    margin-top: 1%;
+    margin-bottom: 1.5%;
+    font-size: 75px;
+}
+
 
 #fps_card {
-    background-image: url(https://play-lh.googleusercontent.com/UVVPpEnR8NIiRtarmsbuI171Lin3GtcQoCJOi7BFDv_WajaDreXJT7xB-HR3PxxTH8G7);
+    background-image: url("https://i.pinimg.com/564x/e4/ab/21/e4ab211b18c876cbd5613d34e7949424.jpg");
     background-size: cover;
     opacity: 0.15px;
     border-radius: 12px;
@@ -508,16 +556,15 @@ li {
     padding-bottom: 30px;
     font-family: 'Quicksand', sans-serif;
     width: 270px;
-    height: 200px;
 }
 
 #fps_card:hover {
-    background-image: url(https://img.freepik.com/fotos-gratis/vista-do-papel-amarrotado-branco_1194-7544.jpg?w=2000);
+    background-image: url("https://i.pinimg.com/564x/e4/ab/21/e4ab211b18c876cbd5613d34e7949424.jpg");
     opacity: 0.15px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 25%;
     margin-left: 15px;
     margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -526,8 +573,6 @@ li {
     margin-bottom: 2.5px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
     transition: 2s;
     transform: scale(1.1);
 
@@ -535,7 +580,7 @@ li {
 
 
 #online_card {
-    background-image: url(https://img.freepik.com/vetores-gratis/pessoas-focadas-estudando-na-escola-on-line_74855-5834.jpg);
+    background-image: url("https://i.pinimg.com/564x/a6/ed/57/a6ed57eb861528bfebb867ea3c6a0745.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -554,11 +599,11 @@ li {
 }
 
 #online_card:hover {
-    background-image: url(https://www.reipel.com.br/wp-content/uploads/2021/05/Papel-40-KG-A4-REIPEL.jpeg);
+    background-image: url("https://i.pinimg.com/564x/a6/ed/57/a6ed57eb861528bfebb867ea3c6a0745.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 25%;
     margin-left: 15px;
     margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -567,14 +612,12 @@ li {
     margin-bottom: 3.75px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
     transition: 2s;
     transform: scale(1.1);
 }
 
 #modo_historia_card {
-    background-image: url(http://www.isocrm.com.br/wp-content/uploads/independent-thinking-steps.jpg);
+    background-image: url("https://i.pinimg.com/564x/0d/3c/66/0d3c664b10a6c9d0fe2968bbe0b06256.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -594,11 +637,11 @@ li {
 }
 
 #modo_historia_card:hover {
-    background-image: url(https://pt.canson.com/sites/default/files/styles/large/public/medias-images/canson-fabrication-2.jpg?itok=dPDt-iyl);
+    background-image: url("https://i.pinimg.com/564x/0d/3c/66/0d3c664b10a6c9d0fe2968bbe0b06256.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 25%;
     margin-left: 15px;
     margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -607,14 +650,12 @@ li {
     margin-bottom: 3.75px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
     transition: 2s;
     transform: scale(1.1);
 }
 
 #moba_card {
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh8kqnGCc6sA-YSLmTLdAPUGUNqenQPVbWJXO88xLzeq-Bvgv4UvugJePFADlIbDE20t0&usqp=CAU);
+    background-image: url("https://i.pinimg.com/564x/72/0e/28/720e28a026998fcc129b2b6d8cd790d6.jpg");
     background-size: cover;
     border-radius: 12px;
     display: flex;
@@ -633,11 +674,11 @@ li {
 }
 
 #moba_card:hover {
-    background-image: url(https://cdn.leroymerlin.com.br/products/papel_de_parede_liso_branco_com_brilho_0,53x10m_1567888997_9fec_600x600.jpg);
+    background-image: url("https://i.pinimg.com/564x/72/0e/28/720e28a026998fcc129b2b6d8cd790d6.jpg");
     border-radius: 12px;
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 25%;
     margin-left: 15px;
     margin-right: 15px;
     -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -646,8 +687,6 @@ li {
     margin-bottom: 3.75px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 50px;
     transition: 2s;
     transform: scale(1.1);
 }
@@ -664,39 +703,32 @@ li {
     justify-content: center;
     margin-top: 15px;
 }
-.jogos{
-    color:black;
-}
-#title_categorias {
-    text-align: center;
-    font-size: 75px;
-}
-a {
+.jogos {
+    color:white;
     text-decoration: none;
-    color: black;
 }
 
-#anuncio {
-    margin-top: 15px;
+.jogos2 {
+    color:black;
+    text-decoration: none;
 }
 
-.h1_categorias {
-    font-size: 23px;
+#a_cateogrias {
+    text-decoration: none;
+    list-style-type: none;
 }
 
-.descricao_redacao {
-        margin-left: 20px;
-        font-size: 20px;
+#card_curiosidades {
+    color: white;
 }
 
-#linhas_categorias {
-    background-color: black;
-    width: 200px;
-    border: solid black 1.5px;
+#footer {
+    margin: -5px
 }
 
 .grupo_de_comentarios_de_pessoas {
     display: flex;
+    
 }
 
 .comentarios_pessoas {
@@ -725,216 +757,256 @@ a {
     text-align: center;
 }
 
-#footerMobile {
-    display: none;
-    visibility: hidden;
+.nome_comentario {
+    color: black;
+    font-size: 20px;
 }
 
+.titulo_comentario {
+    color: black;
+    text-align: left;
+}
+
+.texto_comentario {
+    color: black;
+    text-align: left;
+}
+
+.perfil_post {
+    display: flex;
+    align-items: center;
+}
+
+.title_jogos {
+    color: white;
+}
+
+.principal_jogos {
+    color: white;
+}
+
+@media (max-width: 450px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        margin: 0px;
+        margin: 0;
+        padding: 0;
+  }
+  
 #footer1 {
     display: inline;
     visibility: visible;
     margin: 0%;
     padding:0%;
 }
+    }
 
-@media (max-width: 650px){
-    body {
-        margin: 0px;
-        padding: 0%;
-    }
-    #header{
-        margin-bottom: -15px;
-        width: 200vh;
-        height: 150px;
-    }
     .linhas {
         color: grey;
-        margin-bottom: 0;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #title {
-        margin-left: 5vh;
-        font-size: 10vh;
-        justify-content: center;
-        width: 200vh;
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-size: 5vh;
     }
-    #title2 {
-        margin-left: 5vh;
-        font-size: 10vh;
-        justify-content: center;
-        width: 200vh;
-    }
-    #title3 {
-        margin-left: 45px;
-        font-size: 10vh;
-        color: black;
-    }
+
     .letra_cinza {
         color: grey;
-        font-size: 6vh;
-        margin-right: 3vh;
-        margin-left: 3vh;
-        display: flex;
+        font-size: 2vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .letra_cinza2 {
         color: grey;
-        font-size: 10vh;
-        margin-bottom: 0;
-        text-align: left;
-        width: 200vh;
+        font-size: 2vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #banner {
+        margin: 0;
+        padding: 0;
         margin-top: -5px;
         width: 450px;
         height: 150px;
     }
-    
+
     #div_principal {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-bottom: 22.5px;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #titulo_principal {
-        font-size: 52.5px;
-        margin-bottom: 7.5px;
-        margin-top: 0;
-        text-align: left;
+        font-size: 4.2vh;
+        width: 90vw;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #texto_materia_principal {
-        font-size: 8vh;
-        margin-right: 30px;
+        font-size: 30px;
         text-align: justify;
+        width: 92vw;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #article_main {
-        width: 60%;
-        margin-left: 15px;
-    }
-
-    #imagem1{
-        width: 200vh;
-    }
-
-    #imagem2{
-        width: 420%;
-    }
-    
-    .imagens {
-        border-radius: 15px;
-        width: 75vh;
-         height: 70vh;
-    }
-    
-    .perfil_nome {
-        font-size: 7vh;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
         display: flex;
-        margin-right: 7.5px;
-        margin-left: 7.5px;
+        flex-direction: column;
+        align-items: center;
     }
-    
+
+    .imagens {
+        border-radius: 10px;
+        width: 92vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .pessoa {
+        width: 7vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    .coracao {
+        width: 4vw;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    #imagem2 {
+        width: 92vw;
+        height: auto;
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
     .perfil_post {
         display: flex;
         align-items: center;
-        width: 200vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .perfil_post h3 {
-        margin-right: 7.5px;
-        margin-left: 7.5px;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #article_aside {
-        width: 34%;
-        margin-right: 21px;
-        border-left:solid 2px #FF0000;
-        padding-left: 7px;
+        border: #FFF;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
-    
+
     .div_subnoticia {
         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .site_terceiro {
         text-decoration: none;
         color: black;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .titulo_subnoticia {
-        margin-top: 0;
-        margin-bottom: 0;
-        font-size: 7vh;
+        font-size: 4vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .grupo_subnoticia {
         display: inline;
-        padding-left: 7.5px;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .texto_subnoticia {
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-top: 7.5px;
-        font-size: 7vh;
-        width: 100vh;
+        text-align: justify;
+        font-size: 2vh;
+        margin: 0;
+        padding: 0;
     }
-    
+
     #article_comentarios {
         display: flex;
         justify-content: space-between;
-        margin-left: 45px;
-        margin-right: 45px;
+        margin: 0;
+        padding: 0;
     }
-    
+
     .letra_cinza3 {
         color: grey;
         font-size: 37.5px;
-        margin-bottom: 15px;
-        text-align: left;
+        margin: 0;
+        padding: 0;
     }
-    
-    .quadrado_comentarios {
-        border: 2.25px solid grey;
-        border-radius: 7.5px;
-        padding-right: 1050px;
-        padding-bottom: 225px;
-        padding-top: 10.5px;
-        padding-left: 10.5px;
-        margin: 7.5px;
-        margin-bottom: 22.5px;
-    }
-    
+
     .linha_article {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin: 0;
+        padding: 0;
     }
-    @font-face {
-        font-family: manu;
-        src: url('https://fonts.googleapis.com/css2?family= Areia movediça & display=swap');
+
+    .footer {
+        margin: 0;
+        padding: 0;
+    }
+
+    #footerMobile {
+        display: none;
+        visibility: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    #footer1 {
+        visibility: visible;
+        margin: 0;
+        padding: 0;
     }
     
-    .a_categorias {
-        text-decoration: none;
-        margin: 15px 0;
-    }
-    
-    li {
-        list-style-type: none;
-    }
     #fps_card {
-        background-image: url(https://play-lh.googleusercontent.com/UVVPpEnR8NIiRtarmsbuI171Lin3GtcQoCJOi7BFDv_WajaDreXJT7xB-HR3PxxTH8G7);
+        background-image: url("https://i.pinimg.com/564x/e4/ab/21/e4ab211b18c876cbd5613d34e7949424.jpg");
         background-size: cover;
+        opacity: 0.15px;
         border-radius: 12px;
         display: flex;
         flex-direction: column;
-        width: 180vh;
+        width: 25%;
         margin-left: 30px;
         margin-right: 30px;
         -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -944,35 +1016,17 @@ a {
         padding-top: 30px;
         padding-bottom: 30px;
         font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        margin-bottom: 4%;
     }
-    
-    #fps_card:hover {
-        background-image: url(https://img.freepik.com/fotos-gratis/vista-do-papel-amarrotado-branco_1194-7544.jpg?w=2000);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
-    
-    }
-    
     
     #online_card {
-        background-image: url(https://img.freepik.com/vetores-gratis/pessoas-focadas-estudando-na-escola-on-line_74855-5834.jpg);
+        background-image: url("https://i.pinimg.com/564x/a6/ed/57/a6ed57eb861528bfebb867ea3c6a0745.jpg");
         background-size: cover;
         border-radius: 12px;
         display: flex;
         flex-direction: column;
-        width: 180vh;
+        width: 25%;
         margin-left: 30px;
         margin-right: 30px;
         -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -982,33 +1036,18 @@ a {
         padding-top: 30px;
         padding-bottom: 30px;
         font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        margin-bottom: 4%;
     }
     
-    #online_card:hover {
-        background-image: url(https://www.reipel.com.br/wp-content/uploads/2021/05/Papel-40-KG-A4-REIPEL.jpeg);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
-    }
     
     #modo_historia_card {
-        background-image: url(http://www.isocrm.com.br/wp-content/uploads/independent-thinking-steps.jpg);
+        background-image: url("https://i.pinimg.com/564x/0d/3c/66/0d3c664b10a6c9d0fe2968bbe0b06256.jpg");
         background-size: cover;
         border-radius: 12px;
         display: flex;
         flex-direction: column;
-        width: 180vh;
+        width: 25%;
         margin-left: 30px;
         margin-right: 30px;
         -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -1018,34 +1057,18 @@ a {
         padding-top: 30px;
         padding-bottom: 30px;
         font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        margin-bottom: 4%;
     
-    }
-    
-    #modo_historia_card:hover {
-        background-image: url(https://pt.canson.com/sites/default/files/styles/large/public/medias-images/canson-fabrication-2.jpg?itok=dPDt-iyl);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
     }
     
     #moba_card {
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh8kqnGCc6sA-YSLmTLdAPUGUNqenQPVbWJXO88xLzeq-Bvgv4UvugJePFADlIbDE20t0&usqp=CAU);
+        background-image: url("https://i.pinimg.com/564x/72/0e/28/720e28a026998fcc129b2b6d8cd790d6.jpg");
         background-size: cover;
         border-radius: 12px;
         display: flex;
         flex-direction: column;
-        width: 180vh;
+        width: 25%;
         margin-left: 30px;
         margin-right: 30px;
         -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
@@ -1055,31 +1078,17 @@ a {
         padding-top: 30px;
         padding-bottom: 30px;
         font-family: 'Quicksand', sans-serif;
+        width: 270px;
+        margin-bottom: 4%;
     }
     
-    #moba_card:hover {
-        background-image: url(https://cdn.leroymerlin.com.br/products/papel_de_parede_liso_branco_com_brilho_0,53x10m_1567888997_9fec_600x600.jpg);
-        border-radius: 12px;
-        display: flex;
-        flex-direction: column;
-        width: 180vh;
-        margin-left: 15px;
-        margin-right: 15px;
-        -webkit-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        -moz-box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        box-shadow: 16px 14px 31px 1px rgba(0, 0, 0, 0.9);
-        margin-bottom: 3.75px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        transition: 2s;
-        transform: scale(1.1);
-    }
     .first {
-        display: inline;
-        margin-top: 112.5px;
+        display: flex;
+        margin-top: 4%;
         text-align: center;
         justify-content: center;
-        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
     }
     
     .second {
@@ -1087,80 +1096,24 @@ a {
         justify-content: center;
         margin-top: 15px;
     }
-    
-    .grupo_de_comentarios_de_pessoas {
-        display: inline;
-        width: 195vh;
-    }
-    
-    .comentarios_pessoas {
-        display: flex;
-        margin-left: 5vh;
-        padding: 5vh;
-        border: solid 2vw gray;
-        width: 180vh;
-        margin-top: 10vh;
-        border-radius: 20vw;
-        padding-left: 2vw;
-    }
-    
-    .espacamento {
-        margin-left: 5vh;
-    }
-    
-    .postado_por {
-        color: grey;
-        font-size: 9vh;
-        margin-top: 4vw;
-        text-align: center;
-    }
-    
-    .ler_mais {
-        color: blue;
-        text-decoration: underline;
-        text-align: center;
-        font-size: 5vh; 
-    }
-    
-    .nome_comentario {
-        color: black;
-        font-size: 8vh;
-    }
-    
-    .titulo_comentario {
-        color: black;
-        text-align: left;
-        width: 180vh;
-        font-size: 7vh;
-    }
-    
-    .pessoa{
-        width: 15vh;
-        height: 15vh;
-    }
-
-    .texto_comentario {
-        color: black;
-        text-align: left;
-        font-size: 7vh;
-        width: 180vh;
-    }
-    
-    .perfil_post {
-        display: flex;
-        align-items: center;
-    }
-
-    #footerMobile {
-        visibility: visible;
-        display: inline;
-        margin: 0%;
-        padding: 0%;
+    .jogos{
+        color:white;
     }
 
     #footer1 {
-        visibility: hidden;
         display: none;
+        visibility: hidden;
     }
 
+    #footerMobile {
+        display: inline;
+        visibility: visible;
+        margin: 0%;
+        padding: 0%;
+    }
+    .comentarios_pessoas {
+        display: none;
+        visibility: hidden;
+    }
+    
 }
