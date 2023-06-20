@@ -20,7 +20,9 @@ function criarPost() {
     document.getElementById("categoria").value = '';
     document.getElementById("mensagem").value = '';
     document.getElementById("autor").value = '';
-  }
+
+    postDiv.style.display = 'none';
+}
 
   var postEntrada = document.getElementById("postEntrada");
   var postDiv = '<div class="post" id="post2' + postVL + '">' +
@@ -29,7 +31,7 @@ function criarPost() {
                   '<p id="categoria_post>Categoria: ' + categoria + '</p>' +
                   '<p id="descricao_post">Assunto: ' + mensagem + '</p>' +
                   '<p id="autor_post">Nome: ' + autor + '</p>' +
-                  '<button onclick="removerPost('+postVL+')" class="botao">Apagar</button>' +
+                  '<button onclick="removerPost('+ postVL +')" class="botao">Apagar</button>' +
                 '</div>';
 
   postEntrada.innerHTML += postDiv;

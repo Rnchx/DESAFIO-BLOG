@@ -722,7 +722,7 @@ body {
     color: white;
 }
 
-#footer{
+#footer {
     margin: -5px
 }
 
@@ -795,6 +795,14 @@ body {
         margin: 0px;
         margin: 0;
         padding: 0;
+  }
+  
+#footer1 {
+    display: inline;
+    visibility: visible;
+    margin: 0%;
+    padding:0%;
+}
     }
 
     .linhas {
@@ -830,6 +838,9 @@ body {
     #banner {
         margin: 0;
         padding: 0;
+        margin-top: -5px;
+        width: 450px;
+        height: 150px;
     }
 
     #div_principal {
@@ -1097,6 +1108,8 @@ body {
     #footerMobile {
         display: inline;
         visibility: visible;
+        margin: 0%;
+        padding: 0%;
     }
     .comentarios_pessoas {
         display: none;
