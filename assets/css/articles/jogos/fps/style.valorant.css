@@ -442,42 +442,47 @@ body{
     margin:15px;
     font-size:19px
 }
-#footer{
-    margin: -5px
+
+#footer1 {
+    visibility: visible;
+    display: inline;
+    margin: 0%;
+    padding: 0%;
+}
+
+#footerMobile {
+    visibility: hidden;
+    display: none;
 }
 
 @media (max-width: 450px){
     body{
         margin: 0;
-        font-size: 20px;
-        width: 50%;
     }
     
     #title{
+        margin: 30px;
         font-size: 50px;
         text-align: center;
     }
     #imagem_valorant{
         text-align: center;
         margin-top: -10px;
-        width: 100%;
     }
     .section{
         margin-left:45px;
         margin-right: 45px;
-        width: 500px;
     }
     .subtitulo{
         font-size: 40px;
-        margin-left: 11vh;
     }
     .div_funcoes{
         padding-left: 30px;
     }
     .texto{
+        padding-left: 15px;
         font-size: 30px;
         text-align: justify;
-        width: 95%;
     }
     #imagem_meio{
         text-align: center;
@@ -487,7 +492,6 @@ body{
         justify-content: space-between;
         margin-left: 45px;
         margin-right: 45px;
-        width: 400px;
     }
     
     .letra_cinza3 {
@@ -499,6 +503,7 @@ body{
     .quadrado_comentarios {
         border: 2.25px solid grey;
         border-radius: 7.5px;
+        padding-right: 1050px;
         padding-bottom: 225px;
         padding-top: 10.5px;
         padding-left: 10.5px;
@@ -510,18 +515,20 @@ body{
         margin-left: 20px;
         margin-right: 20px;
     }
-    #footer{
-        margin: -5px
+
+        #footer1 {
+        visibility: hidden;
+        display: none;
     }
-    p{
-        text-align: justify;
-        width: 100%;
-        font-size: 30px;
+    
+    #footerMobile {
+        display: inline;
+        visibility: visible;
+        margin: 0%;
+        padding: 0%;
     }
-    #explicacao_jogo{
-        width: 92%;
-    }
-    #banner{
-        width: 100%;
+
+    .agentes{
+        flex-direction: column;
     }
 }

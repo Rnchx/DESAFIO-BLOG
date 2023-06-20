@@ -33,7 +33,7 @@ body.dark {
 nav {
     top: 0;
     left: 0;
-    height: 70px;
+    height: 80px;
     width: 100%;
     background-color: var(--nav-color);
     z-index: 100;
@@ -45,7 +45,7 @@ body.dark nav {
 
 nav .nav-bar {
     position: relative;
-    height: 100%;
+    height: 70px;
     max-width: 1000px;
     width: 100%;
     background-color: var(--nav-color);
@@ -349,7 +349,30 @@ body{
     margin-left: 20px;
     margin-right: 20px;
 }
-#footer{
-    margin: -5px
-}
 
+    #footer1 {
+        margin: 0%;
+        padding: 0%;
+        visibility: visible;
+        display: inline;
+    }
+    
+    #footerMobile {
+        display: none;
+        visibility: hidden;
+    }
+
+    @media (max-width: 450px) {
+        
+    #footer1 {
+        visibility: hidden;
+        display: none;
+    }
+    
+    #footerMobile {
+        display: inline;
+        visibility: visible;
+        margin: 0%;
+        padding: 0%;
+    }
+    }
