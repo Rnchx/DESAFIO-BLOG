@@ -1097,4 +1097,8 @@ body {
         display: inline;
         visibility: visible;
     }
+    .comentarios_pessoas {
+        display: none;
+        visibility: hidden;
+    }
 }
